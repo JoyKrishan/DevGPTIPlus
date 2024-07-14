@@ -12,6 +12,9 @@ BOT_NAME = "issuescraper"
 SPIDER_MODULES = ["issuescraper.spiders"]
 NEWSPIDER_MODULE = "issuescraper.spiders"
 
+FEEDS = {
+    'bookdata.json': {'format': 'json'}
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "issuescraper (+http://www.yourdomain.com)"
@@ -62,9 +65,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "issuescraper.pipelines.IssuescraperPipeline": 300,
-#}
+ITEM_PIPELINES = {
+   "issuescraper.pipelines.BookscaperPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
