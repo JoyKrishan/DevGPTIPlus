@@ -13,14 +13,26 @@ SPIDER_MODULES = ["issuescraper.spiders"]
 NEWSPIDER_MODULE = "issuescraper.spiders"
 
 FEEDS = {
-    'bookdata.json': {'format': 'json'}
+    'bookdata.json': {'format': 'json', 'overwrite' : True}
 }
+
+SCRAPEOPS_API_KEY = "056090b3-6968-4ec3-8ae2-3431889ce077"
+SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = "https://headers.scrapeops.io/v1/user-agents"
+SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
+SCRAPEOPS_NUM_RESULTS = 5
+
+ROTATING_PROXY_LIST = [
+    '194.163.187.30:26177',
+    '116.101.116.41:4003',
+    '80.240.20.183:30002'
+]
+# ROTATING_PROXY_LIST_PATH = '/my/path/proxies.txt'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "issuescraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -53,9 +65,12 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "issuescraper.middlewares.IssuescraperDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+#    "issuescraper.middlewares.ScrapeOpsFakeUserAgentMiddleware": 400,
+   "issuescraper.middlewares.ScrapeOpsFakeBrowserHeaderAgentMiddleware": 400,
+    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+    'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
