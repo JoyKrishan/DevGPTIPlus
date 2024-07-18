@@ -67,9 +67,9 @@ ROBOTSTXT_OBEY = False
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
 #    "issuescraper.middlewares.ScrapeOpsFakeUserAgentMiddleware": 400,
-   "issuescraper.middlewares.ScrapeOpsFakeBrowserHeaderAgentMiddleware": 400,
-    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
-    'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+#    "issuescraper.middlewares.ScrapeOpsFakeBrowserHeaderAgentMiddleware": 400,
+#     'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+#     'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
 }
 
 # Enable or disable extensions
@@ -81,7 +81,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   "issuescraper.pipelines.BookscaperPipeline": 300,
+#    "issuescraper.pipelines.BookscaperPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
