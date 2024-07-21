@@ -4,6 +4,11 @@ import json
 import datetime
 import time
 from dotenv import load_dotenv
+import logging
+import csv
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Function to check the rate limit for the current token
 def check_rate_limit(token):
@@ -31,8 +36,8 @@ def get_active_token(github_tokens):
         current_token_index = (current_token_index + 1) % len(github_tokens)
 
         if current_token_index == 0:
-            reset_time = datetime.fromtimestamp(reset)
-            wait_time = (reset_time - datetime.now()).total_seconds()
+            reset_time = datetime.datetime.fromtimestamp(reset)
+            wait_time = (reset_time - datetime.datetime.now()).total_seconds()
             print(f"All tokens exhausted. Waiting for {wait_time // 60:.0f} minutes.")
             time.sleep(wait_time)
 
@@ -69,9 +74,13 @@ def fetch_repo_primary_language(repo_url, github_token): # API request Two
 
 
 
-def read_and_process_json(file_path, github_tokens, output_file_path):
+def read_and_process_json(file_path, github_tokens, output_json_path, output_csv_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
+
+    total_items = len(data)
+    processed_count = 0
+    start_time = time.time()
 
     for item in data:
         current_token = get_active_token(github_tokens)
@@ -88,9 +97,7 @@ def read_and_process_json(file_path, github_tokens, output_file_path):
         closed_at = item['closed_at']
         state = item['state'].upper()
         labels = [label_item.get('name', '') for label_item in item['labels']]
-
-        time.sleep(5)
-
+        time.sleep(3)
         timeline_data = fetch_issue_timeline(issue_url, current_token)
         committers, commit_shas, commit_urls, commit_messages = [], [], [], []
         events = []
@@ -131,15 +138,41 @@ def read_and_process_json(file_path, github_tokens, output_file_path):
             'commit_urls': commit_urls,
             'commit_messages': commit_messages
         }
-        print(f"ITEM: {processed_item}")
 
-        save_to_json(processed_item, output_file_path)
+        save_to_json(processed_item, output_json_path)
+        save_to_csv(processed_item, output_csv_path)
+        processed_count += 1
+
+        # Log progress every 10 items
+        if processed_count % 10 == 0:
+            logging.info(f"{processed_count} items processed out of {total_items}")
+
+    total_time = time.time() - start_time
+    logging.info(f"Processing complete. Total items processed: {processed_count}")
+    logging.info(f"Total time taken: {total_time:.2f} seconds")
+
 
 def save_to_json(data, output_file_path):
     with open(output_file_path, 'a') as f:
-        json.dump(data, f, indent=4)
-        f.write(',')
+        json.dump(data, f)
+        f.write('\n')
 
+
+def save_to_csv(data, output_file_path):
+    header = ['issue_url', 'author', 'repo_name', 'repo_language', 'issue_number', 'title', 'body', 'created_at', 'updated_at', 'closed_at', 'state', 'labels', 'events', 'event_actors', 'committers', 'commit_shas', 'commit_urls', 'commit_messages']
+
+    # Check if file exists to write header or not
+    file_exists = os.path.isfile(output_file_path)
+    with open(output_file_path, 'a', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=header)
+
+        if not file_exists:
+            writer.writeheader()
+        # Convert list fields to strings
+        for key in ['labels', 'events', 'event_actors', 'committers', 'commit_shas', 'commit_urls', 'commit_messages']:
+            data[key] = " ".join(data[key])
+
+        writer.writerow(data)
         
 if __name__ == '__main__':
     load_dotenv()
@@ -156,5 +189,8 @@ if __name__ == '__main__':
         raise ValueError("No valid GitHub tokens found. Please set the GITHUB_TOKEN_x environment variables.")
     
     input_file_path = 'ChatGPT_issues.json'
-    out_file_path = 'ChatGPT_processed_issues.json'
-    read_and_process_json(input_file_path, github_tokens, out_file_path)
+
+    output_json_file_path = 'ChatGPT_processed_issues.json'
+    output_csv_file_path = 'ChatGPT_processed_issues.csv'
+
+    read_and_process_json(input_file_path, github_tokens, output_json_file_path, output_csv_file_path)
