@@ -4,26 +4,9 @@ import random
 import uuid
 import csv
 
-# import math
-
-# # Given values
-# N = 1164       # Population size
-# z = 1.96       # Z-score for 95% confidence level
-# p = 0.5        # Estimated proportion (maximum variability)
-# E = 0.05       # Margin of error (5%)
-
-# # Sample size formula for finite population
-# numerator = N * (z ** 2) * p * (1 - p)
-# denominator = (E ** 2) * (N - 1) + (z ** 2) * p * (1 - p)
-# n = numerator / denominator
-
-# # Round up to the next whole number as sample size should be an integer
-# sample_size = math.ceil(n)
-# sample_size
-
 def randomly_chose_issue_item_that_has_valid_conversation(data):
     random.seed(0)
-    items = random.sample(data, k=min(290, len(data)))  
+    items = random.sample(data, k=min(289, len(data)))  
     csv_data = []
 
     for item in items:
@@ -32,9 +15,9 @@ def randomly_chose_issue_item_that_has_valid_conversation(data):
         if any(keep):
             csv_data.append(item)
 
-    # Check if we still need more items to reach 290
-    if len(csv_data) < 290:
-        remaining_items = random.sample([item for item in data if item not in csv_data], 290 - len(csv_data))
+    # Check if we still need more items to reach 289
+    if len(csv_data) < 289:
+        remaining_items = random.sample([item for item in data if item not in csv_data], 289 - len(csv_data))
         csv_data.extend(remaining_items)
 
     return csv_data

@@ -11,7 +11,7 @@ import torch
 import pandas as pd
 from scipy.special import softmax
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from src.rq1_intent.statistics_v2 import create_df_from_complete_quali_files
+from src.rq1_usage.statistics_v2 import create_df_from_complete_quali_files
 from tqdm import tqdm 
 import logging
 
