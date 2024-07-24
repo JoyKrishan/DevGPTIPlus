@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import json
 import time
 
-
 # Function to check the rate limit for the current token
 def check_rate_limit(token):
     url = 'https://api.github.com/rate_limit'
@@ -44,7 +43,6 @@ def fetch_issues(query, start_date, end_date, github_token):
         time.sleep(5)
 
     return issues
-
 
 if __name__ == "__main__":
     load_dotenv()
