@@ -6,6 +6,9 @@ import time
 from dotenv import load_dotenv
 import logging
 import csv
+import sys
+
+csv.field_size_limit(sys.maxsize)
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -173,7 +176,23 @@ def save_to_csv(data, output_file_path):
             data[key] = " ".join(data[key])
 
         writer.writerow(data)
-        
+
+def fix_json_file(json_file):
+    with open(json_file, 'r') as f:
+        data = f.read().strip().split('\n')
+        combined_json = '[' + ','.join(data) + ']'
+    with open(json_file, 'w') as f:
+        json.dump(combined_json, f, indent=2)
+
+def make_json(csvFilePath, jsonFilePath):
+     
+    with open(csvFilePath, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        data = [row for row in reader]
+        print(len(data))
+    with open(jsonFilePath, 'w') as jsonfile:
+        json.dump(data, jsonfile, indent=2)
+
 if __name__ == '__main__':
     load_dotenv()
 
@@ -193,4 +212,6 @@ if __name__ == '__main__':
     output_json_file_path = 'ChatGPT_processed_issues.json'
     output_csv_file_path = 'ChatGPT_processed_issues.csv'
 
-    read_and_process_json(input_file_path, github_tokens, output_json_file_path, output_csv_file_path)
+    # read_and_process_json(input_file_path, github_tokens, output_json_file_path, output_csv_file_path)
+    # fix_json_file(output_json_file_path)
+    make_json(output_csv_file_path, output_json_file_path)
