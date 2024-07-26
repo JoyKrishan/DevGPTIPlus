@@ -4,3 +4,17 @@ idna==3.7
 python-dotenv==1.0.1
 requests==2.32.3
 urllib3==2.2.2
+beautifulsoup4==4.12.3
+certifi==2024.7.4
+charset-normalizer==3.3.2
+greenlet==3.0.3
+idna==3.7
+playwright==1.45.1
+pyee==11.1.0
+python-dotenv==1.0.1
+regex==2024.7.24
+requests==2.32.3
+soupsieve==2.5
+tiktoken==0.7.0
+typing_extensions==4.12.2
+urllib3==2.2.2
