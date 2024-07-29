@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import json
 import time
 import logging
-import sys
 import re
 
 
@@ -19,7 +18,6 @@ logging.basicConfig(level=logging.DEBUG, format=FORMAT_STRING, force=True)
 
 # Suppress debug logging for urllib3
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-
 my_logger = logging.getLogger(__name__)
 
 
@@ -48,7 +46,6 @@ def get_active_token():
             return current_token
 
         current_token_index = (current_token_index + 1) % len(github_tokens)
-
         if current_token_index == 0:
             reset_time = datetime.datetime.fromtimestamp(reset)
             wait_time = (reset_time - datetime.datetime.now()).total_seconds()
@@ -62,7 +59,6 @@ def fetch_issue_timeline(timeline_url):
     headers = {'Accept': 'application/vnd.github.v3+json', 'Authorization': f'token {current_token}'}
 
     response = requests.get(timeline_url, headers=headers)
-
     if response.status_code != 200:
         my_logger.error(f"Error fetching results: {response.status_code}")
         my_logger.error(response.text)
@@ -76,14 +72,13 @@ def fetch_repo_primary_language(repo_url): # API request Two
     current_token = get_active_token()
     headers = {'Accept': 'application/vnd.github.v3+json', 'Authorization': f'token {current_token}'}
     repo_language_url = repo_url + '/languages'
-    response = requests.get(repo_language_url, headers=headers)
 
+    response = requests.get(repo_language_url, headers=headers)
     if response.status_code != 200:
         my_logger.error(f"Error fetching results: {response.status_code}")
         my_logger.error(response.text)
 
     data = response.json()
-
     if data:
         primary_language = max(data, key=data.get)
         return primary_language
@@ -94,8 +89,8 @@ def fetch_repo_primary_language(repo_url): # API request Two
 def fetch_issue_comments(comment_url):
     current_token = get_active_token()
     headers = {'Accept': 'application/vnd.github.v3+json', 'Authorization': f'token {current_token}'}
-    response = requests.get(comment_url, headers=headers)
 
+    response = requests.get(comment_url, headers=headers)
     if response.status_code != 200:
         my_logger.error(f"Error fetching results: {response.status_code}")
         my_logger.error(response.text)
@@ -109,7 +104,6 @@ def check_for_sharedLLM_links(text) -> list:
         url_pattern = re.compile(r'https:\/\/chat.openai.com\/share\/[a-zA-Z0-9-]{36}')
 
         matches = url_pattern.findall(text)
-
         if matches:
             # my_logger.info(matches) # to check if many urls are retrieved
             return matches
@@ -159,9 +153,12 @@ def fetch_issues(query, start_date, end_date):
             my_logger.error(response.text)
             break
 
-        data = response.json()
-        all_items = data.get('items')
+        response_data = response.json()
+        all_items = response_data.get('items', [])
 
+        if not all_items: # First logic to break, if all_items is empty
+            my_logger.debug(f"No items retreived from {page} when start date: {start_date} and end date: {end_date}") 
+            break
 
         for item in all_items:
             issue_data = {
@@ -188,16 +185,15 @@ def fetch_issues(query, start_date, end_date):
 
             # Check if body contains any shared LLM links
             found_LLM_links = check_for_sharedLLM_links(item['body'])
-
             if found_LLM_links:
 
                 # For each link we update the mentions and shared_llm_sharings 
-                for link in found_LLM_links:
-                    
+                for link in found_LLM_links:      
                     mentions.append({
                         'mentioned_url': link,
                         'mentioned_author': item['user']['login'],
                         'mentioned_text': item['body'],
+                        'mentioned_place': 'body',
                         'reactions': item['reactions'],
                         'mentioned_upvote_count': item['reactions']["+1"]
                     })
@@ -210,35 +206,34 @@ def fetch_issues(query, start_date, end_date):
             repo_primary_language = fetch_repo_primary_language(item['repository_url']) # api_hit
 
             time.sleep(2) # slight pause before another request
-            timeline_data = fetch_issue_timeline(item['timeline_url']) # api_hit
+            all_timeline_data = fetch_issue_timeline(item['timeline_url']) # api_hit
 
             # variables to retrieve data from the timeline data
             committers, commit_shas, commit_urls, commit_messages = [], [], [], []
             events = []
             event_actors = []
 
-            for data in timeline_data:
-                event_name = data.get('event', '')
+            for timeline_data in all_timeline_data:
+                event_name = timeline_data.get('event', '')
                 if event_name:
                     events.append(event_name)
 
-                event_actor = data.get('actor', '')
+                event_actor = timeline_data.get('actor', '')
                 if event_actor:
                     event_actors.append(event_actor['login'])
 
                 if event_name == "committed":
-                    commit_shas.append(data['sha'][:7]) # first seven chars
-                    commit_urls.append(data['url'])
-                    committers.append(data['committer']['name'])
-                    commit_messages.append(data['message'])
+                    commit_shas.append(timeline_data['sha'][:7]) # first seven chars
+                    commit_urls.append(timeline_data['url'])
+                    committers.append(timeline_data['committer']['name'])
+                    commit_messages.append(timeline_data['message'])
 
             time.sleep(2) # slight pause before another request
-            all_comment_data = fetch_issue_comments(item['comments_url']) #TODO write the fetch comment method
+            all_comment_data = fetch_issue_comments(item['comments_url'])
             comments_list = []
 
             if all_comment_data:
                 for comment_data in all_comment_data:
-
                     comments_list.append({
                             "user_login": comment_data["user"]["login"],
                             "author_association": comment_data["author_association"],
@@ -249,24 +244,29 @@ def fetch_issues(query, start_date, end_date):
                         })
                     
                     found_LLM_links = check_for_sharedLLM_links(comment_data["body"])
-
                     if found_LLM_links:
                         # For each link we update the mentions and shared_llm_sharings 
                         for link in found_LLM_links:
-
                             mentions.append({
                                 'mentioned_url': link,
                                 'mentioned_author': comment_data["user"]["login"],
                                 'mentioned_text': comment_data["body"],
+                                'mentioned_place': 'comment',
                                 'reactions':  comment_data["reactions"],
                                 'mentioned_upvote_count': comment_data['reactions']["+1"] 
                             })
-
                             shared_llm_sharings.append({
                                 'URL': link,
                                 'author': comment_data["user"]["login"]  
                             })
-            issue_data['repo_primary_language'] = repo_primary_language       
+
+            issue_data['repo_primary_language'] = repo_primary_language
+            issue_data['events'] = events
+            issue_data['event_actors'] = event_actors  
+            issue_data['committers'] = committers
+            issue_data['commit_shas'] = commit_shas
+            issue_data['commit_URLs'] = commit_urls
+            issue_data['commit_messages'] = commit_messages     
             issue_data["comments"] = comments_list
             issue_data['mentions'] = mentions
             issue_data['LLM_sharing'] = shared_llm_sharings
@@ -274,11 +274,12 @@ def fetch_issues(query, start_date, end_date):
             processed_issues.append(issue_data)
 
         save_to_file(processed_issues, JSON_FILENAME)
-        if len(data.get('items', [])) < PER_PAGE:
+        if len(response_data.get('items', [])) < PER_PAGE: # Second logic to break, if the number of items in that page was less than 100
             break
         
         page += 1
         time.sleep(3)
+
     return processed_issues
 
 
@@ -293,7 +294,7 @@ def run_api_fetches():
         
         if name == "ChatGPT":
             start_date = datetime(2022, 11, 1) #year, #month, #day
-            end_date = datetime(2024, 7, 1)
+            end_date = datetime.now()
         else: # this block of code is for Gemini 
             start_date = datetime(2023, 3, 1)
             end_date = datetime(2024, 7, 1)
