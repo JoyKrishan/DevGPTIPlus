@@ -4,27 +4,7 @@ import pandas as pd
 import json
 import os
 import sys
-
-# Ensure the correct project root path
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-sys.path.append(project_root)
-
-# Print the current working directory
-print("Current Working Directory:", os.getcwd())
-
-# Verify the file exists in the current directory or provide the correct path
-file_path = os.path.join(project_root, 'ChatGPT_issues_v2.0_cleaned.json')
-
-if os.path.exists(file_path):
-    # Read the JSON file
-    df = pd.read_json(file_path)
-    
-    # Display the DataFrame
-    print(df.head())
-else:
-    print(f"File not found: {file_path}")
 # %%
-
 # Function to get statistics on commits
 def commits_statistics(data):
     issues_with_commits = 0
@@ -168,7 +148,25 @@ def count_prompts(data):
     return prompts_counts
 
 # %%
-filename = "ChatGPT_issues_v2.0_cleaned.json"
-data = pd.read_json(filename)
+def find_all_language_type(data):
+    all_langauge_types = set()
+    for issue in data:
+            for sharing in issue['ChatgptSharing']:
+                if sharing and 'Conversations' in sharing: 
+                    for conversation in sharing['Conversations']:
+                        if conversation['ListOfCode']:
+                            for code in conversation['ListOfCode']:
+                                all_langauge_types.add(code['Type'])
+    return all_langauge_types
+        
 
-print(os.getcwd())
+# %%
+filename = "data/ChatGPT_issues_v2.0_cleaned.json"
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+
+file_path = os.path.join(project_root, filename)
+with open(file_path, 'r') as f:
+    json_data = json.load(f)
+
+print(find_all_language_type(json_data))
+# %%
