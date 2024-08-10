@@ -5,7 +5,10 @@ import json
 import time
 import logging
 import re
+import sys 
 
+project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+sys.path.append(project_dir)
 
 # Define global variables
 github_tokens = []
@@ -14,7 +17,10 @@ my_logger = None
 
 # Configure logging
 FORMAT_STRING = "'%(asctime)s - %(name)s - %(levelname)s - %(message)s'"
-logging.basicConfig(level=logging.DEBUG, format=FORMAT_STRING, force=True)
+
+log_file = os.path.join(project_dir, "data", "logs", "RESTAPI_issue_search.log")
+logging.basicConfig(level=logging.DEBUG, format=FORMAT_STRING, force=True, handlers= [logging.FileHandler(log_file), 
+                                                                                      logging.StreamHandler()])
 
 # Suppress debug logging for urllib3
 logging.getLogger("urllib3").setLevel(logging.WARNING)
@@ -108,6 +114,7 @@ def check_for_sharedLLM_links(text) -> list:
             # my_logger.info(matches) # to check if many urls are retrieved
             return matches
         else:
+
             return []
     return []
 
@@ -133,7 +140,7 @@ def save_to_file(data, filename):
 # Function to fetch issues within a given date range
 def fetch_issues(query, start_date, end_date):
     MAIN_ISSUE_URL = 'https://api.github.com/search/issues'
-    JSON_FILENAME = 'ChatGPT_issues_v2.0_MOD.json'
+    save_file_path = os.path.join(project_dir, 'data', 'api_get_json', 'gitHub_DevGPT_issues_running.json')
     PER_PAGE = 100
     page = 1
     processed_issues = []
@@ -273,7 +280,7 @@ def fetch_issues(query, start_date, end_date):
 
             processed_issues.append(issue_data)
 
-        save_to_file(processed_issues, JSON_FILENAME)
+        save_to_file(processed_issues, save_file_path)
         if len(response_data.get('items', [])) < PER_PAGE: # Second logic to break, if the number of items in that page was less than 100
             break
         
@@ -286,8 +293,7 @@ def fetch_issues(query, start_date, end_date):
 def run_api_fetches():
     # Define the query and the total date range
     queries = {
-        'ChatGPT':'https://chat.openai.com/share',
-        # 'Gemini': 'g.co/gemini/share'
+        'ChatGPT':'\"https://chat.openai.com/share\"',
     }
 
     for name, search_params in queries.items():
@@ -326,7 +332,7 @@ def run_api_fetches():
         my_logger.info(f"Total time taken: {total_time:.2f} seconds")
 
         # Save the results to a file
-        with open(f'{name}_issues_v2.0.json', 'w') as f:
+        with open(os.path.join(project_dir, 'data', 'api_get_json', 'gitHub_DevGPT_issues.json'), 'w') as f:
             json.dump(all_issues, f, indent=2)
 
 
@@ -342,4 +348,4 @@ if __name__ == "__main__":
         raise ValueError("No valid GitHub tokens found. Please set the GITHUB_TOKEN_x environment variables.")
     
     current_token_index = 0
-    run_api_fetches()
+    run_api_fetches() 
