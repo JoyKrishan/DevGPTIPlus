@@ -1,5 +1,5 @@
 import asyncio
-from playwright.async_api import async_playwright, Playwright
+from playwright.async_api import async_playwright
 import logging
 import re
 import os, sys
@@ -18,8 +18,10 @@ sys.path.append(project_root)
 from src.utils.constants import USER_AGENTS
 
 # Configure logging
+log_file = os.path.join(project_root, "data", "logs", "chatgpt_crawl.log")
+os.makedirs(os.path.dirname(log_file), exist_ok=True)
 FORMAT_STRING = "'%(asctime)s - %(name)s - %(levelname)s - %(message)s'"
-logging.basicConfig(level=logging.DEBUG, format=FORMAT_STRING, force=True)
+logging.basicConfig(level=logging.DEBUG, format=FORMAT_STRING, force=True, handlers=[logging.FileHandler(log_file), logging.StreamHandler()])
 
 # Suppress debug logging for urllib3
 logging.getLogger("urllib3").setLevel(logging.WARNING)
@@ -88,6 +90,7 @@ async def obtain_from_chatgpt_sharing(url, mention):
                     soup = BeautifulSoup(content, "html.parser")
                     data = json.loads(soup.find('script', type='application/json').text)
                 except JSONDecodeError:
+                    my_logger.error(f"Error parsing the request for URL: {url}")
                     return {
                             "URL": url,
                             "Mention": mention,
@@ -170,7 +173,8 @@ async def obtain_from_chatgpt_sharing(url, mention):
                         # "ConvIndex": create_hash_index(url, turn) # TODO: Write Funtion: create_hash_index (SKIPPING FOR NOW)
                     })
                 answer, prompt = None, None
-        
+
+        my_logger.info(f"Processed issue: {url}")
         return {
             "URL": url,
             "Mention": mention,
@@ -197,10 +201,10 @@ async def run_scrawl(url, mention, issue_data):
 
 
 if __name__ == "__main__":
-    JSON_FILENAME = "ChatGPT_issues_v2.0.json"
-    UPDATED_JSON_FILENAME = "ChatGPT_issues_v2.0_with_sharings.json"
+    devgpt_api_data = os.path.join(project_root, "data", "cleaned_data", "gitHub_DevGPT_issues_cleaned.json")
+    full_devgpt_api_data = os.path.join(project_root, "data", "complete_dataset", "DevGPT_issues.json")
 
-    data = read_json(JSON_FILENAME)
+    data = read_json(devgpt_api_data)
     if not data:
         my_logger.error("JSON file data is empty")
     else: 
@@ -225,8 +229,9 @@ if __name__ == "__main__":
             except Exception as e:
                 my_logger.error(e)
 
-        write_json(UPDATED_JSON_FILENAME, data)
-        my_logger.info(f"Updated JSON data saved to {UPDATED_JSON_FILENAME}")
+
+        write_json(full_devgpt_api_data, data)
+        my_logger.info(f"Updated JSON data saved to {full_devgpt_api_data}")
         my_logger.info(f"Total issues with LLM sharing processed: {processed_issues_count}")
 
         end_time = time.time()
