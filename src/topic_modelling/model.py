@@ -1,6 +1,6 @@
 import os
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 import socket
@@ -14,7 +14,11 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction import text
 
 from bertopic import BERTopic
+from bertopic.representation import KeyBERTInspired, MaximalMarginalRelevance
 from umap import UMAP
+import torch
+
+#TODO: Use topic representation model like KeyBERT or MaximalMarginalRelevance 
 
 
 ADDTIONAL_STOPWORDS = ['type', 'is', 'debugger', 'public', 'use', 'while', 'in', 'let', 'const', 'python38 frame', 'new', 'toJSON', 'bind', 'que', 'object', 'case', 'instanceOf', 'false', 'javascript', 'c++', 'dirxml', 
@@ -76,11 +80,12 @@ def model_fit_transform(df, vectorizer_model, sentence_model, verbose = False):
     topics, probs = topic_model.fit_transform(df)
     return topics, probs, topic_model
 
-def visualize_documents(df, sentence_model, topic_model, model_name):
+def visualize_documents(df, sentence_model, topic_model, model_name, device):
     if isinstance(sentence_model, torch.nn.DataParallel):
-        embeddings = sentence_model.module.encode(df,  show_progress_bar=True).to(device)
+        torch.cuda.empty_cache()
+        embeddings = sentence_model.module.encode(df,  show_progress_bar=True, batch_size = 2, device = device)
     else:
-        embeddings = sentence_model.encode(df, show_progress_bar=True)
+        embeddings = sentence_model.encode(df, show_progress_bar=True, device = device)
     
     reduced_embeddings = UMAP(n_neighbors=10, n_components=2, min_dist=0.0, metric='cosine').fit_transform(embeddings)
     fig = topic_model.visualize_documents(df, reduced_embeddings=reduced_embeddings, hide_annotations=True, hide_document_hover=False, custom_labels=True)
@@ -125,33 +130,43 @@ if __name__ == "__main__":
 
     vectorizer_model = create_count_vectorizer_w_wo_add_stopwords()
 
-    # os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'max_split_size_mb:512'
-
-    # torch.cuda.empty_cache()
-    # torch.backends.cudnn.benchmark = True
-    # torch.backends.cudnn.enabled = True
-    # import gc
-    # gc.collect()
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    sentence_model = SentenceTransformer("BAAI/bge-en-icl")
-    num_gpus = torch.cuda.device_count()
+    
+    """
+    Here we try different combinations of sentence model and representation model
+    | Sentence Model | Representation Model |
+    | -------------- | --------------------- |
+    | BAAI/bge-en-icl | KeyBeRTInspired |
+    | BAAI/bge-en-icl | MaximalMarginalRelevance |
+    | dunzhang/stella_en_1.5B_v5 | MaximalMarginalRelevance | Done
+    | dunzhang/stella_en_1.5B_v5 | KeyBERTInspired | Done
+    """
 
+    embedding_model = SentenceTransformer("BAAI/bge-en-icl", device=device)
+
+    # embedding_model = SentenceTransformer("dunzhang/stella_en_1.5B_v5", device=device)
+
+    representation_model = KeyBERTInspired()
+
+    representation_model = MaximalMarginalRelevance()
+
+    num_gpus = torch.cuda.device_count()
     if num_gpus > 1:
         print(f"Using {num_gpus} GPUs")
         device_ids = list(range(num_gpus))
-        sentence_model = torch.nn.DataParallel(sentence_model, device_ids=device_ids)
+        embedding_model = torch.nn.DataParallel(embedding_model, device_ids=device_ids)
 
-    sentence_model = sentence_model.to(device)
-    # topics, probs, topic_model, sentence_model = fit_transform_to_topic_model(df['Documents'], sentence_model , vectorizer_model)
+    topics, probs, topic_model, embedding_model = fit_transform_to_topic_model(df['Documents'], embedding_model , vectorizer_model)
 
-    # new_topics, topic_model = reduce_outliers(topic_model, df['Documents'], topics)
+    new_topics, topic_model = reduce_outliers(topic_model, df['Documents'], topics)
 
-    # print(topic_model.get_topic_info().head(2))
+    print(topic_model.get_topic_info().head(2))
 
-    # save_topic_model(topic_model, "bge-en-icl", sentence_model)
+    model_filename = "MaximalMarginalRelevance_stella_en_1.5B_v5"
+    save_topic_model(topic_model, model_filename, embedding_model)
 
-    topic_model = load_topic_model("bge-en-icl")
+    topic_model = load_topic_model(model_filename)
 
-    visualize_documents(df['Documents'], sentence_model, topic_model, "bge-en-icl")
+    visualize_documents(df['Documents'], embedding_model, topic_model, model_filename, device)
 
-    visualize_barchart(topic_model, "bge-en-icl")
+    visualize_barchart(topic_model, model_filename)
