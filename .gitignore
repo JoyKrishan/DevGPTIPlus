@@ -1,7 +1,7 @@
 .env
 /*.json
 /*.csv
-data/
+data/ 
 __pycache__/
 .venv
-.model_dir/
+model_dir/
