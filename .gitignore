@@ -5,3 +5,4 @@ data/
 __pycache__/
 .venv
 model_dir/
+/*.__init__.py
