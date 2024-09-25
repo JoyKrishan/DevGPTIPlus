@@ -1,65 +1,42 @@
-import os
 import pandas as pd
-from bokeh.plotting import figure, show
-from bokeh.io import output_notebook, output_file
-from bokeh.models import Legend, LegendItem
+import seaborn as sns
+import matplotlib.pyplot as plt
+from scipy.stats import pearsonr
 
-# Output Bokeh plots in Jupyter notebook
-output_file('plot.html')
+df = pd.read_csv('sentiment_analysis_results_intents.csv')
 
-# Load your dataset
-project_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-df = pd.read_csv(os.path.join(project_dir, 'sentiment_analysis_results_intents.csv'))
 
-# Group data by 'Label'
-groups = df.groupby('Label')
+unique_labels = df['Label'].unique()
+num_labels = len(unique_labels)
 
-# Create a figure for plotting
-p = figure(title="Sentiment EMA for Different Groups", x_axis_label='Index', y_axis_label='Sentiment EMA')
+fig, axes = plt.subplots(nrows=(num_labels + 2) // 3, ncols=3, figsize=(18, 6 * ((num_labels + 2) // 3)))
+fig.tight_layout(pad=5.0)
 
-# Define colors for different groups
-colors = {
-    'Group1': 'blue',
-    'Group2': 'red',
-    'Group3': 'green',
-    'Group4': 'orange'
-}  # Update with your actual group names and colors
+axes = axes.flatten()
 
-# Initialize lists to hold line renderers for legend creation
-lines = []
-labels = []
-
-# Add lines for each group
-for group_name, group_data in groups:
-    # Add Dev Sentiment EMA line
-    dev_line = p.line(
-        group_data.index,
-        group_data['Dev Sentiment EMA'],
-        line_color=colors.get(group_name, 'black'),
-        legend_label=f'{group_name} Dev Sentiment EMA'
-    )
+for i, label in enumerate(unique_labels):
+    ax = axes[i]
     
-    # Add GPT Sentiment EMA line
-    gpt_line = p.line(
-        group_data.index,
-        group_data['GPT Sentiment EMA'],
-        line_color=colors.get(group_name, 'black'),
-        line_dash='dashed',
-        legend_label=f'{group_name} GPT Sentiment EMA'
-    )
+    group = df[df['Label'] == label]
+    dev_ema = group['Dev Sentiment EMA']
+    gpt_ema = group['GPT Sentiment EMA']
     
-    # Append lines and labels
-    lines.extend([dev_line, gpt_line])
-    labels.extend([f'{group_name} Dev Sentiment EMA', f'{group_name} GPT Sentiment EMA'])
+    corr, _ = pearsonr(dev_ema, gpt_ema)
+    print(f"Pearson Correlation Coefficient for {label}: {corr}")
+    sns.scatterplot(x=dev_ema, y=gpt_ema, ax=ax, label=f'{label} (Corr: {corr:.2f})')
+    sns.regplot(x=dev_ema, y=gpt_ema, scatter=False, ax=ax, color='red', line_kws={'label': f'{label} Fit Line'})
+    
+    ax.set_title(f'{label}')
+    ax.set_xlabel('Dev Sentiment EMA')
+    ax.set_ylabel('GPT Sentiment EMA')
+    ax.axhline(0, color='gray', linestyle='--')
+    ax.axvline(0, color='gray', linestyle='--')
+    ax.grid(False)
 
-# Create legend items
-legend_items = [LegendItem(label=label, renderers=[line]) for label, line in zip(labels, lines)]
+# Hide any unused subplots
+for j in range(i + 1, len(axes)):
+    axes[j].axis('off')
 
-# Create a legend and add it to the plot
-legend = Legend(items=legend_items, location='center')
-p.add_layout(legend, 'right')
-
-# Adjust plot margins to accommodate legend
-p.margin = (0, 200, 0, 0)
-
-show(p)
+plt.savefig('scatter_plots.png')
+# Show the plot
+plt.show()

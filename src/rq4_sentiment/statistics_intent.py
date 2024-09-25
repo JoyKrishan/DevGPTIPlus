@@ -26,7 +26,7 @@ def calculate_corr(df, col1, col2):
     
     unique_labels = df['Label'].unique()
     
-    for i, label in enumerate(unique_labels):
+    for _, label in enumerate(unique_labels):
     
         group = df[df['Label'] == label]
         dev_ema = group[col1]
@@ -42,15 +42,15 @@ if __name__ == "__main__":
     df = pd.read_csv(sentiment_file)
     df = clean_data(df)
     
-    # print("Dev Sentiment EMA")
-    # number_of_data_lean_pos_neg(df, 'Dev Sentiment EMA')
-    # print("GPT Sentiment EMA")
-    # number_of_data_lean_pos_neg(df, 'GPT Sentiment EMA')
+    print("Dev Sentiment EMA")
+    number_of_data_lean_pos_neg(df, 'Dev Sentiment EMA')
+    print("GPT Sentiment EMA")
+    number_of_data_lean_pos_neg(df, 'GPT Sentiment EMA')
     
     # print("Dev Sentiment EMA Median Magnitude")
     # print(calculate_median_magnitude(df, 'Dev Sentiment EMA'))
     # print("GPT Sentiment EMA Median Magnitude")
     # print(calculate_median_magnitude(df, 'GPT Sentiment EMA'))
-    print("Correlation between Dev Sentiment EMA and GPT Sentiment EMA")
-    print(calculate_corr(df, 'Dev Sentiment EMA', 'GPT Sentiment EMA'))
+    # print("Correlation between Dev Sentiment EMA and GPT Sentiment EMA")
+    # print(calculate_corr(df, 'Dev Sentiment EMA', 'GPT Sentiment EMA'))
     
