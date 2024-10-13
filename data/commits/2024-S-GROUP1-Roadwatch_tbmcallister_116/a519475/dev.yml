@@ -1,0 +1,7 @@
+env:
+  # DB Connection
+  DB_HOST: mongodb
+  DB_NAME: roadwatch
+  DB_USER: root
+  DB_PASSWORD: password
+  DB_PORT: 27017

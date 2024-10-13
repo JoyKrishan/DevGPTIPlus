@@ -1,0 +1,17 @@
+.fb-survey-shadow {
+  box-shadow: 0px 0px 90px -40px var(--fb-survey-shadow-color);
+}
+
+  --brand-default: #64748b;
+  --slate-50: rgb(248, 250, 252);
+  --slate-300: rgb(203, 213, 225);
+  --fb-brand-color: var(--brand-default);
+  --fb-placeholder-color: var(--slate-300);
+  --fb-branding-text-color: var(--slate-500);
+  --fb-survey-border-color: var(--slate-50);
+  --fb-survey-shadow-color: rgba(0, 0, 0, 0.4);
+  --fb-input-background-color: var(--slate-50);
+  --fb-input-background-color-selected: var(--slate-100);
+
+  --fb-border-radius: 8px;
+}

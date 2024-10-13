@@ -1,0 +1,6 @@
+
+Access the frontend by visiting `http://localhost:3000` in your web browser.
+
+## Local Testing of Lambda Function
+
+1. In the root directory, use `python-lambda-local` to test the Lambda function:

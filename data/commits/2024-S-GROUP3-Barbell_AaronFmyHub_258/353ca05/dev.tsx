@@ -1,0 +1,1 @@
+          { key: 'Filtered Exercises', route: '/filteredExercises' }

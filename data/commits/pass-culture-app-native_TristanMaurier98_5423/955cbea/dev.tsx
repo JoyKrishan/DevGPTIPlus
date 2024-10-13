@@ -1,0 +1,1 @@
+export const LOCATION_TITLE_MAX_WIDTH = getSpacing(20)

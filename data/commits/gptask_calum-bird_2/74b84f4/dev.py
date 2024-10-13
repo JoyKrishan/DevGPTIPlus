@@ -1,0 +1,1 @@
+    res: str= response.choices[0].message.content # type: ignore

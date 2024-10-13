@@ -1,0 +1,70 @@
+        version: 1.12.4(@types/node@18.18.13)(typescript@5.3.3)
+        version: 0.17.6(@react-native/babel-preset@0.73.21)
+        version: 7.3.0(@types/node@18.18.13)(expo-modules-autolinking@1.10.3)(typescript@5.3.3)
+        version: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+        version: 29.7.0(@types/node@18.18.13)
+        version: 29.7.0(@types/node@18.18.13)
+        version: 1.4.0(@types/node@18.18.13)(@vitest/browser@1.4.0)(@vitest/ui@1.4.0)
+  /@expo/cli@0.17.8(@react-native/babel-preset@0.73.21)(expo-modules-autolinking@1.10.3):
+      '@expo/metro-config': 0.17.6(@react-native/babel-preset@0.73.21)
+  /@expo/metro-config@0.17.6(@react-native/babel-preset@0.73.21):
+      '@react-native/babel-preset': 0.73.21(@babel/core@7.23.9)(@babel/preset-env@7.23.9)
+  /@expo/plugin-help@5.1.23(@types/node@18.18.13)(typescript@5.3.3):
+      '@oclif/core': 2.15.0(@types/node@18.18.13)(typescript@5.3.3)
+  /@expo/plugin-warn-if-update-available@2.5.1(@types/node@18.18.13)(typescript@5.3.3):
+      '@oclif/core': 2.15.0(@types/node@18.18.13)(typescript@5.3.3)
+  /@oclif/core@2.15.0(@types/node@18.18.13)(typescript@5.3.3):
+      ts-node: 10.9.2(@types/node@18.18.13)(typescript@5.3.3)
+  /@oclif/plugin-autocomplete@2.3.10(@types/node@18.18.13)(typescript@5.3.3):
+      '@oclif/core': 2.15.0(@types/node@18.18.13)(typescript@5.3.3)
+      jest: 29.7.0(@types/node@18.18.13)
+  /@turbo/gen@1.12.4(@types/node@18.18.13)(typescript@5.3.3):
+      ts-node: 10.9.2(@types/node@18.18.13)(typescript@5.3.3)
+      vitest: 1.4.0(@types/node@18.18.13)(@vitest/browser@1.4.0)(@vitest/ui@1.4.0)
+      vitest: 1.4.0(@types/node@18.18.13)(@vitest/browser@1.4.0)(@vitest/ui@1.4.0)
+      vitest: 1.4.0(@types/node@18.18.13)(@vitest/browser@1.4.0)(@vitest/ui@1.4.0)
+  /create-jest@29.7.0(@types/node@18.18.13):
+      jest-config: 29.7.0(@types/node@18.18.13)
+  /eas-cli@7.3.0(@types/node@18.18.13)(expo-modules-autolinking@1.10.3)(typescript@5.3.3):
+      '@expo/plugin-help': 5.1.23(@types/node@18.18.13)(typescript@5.3.3)
+      '@expo/plugin-warn-if-update-available': 2.5.1(@types/node@18.18.13)(typescript@5.3.3)
+      '@oclif/plugin-autocomplete': 2.3.10(@types/node@18.18.13)(typescript@5.3.3)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+      expo: 50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21)
+  /expo@50.0.15(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21):
+      '@expo/cli': 0.17.8(@react-native/babel-preset@0.73.21)(expo-modules-autolinking@1.10.3)
+      '@expo/metro-config': 0.17.6(@react-native/babel-preset@0.73.21)
+  /jest-cli@29.7.0(@types/node@18.18.13):
+      create-jest: 29.7.0(@types/node@18.18.13)
+      jest-config: 29.7.0(@types/node@18.18.13)
+      jest: 29.7.0(@types/node@18.18.13)
+      jest: 29.7.0(@types/node@18.18.13)
+  /jest@29.7.0(@types/node@18.18.13):
+      jest-cli: 29.7.0(@types/node@18.18.13)
+      jest: 29.7.0(@types/node@18.18.13)
+      jest: 29.7.0(@types/node@18.18.13)
+  /ts-node@10.9.2(@types/node@18.18.13)(typescript@5.3.3):
+      '@types/node': 18.18.13
+  /vite-node@1.4.0(@types/node@18.18.13):
+      vite: 5.2.7(@types/node@18.18.13)
+  /vite@5.2.7(@types/node@18.18.13):
+      '@types/node': 18.18.13
+  /vitest@1.4.0(@types/node@18.18.13)(@vitest/browser@1.4.0)(@vitest/ui@1.4.0):
+      '@types/node': 18.18.13
+      vite: 5.2.7(@types/node@18.18.13)
+      vite-node: 1.4.0(@types/node@18.18.13)

@@ -1,0 +1,1 @@
+//mongoose.connect("mongodb+srv://LifeQuestDev:triangleDev@lifequest.1aoc4no.mongodb.net/?retryWrites=true&w=majority&appName=LifeQuest")

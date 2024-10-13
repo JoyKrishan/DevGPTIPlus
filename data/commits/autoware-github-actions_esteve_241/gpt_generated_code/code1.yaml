@@ -1,0 +1,17 @@
+   - name: Disable Internet (DNS method)
+     run: echo "nameserver 0.0.0.0" | sudo tee /etc/resolv.conf
+     shell: bash
+
+   - name: Build
+     run: |
+       colcon build --event-handlers console_cohesion+ \
+         --packages-above-and-dependencies ${{ inputs.target-packages }} \
+         --cmake-args -DCMAKE_BUILD_TYPE=${{ inputs.cmake-build-type }} \
+         --mixin coverage-gcc coverage-pytest compile-commands
+     shell: bash
+
+   - name: Restore Internet (DNS method)
+     if: always()
+     run: |
+       echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf
+     shell: bash

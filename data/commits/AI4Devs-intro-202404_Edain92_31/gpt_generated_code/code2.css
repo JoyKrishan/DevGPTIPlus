@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-gray: #f8f9fa;
+    --dark-gray: #343a40;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls input[type="radio"] {
+    display: none;
+}
+
+.controls label {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: var(--light-gray);
+    color: var(--secondary-color);
+    margin-right: 10px;
+}
+
+.controls label:hover {
+    background-color: #e0e0e0;
+}
+
+.controls input[type="radio"]:checked + label {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.timer-container {
+    margin-bottom: 20px;
+}
+
+#timer,
+#countdown-input {
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+#timer::placeholder,
+#countdown-input::placeholder {
+    color: var(--secondary-color);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    width: calc(33.33% - 10px);
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:disabled {
+    background-color: var(--light-gray);
+    cursor: not-allowed;
+}
+
+.button-container .start-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.button-container .start-btn:hover {
+    background-color: #0056b3;
+}
+
+.button-container .stop-btn {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.button-container .stop-btn:hover {
+    background-color: #cca000;
+}
+
+.button-container .clear-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.button-container .clear-btn:hover {
+    background-color: #bb2d3b;
+}

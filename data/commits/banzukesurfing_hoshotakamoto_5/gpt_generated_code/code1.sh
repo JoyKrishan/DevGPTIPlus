@@ -1,0 +1,1 @@
+npm install --save-dev jest @babel/core @babel/preset-env babel-jest

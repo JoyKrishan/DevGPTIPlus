@@ -1,0 +1,1 @@
+python script.py -p example_prompt test.txt

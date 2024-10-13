@@ -1,0 +1,3 @@
+Sheet State: Sheet {sheet_id} has {column_count} columns (Headers are: {column_names}) and {row_count} rows (the row 1 is the header row).
+Table Diff: {NL_diff}
+User Prompt: "{user_prompt}"

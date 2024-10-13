@@ -1,0 +1,26 @@
+.blue-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grey-button {
+    background-color: #95a5a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 5px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}

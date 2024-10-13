@@ -1,0 +1,15 @@
+          - name: Create env
+            working-directory: ./server
+            run: |
+              touch .env
+              echo NODE_ENV=development >> .env
+              echo DB_HOST=mongodb >> .env
+              echo DB_NAME=roadwatch >> .env
+              echo DB_USER=root >> .env
+              echo DB_PASSWORD=password >> .env
+              echo DB_PORT=27017 >> .env
+              echo JWT_SECRET=secret >> .env
+              echo JWT_EXPIRES_IN=24hr >> .env
+              cat .env
+
+            run: docker-compose up

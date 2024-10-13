@@ -1,0 +1,2 @@
+        if: |
+          ${{ contains(toJson(github.event.pull_request.labels.*.name), 'do NOT merge yet') || contains(toJson(github.event.pull_request.labels.*.name), 's: on hold') }}

@@ -1,0 +1,6 @@
+LIVE_SITE=https://cs472-roadwatch.vercel.app/
+JWT_EXPIRES_IN=24hr
+
+# Notification VAPID Keys
+NOTIFICATION_PUBLIC_KEY=<generate>
+NOTIFICATION_PRIVATE_KEY=<generate>

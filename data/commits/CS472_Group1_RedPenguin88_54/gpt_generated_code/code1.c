@@ -1,0 +1,1 @@
+float result = InvSqrt(25.0f); // Calculates the inverse square root of 25

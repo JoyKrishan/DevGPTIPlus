@@ -1,0 +1,1 @@
+   private Map map => Main.Instance.Map;

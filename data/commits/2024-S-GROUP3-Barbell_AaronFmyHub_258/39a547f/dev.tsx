@@ -1,0 +1,1 @@
+          <Text className='my-[12px] px-3 text-[20px] text-slate-200'>{equipment}</Text>

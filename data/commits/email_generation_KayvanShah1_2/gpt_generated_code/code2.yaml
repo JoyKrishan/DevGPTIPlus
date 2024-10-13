@@ -1,0 +1,9 @@
+jobs:
+  autoformat-on-failure:
+    name: Autoformat on Failure
+    runs-on: ubuntu-latest
+    needs: lint-format-backend
+    if: ${{ needs.lint-format-backend.result != 'success' }}
+
+    steps:
+      # Steps to run autoformatting or any other actions

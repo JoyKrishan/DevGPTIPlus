@@ -1,0 +1,1 @@
+import 'path/to/your/tailwind.css'; // Tailwind CSSファイルへのパスを指定

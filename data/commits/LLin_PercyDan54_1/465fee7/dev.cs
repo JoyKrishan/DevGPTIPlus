@@ -1,0 +1,1 @@
+        public static LocalisableString Scale => new TranslatableString(getKey(@"scale"), @"Classic scaling");

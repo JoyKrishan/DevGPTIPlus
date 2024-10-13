@@ -1,0 +1,1 @@
+import { GroupSinglePage } from '@/components/page/GroupSinglePage';

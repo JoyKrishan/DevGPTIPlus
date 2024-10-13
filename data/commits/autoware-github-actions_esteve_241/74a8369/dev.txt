@@ -1,0 +1,4 @@
+markdown==3.3.7
+mkdocs==1.4.3
+mkdocs-awesome-pages-plugin==2.9.1
+tabulate

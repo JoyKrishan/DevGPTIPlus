@@ -1,0 +1,2 @@
+      "~assets/*": ["./apps/expo/assets/*"],
+      "^/*": ["./*"], // monorepo root

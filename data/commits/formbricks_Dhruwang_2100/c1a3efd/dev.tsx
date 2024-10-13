@@ -1,0 +1,1 @@
+      "The commercial plan is for features who break the OSS WIN-WIN Loop or incur additional cost. We charge 30$ if you want a custom domain, remove Formbricks branding, collect large files in surveys or collect payments. We think that’s fair :)",

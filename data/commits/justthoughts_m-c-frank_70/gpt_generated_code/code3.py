@@ -1,0 +1,1 @@
+with open(f'blog/{issue_data["number"]}-new-post.md', 'w') as file:

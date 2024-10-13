@@ -1,0 +1,2 @@
+	"src/Ressources/*.cpp"
+	"src/Ressources/*.hpp"

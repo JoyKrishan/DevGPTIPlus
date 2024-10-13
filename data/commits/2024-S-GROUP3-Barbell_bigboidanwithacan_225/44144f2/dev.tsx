@@ -1,0 +1,1 @@
+    onPress: () => router.push('/privacy-policy'),

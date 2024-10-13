@@ -1,0 +1,1 @@
+    parser.add_argument('sourcedir', help='source directory of assessments ("tests")')

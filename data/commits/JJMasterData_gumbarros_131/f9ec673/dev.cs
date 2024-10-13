@@ -1,0 +1,1 @@
+        btn.Attributes.Add("onclick","event.stopPropagation()");

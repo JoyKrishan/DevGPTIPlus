@@ -1,0 +1,13 @@
+<?php
+
+    $pdo = new PDO("mysql:host=localhost;dbname=database_name", "user", "pass");
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $stmt = $pdo->query("SELECT `id`, `username`, `password` FROM `whatever`");
+
+    while ($class = $stmt->fetchObject("YourClassNameHere")) {
+        /*
+        * $class now holds an object of type YourClassNameHere
+        * With all properties set properly.
+        */
+    }

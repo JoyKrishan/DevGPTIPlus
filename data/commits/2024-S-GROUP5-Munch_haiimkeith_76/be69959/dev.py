@@ -1,0 +1,2 @@
+from comment_routes import comment_bp
+app.register_blueprint(comment_bp)

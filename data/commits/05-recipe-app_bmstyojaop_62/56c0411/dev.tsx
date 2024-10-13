@@ -1,0 +1,1 @@
+import { LinkCard } from "@/app/(app)/chef/[chefId]/_component"

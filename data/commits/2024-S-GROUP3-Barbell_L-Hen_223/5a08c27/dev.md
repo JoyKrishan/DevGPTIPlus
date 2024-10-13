@@ -1,0 +1,2 @@
+- [ ] [Spotify API got HANDS](https://stackoverflow.com/questions/71631183/spotify-403-user-not-registered-in-the-developer-dashboard)
+- [ ] [Spotify API got HANDS, same thing](https://www.reddit.com/r/learnprogramming/comments/11warb8/need_help_with_spotify_api/)

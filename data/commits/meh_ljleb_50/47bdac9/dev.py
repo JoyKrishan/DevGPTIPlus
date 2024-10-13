@@ -1,0 +1,1 @@
+    return torch.matmul(a_reshape, Q).reshape_as(a).to(dtype=a.dtype)

@@ -1,0 +1,1 @@
+                        <Link to={`/${node.fields.slug}`}>

@@ -1,0 +1,1 @@
+                        if (xhr.status !== 200) return reject('🤖 chatgpt.js >> Request failed. Cannot share chat.');

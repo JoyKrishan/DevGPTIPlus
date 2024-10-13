@@ -1,0 +1,2 @@
+        "type-check": "tsc --noEmit",
+        "postinstall": "cp bcrypt.js node_modules/bcryptjs/dist/bcrypt.js"

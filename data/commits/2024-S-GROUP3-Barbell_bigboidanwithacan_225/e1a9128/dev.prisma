@@ -1,0 +1,3 @@
+  createdAt  DateTime @default(now())
+// * albumImageURL: URL of album's image to display on frontend. Can be null
+// * songURL: URL of song playing. Can be null

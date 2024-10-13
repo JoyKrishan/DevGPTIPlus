@@ -1,0 +1,13 @@
+{
+  "firstName": "Test",
+  "lastName": "User",
+  "userName": "testuser",
+  "password": "password",
+  "email": "test@example.com",
+  "phoneNumber": "1234567890",
+  "dob": "1990-01-01",
+  "city": "Test City",
+  "address": "123 Test St",
+  "state": "Test State",
+  "zip": "12345"
+}

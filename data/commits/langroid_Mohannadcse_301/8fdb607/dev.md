@@ -1,0 +1,1 @@
+  - **0.1.126:** OpenAIAssistant agent: Caching Support. See [release notes](https://github.com/langroid/langroid/releases/tag/0.1.126).

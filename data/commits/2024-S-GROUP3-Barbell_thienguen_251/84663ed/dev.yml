@@ -1,0 +1,1 @@
+          pnpm db:prisma-ci && pnpm db:seed

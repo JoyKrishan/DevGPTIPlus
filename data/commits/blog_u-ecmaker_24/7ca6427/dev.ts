@@ -1,0 +1,1 @@
+  //if (properties.Date.type !== 'date') throw new Error('Date is not date');

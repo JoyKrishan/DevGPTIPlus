@@ -1,0 +1,2 @@
+    def normalize_int(e, i, dim_sz):
+    valid_slices = [v if isinstance(v, slice) else slice(y_ := normalize_int(v, i, dim_sz), int(y_)+1) for i, (v, dim_sz) in enumerate(zip(valid_slices, self.shape))]

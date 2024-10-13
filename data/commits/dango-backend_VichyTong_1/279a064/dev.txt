@@ -1,0 +1,13 @@
++ (4, 1) 1
++ (4, 2) 2
++ (4, 3) 3
++ (4, 4) 4
++ (4, 5) 5
++ (4, 6) 6
++ (4, 7) 7
+Summary: In table1.csv, sequentially insert values into the fourth column according to row number.
+- (4, ) [1, 2, 3]
++ (5, ) [1, 2, 3]
+Summary: In table2.csv, move column 4 to column 5.
++ (, 7) [452, 424, 981, 1423]
+Summary: In table3.csv, add a new row at row 7, maybe the end of the table.

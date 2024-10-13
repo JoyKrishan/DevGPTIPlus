@@ -1,0 +1,1 @@
+    def read_single_pixel(self, x: int, y: int, debug: bool = False) -> int:

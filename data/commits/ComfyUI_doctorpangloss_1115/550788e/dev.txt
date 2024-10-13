@@ -1,0 +1,8 @@
+torch==2.0.0
+torchaudio==2.0.0
+torchvision==0.15.1
+transformers>=4.29.1
+tqdm
+diffusers>=0.16.1
+protobuf==3.20.3
+rembg[gpu]

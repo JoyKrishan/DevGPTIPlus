@@ -1,0 +1,7 @@
+      neo4j:
+        image: neo4j:latest
+        ports:
+          - 7474:7474 # HTTP
+          - 7687:7687 # Bolt
+        env:
+          options: --env NEO4J_AUTH=neo4j/password

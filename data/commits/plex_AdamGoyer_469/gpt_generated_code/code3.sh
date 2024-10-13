@@ -1,0 +1,1 @@
+./plex create -t tools/openbabel/rmsd-openbabel.json -i testdata/7n9g_ZINC000019632618_docked.sdf --autoRun=True

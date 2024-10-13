@@ -1,0 +1,11 @@
+// Function to fill an array with multiples of five
+// Parameters:
+//   array: an integer array to be filled with multiples of five
+//   size: the size of the array
+        // Assigning multiples of five to array elements
+    // Define the size of the array
+    // Declare an array to store the multiples of five
+    // Call the function to fill the array with multiples of five
+    // Display the elements of the array
+        // Output each element separated by a space
+    // Move to the next line after displaying all elements

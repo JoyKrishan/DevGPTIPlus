@@ -1,0 +1,1 @@
+const AllTabs = [TabOption.CODE, TabOption.BROWSER, TabOption.PLANNER];

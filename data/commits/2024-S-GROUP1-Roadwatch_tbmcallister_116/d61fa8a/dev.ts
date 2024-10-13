@@ -1,0 +1,1 @@
+        json: jest.fn(function(this: Response) {

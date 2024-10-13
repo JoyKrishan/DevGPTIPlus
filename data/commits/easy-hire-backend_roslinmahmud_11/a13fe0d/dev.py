@@ -1,0 +1,1 @@
+def get_all_jobs(db: Session = Depends(get_db)):

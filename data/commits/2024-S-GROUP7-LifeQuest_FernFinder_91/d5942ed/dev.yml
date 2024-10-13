@@ -1,0 +1,16 @@
+        # Install yarn and npm for frontend
+        - name: Install Frontend Dependencies
+        - name: Print Frontend coverage report
+
+        # Install yarn and npm for backend
+        - name: Install Backend Dependencies
+          run: |
+            cd backend
+            yarn install  # <- yarn manages caching
+            npm install
+            
+        # Print Coverage Report
+        - name: Print Backend coverage report
+          run: |
+            cd backend
+            npm run coverage

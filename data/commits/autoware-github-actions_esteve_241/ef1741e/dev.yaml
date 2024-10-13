@@ -1,0 +1,7 @@
+        # Cannot use unshare inside a Docker container, so we just disable
+        # DNS lookups instead.
+        cat /etc/nsswitch.conf
+        sed -e 's#hosts:\(.*\)dns\(.*\)#hosts:\1\2#g' -i.bak /etc/nsswitch.conf
+        cat /etc/nsswitch.conf
+        mv /etc/nsswitch.conf.bak /etc/nsswitch.conf
+        cat /etc/nsswitch.conf

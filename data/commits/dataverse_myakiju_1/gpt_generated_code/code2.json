@@ -1,0 +1,15 @@
+{
+  "id": "orchid",
+  "name": "Orquídea",
+  "shortDescription": "Flor exótica e elegante, apreciada por sua beleza única. Requer cuidados específicos.",
+  "description": "A Orquídea é uma planta fascinante e elegante, conhecida por suas flores exóticas que vão desde cores vibrantes até tons suaves e delicados. Originárias de diversas regiões do mundo, as orquídeas são apreciadas por sua beleza única e longa vida. No entanto, seu cultivo requer atenção especial, já que cada variedade pode ter requisitos específicos de luz, umidade e temperatura. Com uma grande diversidade de espécies, as orquídeas podem ser encontradas em ambientes tropicais, subtropicais e até mesmo em regiões temperadas. Seu cultivo, embora desafiador, é recompensador para entusiastas que buscam a beleza exótica e duradoura.",
+  "imageUrl": "https://example.com/orchid.jpg",
+  "facts": {
+    "scientificName": "Orchidaceae",
+    "sunExposure": "Luz indireta a luz filtrada",
+    "waterIntervalInDays": 7,
+    "soilType": "Mistura específica para orquídeas",
+    "hasFlowers": true,
+    "hasFruits": false
+  }
+}

@@ -1,0 +1,1 @@
+            if (stackTrace == null) return;

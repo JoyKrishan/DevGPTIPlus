@@ -1,0 +1,3 @@
+permissions: {}
+
+        if: contains(github.event.pull_request.labels.*.name, 'do NOT merge yet') || endsWith(github.event.pull_request.labels.*.name, 'on hold')

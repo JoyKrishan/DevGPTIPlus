@@ -1,0 +1,4 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  graphql_flutter: ^5.0.0

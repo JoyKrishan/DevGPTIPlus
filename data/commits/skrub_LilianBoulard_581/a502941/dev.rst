@@ -1,0 +1,1 @@
+- Dataset fetcher :func:`datasets.fetch_employee_salaries` now has a parameter

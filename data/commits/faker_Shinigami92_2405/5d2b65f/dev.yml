@@ -1,0 +1,4 @@
+permissions:
+  pull-requests: read
+          x=${{ toJson(github.event.pull_request.labels.*.name) }}
+          echo $x

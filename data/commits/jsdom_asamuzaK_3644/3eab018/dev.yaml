@@ -1,0 +1,21 @@
+dir-pseudo-on-input-element.html:
+  "input element whose type attribute is in the telephone state in a RTL block": [fail, Unknown]
+focus-display-none-001.html: [fail, Unknown]
+focus-in-focus-event-001.html:
+  "Checks that ':focus-visible' pseudo-class matches inside 'focus' event handler": [fail, Not supported]
+focus-in-focusin-event-001.html:
+  "Checks that ':focus-visible' pseudo-class matches inside 'focusin' event handler": [fail, Not supported]
+focus-visible-009.html: [fail, Not supported]
+focus-visible-010.html: [fail, Not supported]
+focus-visible-014.html: [fail, Not supported]
+focus-visible-017-2.html: [fail, Not supported]
+focus-visible-017.html: [fail, Not supported]
+focus-visible-020.html: [fail, Not supported]
+focus-visible-023.html: [fail, Not supported]
+focus-visible-script-focus-001.html: [fail, Not supported]
+invalidation/placeholder-shown.html:
+  "Set placeholder text to empty string": [fail, Unknown]
+is-where-basic.html:
+  ":is() matches expected elements": [fail, Empty :is() is not supported]
+missing-right-token.html: [fail, Not supported]
+send-redirect-bogus-sync.htm: [flaky, Sometimes time out]

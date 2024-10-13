@@ -1,0 +1,1 @@
+        new ModelConfig(encoderLayers, decoderLayers, feedForwardDepth, numHeads, "paragraph");

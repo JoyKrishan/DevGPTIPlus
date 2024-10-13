@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls input[type="radio"] {
+    display: none;
+}
+
+.controls label {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.controls label:hover {
+    background-color: #f0f0f0;
+}
+
+.controls input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer {
+    width: 150px;
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

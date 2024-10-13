@@ -1,0 +1,1 @@
+  else if (!IS_FORMBRICKS_CLOUD) return true;

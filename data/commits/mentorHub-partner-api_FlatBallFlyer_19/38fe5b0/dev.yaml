@@ -1,0 +1,106 @@
+version: "1.1"
+name: Partner API Check
+env:
+  host: localhost:8084
+tests:
+  config:
+    name: Get Config
+    steps:
+      - name: GET request
+        http:
+          url: http://${{env.host}}/api/config/
+          method: GET
+          check:
+            status: /200/
+            schema:
+              type: object
+              properties:
+                configItems:
+                  type: array
+                versions:
+                  type: array
+                enumerators:
+                  type: object
+                apiVersion:
+                  type: string
+              required:
+                - configItems
+                - versions
+                - enumerators
+                - apiVersion
+              additionalProperties: false
+  partner:
+    name: Test /api/partner endpoints
+    steps:
+      - name: GET a list of partners
+        http:
+          url: http://${{env.host}}/api/partner/
+          method: GET
+          check:
+            status: /200/
+            schema:
+              type: array
+              items: 
+                type: object
+                properties:
+                  _id:
+                    type: string
+                  name:
+                    type: string
+                required:
+                  - _id
+                  - name
+                additionalProperties: false              
+      - name: GET a single partner
+        http:
+          url: http://${{env.host}}/api/partner/bbbb00000000000000000000
+          method: GET
+          check:
+            status: /200/
+            schema:
+              type: object
+              properties:
+                _id:
+                  type: string
+                name:
+                  type: string
+                description:
+                  type: string
+                status:
+                  type: string
+                url:
+                  type: string
+                contactDetails:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      _id:
+                        type: string
+                      firstName:
+                        type: string
+                      lastName:
+                        type: string
+                      phone:
+                        type: string
+                lastSaved:
+                  type: object
+                  properties:
+                    atTime:
+                      type: string
+                    byUser:
+                      type: string
+                    fromIp:
+                      type: string
+                    correlationId:
+                      type: string
+                  required:
+                    - atTime
+                    - byUser
+                    - fromIp
+                    - correlationId
+                  additionalProperties: false
+              required:
+                - _id
+                - name
+              additionalProperties: false

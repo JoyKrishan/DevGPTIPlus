@@ -1,0 +1,1 @@
+[ ! -d ./bin ] && echo "bin directory not found! Compiling using ant..." && ant > /dev/null

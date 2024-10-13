@@ -1,0 +1,1 @@
+jest.mock('BackButton', () => (props) => (<div data-testid="mock-back-button" {...props}></div>));

@@ -1,0 +1,1 @@
+[ 11. Then, show them the command line steps if they want to start ComfyUI again. Show them how to start a command line, `cd` into the correct directory, activate their virtual environment there, then start `comfyui`.]: #

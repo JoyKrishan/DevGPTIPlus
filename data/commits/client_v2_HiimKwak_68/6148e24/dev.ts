@@ -1,0 +1,1 @@
+export { ReactComponent as WhistlingIcon } from './svg/whistling.svg';

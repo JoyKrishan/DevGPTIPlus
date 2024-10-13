@@ -1,0 +1,1 @@
+    u, _, v = torch.svd(a_2d.T @ b_2d)

@@ -1,0 +1,1 @@
+cp ../../build/bindings/java/libslimt_jni.so com/github/jerinphilip/slimt/jni/android-arm64-v8a/libslimt_jni.so

@@ -1,0 +1,1 @@
+    newfile=$(dirname "$file")/$(echo "$basefile" | sed -r 's/([a-z0-9])([A-Z])/\1-\2/g' | tr '[:upper:]' '[:lower:]' | sed 's/_/-/g')

@@ -1,0 +1,3 @@
+    "watch": "nodemon -e ts,tsx --exec yarn start",
+    "watch:ui": "nodemon -e ts,tsx --exec yarn start:ui",
+    "nodemon": "^3.0.3",

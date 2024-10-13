@@ -1,0 +1,10 @@
+    # defaults:
+    #   run:
+    #     working-directory: frontend
+      - name: Navigate to frontend directory
+        run: ls
+
+      - name: Navigate to frontend directory
+        run: cd frontend
+
+      - run: pwd

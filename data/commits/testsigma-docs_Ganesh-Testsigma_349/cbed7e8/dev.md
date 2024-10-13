@@ -1,0 +1,1 @@
+This article explains general issues encountered while setting up and running docker on-premises. *For more information, refer to [on-prem setup](https://testsigma.com/docs/on-premise-setup/setup/).*

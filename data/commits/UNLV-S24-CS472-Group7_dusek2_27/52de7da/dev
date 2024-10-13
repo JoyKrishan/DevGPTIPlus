@@ -1,0 +1,23 @@
+#include <iostream>
+
+extern int array_a[];
+extern int array_b[];
+
+void calculateSumAndAverage(const int* array, int& sum, int& average) {
+    sum = 0;
+    for (int i = 0; i < 4; i++)
+        sum += array[i];
+    average = sum / 4;
+}
+
+int main() {
+    int sum_a, average_a;
+    calculateSumAndAverage(array_a, sum_a, average_a);
+
+    int sum_b, average_b;
+    calculateSumAndAverage(array_b, sum_b, average_b);
+
+    // You can perform any further operations using average_a and average_b as needed.
+
+    return 0;
+}

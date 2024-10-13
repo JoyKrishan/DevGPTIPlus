@@ -1,0 +1,1 @@
+  JNICALL Java_com_github_jerinphilip_slimt_##cls##_##method

@@ -1,0 +1,2 @@
+- name: Format with Prettier
+  run: npm run format --prefix frontend

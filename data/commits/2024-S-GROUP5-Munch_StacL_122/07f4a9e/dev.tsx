@@ -1,0 +1,1 @@
+          <XStack display='flex' justifyContent='space-around'>

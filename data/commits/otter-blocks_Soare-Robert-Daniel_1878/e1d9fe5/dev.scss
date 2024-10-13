@@ -1,0 +1,69 @@
+	--pag-color: inherit;
+	--pag-bg-color: transparent;
+	--pag-color-hover: var(--pag-color);
+	--pag-bg-color-hover: rgba(0,0,0,0.5);
+	--pag-color-active: var(--pag-color);
+	--pag-bg-color-active: rgba(0,0,0,0.1);
+
+	--pag-border-color: transparent;
+	--pag-border-color-active: var(--pag-border-color);
+
+	--pag-border-radius: 0;
+	--pag-border-width: 0;
+	--pag-margin: 0;
+	--pag-padding: 5px 15px;
+	--pag-gap: 5px;
+
+
+
+
+		}
+	}
+
+	.o-posts-grid-pag {
+		margin-top: 10px;
+		margin-bottom: 30px;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		gap: var( --pag-gap );
+	}
+
+	.o-posts-grid-pag-btn {
+		background-color: var( --pag-bg-color );
+		border-color: var( --pag-border-color );
+		border-radius: var( --pag-border-radius );
+		border-width: var( --pag-border-width );
+		margin: var( --pag-margin );
+		padding: var( --pag-padding );
+
+		text-align: center;
+
+		a {
+			text-decoration: none;
+			color: var( --pag-color );
+		}
+
+		&[aria-current="page"] {
+			background-color: var( --pag-bg-color-active );
+			border-color: var( --pag-border-color-active );
+
+			a {
+				color: var( --pag-color-active );
+			}
+		}
+
+		&:hover {
+			background-color: var( --pag-bg-color-hover );
+			border-color: var( --pag-border-color-hover );
+
+			a {
+				color: var( --pag-color-hover );
+			}
+
+
+
+
+

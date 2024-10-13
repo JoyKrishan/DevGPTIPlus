@@ -1,0 +1,1 @@
+    "button.resetPassword": "Forgot Password?",

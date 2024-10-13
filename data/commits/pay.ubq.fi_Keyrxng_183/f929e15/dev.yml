@@ -1,0 +1,19 @@
+  get-default-branch:
+    runs-on: ubuntu-latest
+    outputs:
+      isDefault: ${{ steps.check.outputs.isDefault }}
+    steps:
+      - name: Check if current branch is default
+        id: check
+        run: |
+          DEFAULT_BRANCH=$(curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/${{ github.repository }} | jq -r '.default_branch')
+          IS_DEFAULT=false
+          if [ "$DEFAULT_BRANCH" = "${{ github.ref }}" ]; then
+            IS_DEFAULT=true
+          fi
+          echo "::set-output name=isDefault::$IS_DEFAULT"
+
+    with:
+      deploy_preview_branches: ${{ needs.get-default-branch.outputs.isDefault }}
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}

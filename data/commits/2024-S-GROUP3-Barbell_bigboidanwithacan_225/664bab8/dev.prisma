@@ -1,0 +1,14 @@
+  workoutHistory       WorkoutLog[]
+  customExercises      Exercise[]
+model WorkoutLog {
+  id            Int          @id @unique @default(autoincrement())
+  name          String       @db.Char(100)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  likes         Int          @default(0)
+  past_workouts WorkoutLog[]
+  id        Int       @id @unique @default(autoincrement())
+  name      String    @db.Char(100)
+  workout   Workout[]
+  User      User?     @relation(fields: [userId], references: [id])
+  userId    Int?

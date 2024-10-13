@@ -1,0 +1,4 @@
+        # Install yarn and npm
+        - name: Install Dependencies
+        - name: Print coverage report
+            

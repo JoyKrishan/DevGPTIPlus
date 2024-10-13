@@ -1,0 +1,28 @@
+  save-json-output:
+    description: ""
+    required: false
+    default: false
+
+      if: ${{ inputs.save-json-output == 'false' }}
+      shell: bash
+      if: ${{ inputs.save-json-output == 'false' }}
+
+    - name: Generate changelog JSON
+      id: generate-changelog-json
+      if: ${{ inputs.save-json-output == 'true' }}
+      run: |
+        git cliff --config ${{ inputs.git-cliff-config }} \
+          -vv --strip all ${{ inputs.git-cliff-args }} --context --output context.json
+
+        # Output multiline strings: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#multiline-strings
+        EOF=$(dd if=/dev/urandom bs=15 count=1 status=none | base64)
+        echo "changelog<<$EOF" >> $GITHUB_OUTPUT
+        echo "$changelog" | sed "s/'//" >> $GITHUB_OUTPUT
+        echo "$EOF" >> $GITHUB_OUTPUT
+
+    - name: Upload changelog JSON
+      id: upload-changelog-json
+      uses: actions/upload-artifact@v2
+      with:
+        name: changelog-json
+        path: ./context.json

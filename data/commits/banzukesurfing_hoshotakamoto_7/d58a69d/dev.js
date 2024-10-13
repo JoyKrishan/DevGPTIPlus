@@ -1,0 +1,1 @@
+        this.displayBackfilledResults(); // Display the initial results

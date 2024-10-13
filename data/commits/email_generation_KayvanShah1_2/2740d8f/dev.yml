@@ -1,0 +1,11 @@
+  test-backend-endpoints:
+      run:
+        working-directory: backend
+    env: # Set environment variables from secrets
+      OPENAI_ORGANIZATION: ${{ secrets.OPENAI_ORGANIZATION }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          python-version: "3.x"
+          cache: "pip"
+        run: |
+          pip install -r dev-requirements.txt
+          pip install -r requirements.txt

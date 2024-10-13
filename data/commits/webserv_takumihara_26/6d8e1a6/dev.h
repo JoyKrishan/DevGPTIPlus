@@ -1,0 +1,1 @@
+bool isFieldContent(const std::string &str);

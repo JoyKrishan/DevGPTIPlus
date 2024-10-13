@@ -1,0 +1,7 @@
+   Replace `your-organization-id` and `your-api-key` with your actual OpenAI credentials.
+
+## Running Locally
+
+### Backend Server
+
+1. In the `backend` directory, start the FastAPI server:

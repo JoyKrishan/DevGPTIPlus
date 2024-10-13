@@ -1,0 +1,1 @@
+        <DeletePostDialog postId={postId} />

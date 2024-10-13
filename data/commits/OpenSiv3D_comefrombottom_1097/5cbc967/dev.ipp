@@ -1,0 +1,1 @@
+		return ((*this - center).rotated90(n) + center);

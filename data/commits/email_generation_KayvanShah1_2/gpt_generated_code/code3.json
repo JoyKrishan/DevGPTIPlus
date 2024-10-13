@@ -1,0 +1,14 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2023,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": ["react", "react-hooks"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+        // Add any specific ESLint rules here
+    }
+}

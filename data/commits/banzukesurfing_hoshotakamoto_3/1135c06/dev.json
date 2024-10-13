@@ -1,0 +1,16 @@
+{
+  "name": "banzukesurfing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jsdom": "^22.1.0"
+  }
+}

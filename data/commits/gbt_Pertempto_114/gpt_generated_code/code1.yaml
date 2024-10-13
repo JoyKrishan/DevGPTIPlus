@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: Gloss Translation API
+  description: |-
+    This is the Gloss Translation API. 
+    The frontend can be accessed at [https://gloss-translation.vercel.app]().
+  version: 0.0.1
+servers:
+  - url: /api
+paths:
+  /auth/signin/{provider}:
+    $ref: ./paths/auth.yml#login
+    tags:
+      - Authentication
+  /auth/signout:
+    $ref: ./paths/auth.yml#logout
+    tags:
+      - Authentication
+  /auth/csrf:
+    $ref: ./paths/auth.yml#csrf
+    tags:
+      - Authentication
+  /auth/session:
+    $ref: ./paths/auth.yml#session
+    tags:
+      - Authentication
+  /users:
+    $ref: ./paths/users.yml
+    tags:
+      - Users
+  /users/{userId}:
+    $ref: ./paths/user.yml
+    tags:
+      - Users
+  /verses/{verseId}:
+    $ref: ./paths/verse.yml
+    tags:
+      - Verses
+  /languages:
+    $ref: ./paths/languages.yml
+    tags:
+      - Languages
+  /languages/{code}:
+    $ref: ./paths/language.yml
+    tags:
+      - Languages
+  /languages/{code}/verses/{verseId}/translation:
+    $ref: ./paths/translations.yml
+    tags:
+      - Translations
+  /languages/{code}/verses/{verseId}/glosses:
+    $ref: ./paths/verse-glosses.yml
+    tags:
+      - Glosses
+  /languages/{code}/words/{wordId}:
+    $ref: ./paths/language-words.yml
+    tags:
+      - Words

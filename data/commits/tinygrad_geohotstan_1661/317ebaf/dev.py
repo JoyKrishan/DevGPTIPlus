@@ -1,0 +1,1 @@
+    valid_slices = [slice(None) if isinstance(v, Tensor) else v for v in orig_slices if v is not None]

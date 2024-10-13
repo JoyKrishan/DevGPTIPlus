@@ -1,0 +1,1 @@
+        path: "/docs/on-premise-setup/prerequisites/",

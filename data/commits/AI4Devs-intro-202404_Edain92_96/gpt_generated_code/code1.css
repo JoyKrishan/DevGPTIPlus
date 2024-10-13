@@ -1,0 +1,10 @@
+.time {
+  border: 2px solid #007bff; /* Borde del temporizador */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 10px;
+  background-color: #f8f9fa; /* Color de fondo pastel */
+  font-size: 24px;
+  display: block;
+  margin: 20px auto; /* Margen automático en la parte superior e inferior y centralizado horizontalmente */
+  width: 200px; /* Ancho del temporizador */
+}

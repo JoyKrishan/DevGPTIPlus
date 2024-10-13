@@ -1,0 +1,2 @@
+    "build": "tsc --noEmit && vite build && yarn rename:popup",
+    "rename:popup": "sed 's/root/popup/' build/index.html > build/popup.html",

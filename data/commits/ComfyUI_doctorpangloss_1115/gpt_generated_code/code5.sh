@@ -1,0 +1,1 @@
+   curl -L https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt -o .\models\checkpoints\v1-5-pruned-emaonly.ckpt

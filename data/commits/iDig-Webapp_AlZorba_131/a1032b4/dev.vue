@@ -1,0 +1,1 @@
+    @keyup.enter="(event) => setSearchText(event.target.value)"

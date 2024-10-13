@@ -1,0 +1,4 @@
+CHATGPT_SYSTEM_PROMPT_FOR_MEASURE_SIMILARITY="You are a 'similarity measurer'. You need to measure possibility of 2 given contexts will be the same. You don't have to give unnecessary things and only have to give the percent in number. (e.g. 30%)"
+CHATGPT_USER_PROMPT_FOR_MEASURE_SIMILARITY="I have two github issues.\n%first%\nand\n%second%\nPlease give me the possibility of the 2 issues are the same content.\n Give me in number format and add % after the number.\nDo not tell other things since I only need the number."
+MEASURE_SIMILARITY_AI_TEMPERATURE=0
+IMPORTANT_WORDS_AI_TEMPERATURE=0

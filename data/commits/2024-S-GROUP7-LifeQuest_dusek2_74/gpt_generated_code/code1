@@ -1,0 +1,15 @@
+my-express-app/
+│
+├── models/
+│   ├── userModel.js
+│   └── postModel.js
+│
+├── routes/
+│   ├── userRoutes.js
+│   └── postRoutes.js
+│
+├── views/
+│
+├── app.js
+│
+└── package.json

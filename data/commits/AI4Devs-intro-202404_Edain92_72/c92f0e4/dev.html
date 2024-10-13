@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #gameArea {
+            width: 400px;
+            height: 400px;
+            background-color: #000;
+            position: relative;
+        }
+        .snake {
+            width: 20px;
+            height: 20px;
+            background-color: #32CD32;
+            position: absolute;
+        }
+        .food {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            position: absolute;
+        }
+        #score {
+            color: #000;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameArea"></div>
+    <div id="score">Score: 0</div>
+    <script>
+        const gameArea = document.getElementById('gameArea');
+        const scoreDisplay = document.getElementById('score');
+        let score = 0;
+        let speed = 200;
+        let snake = [{x: 180, y: 180}, {x: 160, y: 180}, {x: 140, y: 180}];
+        let dx = 20;
+        let dy = 0;
+        let food = {x: 0, y: 0};
+        let changingDirection = false;
+
+        function main() {
+            if (didGameEnd()) return gameOver();
+
+            changingDirection = false;
+            setTimeout(function onTick() {
+                clearCanvas();
+                drawFood();
+                advanceSnake();
+                drawSnake();
+                // Call main again
+                main();
+            }, speed);
+        }
+
+        function clearCanvas() {
+            gameArea.innerHTML = '';
+        }
+
+        function drawSnake() {
+            snake.forEach(part => {
+                const snakeElement = document.createElement('div');
+                snakeElement.style.left = part.x + 'px';
+                snakeElement.style.top = part.y + 'px';
+                snakeElement.classList.add('snake');
+                gameArea.appendChild(snakeElement);
+            });
+        }
+
+        function advanceSnake() {
+            const head = {x: snake[0].x + dx, y: snake[0].y + dy};
+            snake.unshift(head);
+
+            const didEatFood = snake[0].x === food.x && snake[0].y === food.y;
+            if (didEatFood) {
+                score += 10;
+                scoreDisplay.textContent = 'Score: ' + score;
+                createFood();
+                speed *= 0.9;
+            } else {
+                snake.pop();
+            }
+        }
+
+        function changeDirection(event) {
+            const LEFT_KEY = 37;
+            const RIGHT_KEY = 39;
+            const UP_KEY = 38;
+            const DOWN_KEY = 40;
+
+            if (changingDirection) return;
+            changingDirection = true;
+
+            const keyPressed = event.keyCode;
+            const goingUp = dy === -20;
+            const goingDown = dy === 20;
+            const goingRight = dx === 20;
+            const goingLeft = dx === -20;
+
+            if (keyPressed === LEFT_KEY && !goingRight) {
+                dx = -20;
+                dy = 0;
+            }
+            if (keyPressed === UP_KEY && !goingDown) {
+                dx = 0;
+                dy = -20;
+            }
+            if (keyPressed === RIGHT_KEY && !goingLeft) {
+                dx = 20;
+                dy = 0;
+            }
+            if (keyPressed === DOWN_KEY && !goingUp) {
+                dx = 0;
+                dy = 20;
+            }
+        }
+
+        function randomTen(min, max) {
+            return Math.round((Math.random() * (max-min) + min) / 20) * 20;
+        }
+
+        function createFood() {
+            food.x = randomTen(0, gameArea.clientWidth - 20);
+            food.y = randomTen(0, gameArea.clientHeight - 20);
+            snake.forEach(function isFoodOnSnake(part) {
+                const foodIsOnSnake = part.x == food.x && part.y == food.y;
+                if (foodIsOnSnake) createFood();
+            });
+        }
+
+        function drawFood() {
+            const foodElement = document.createElement('div');
+            foodElement.style.left = food.x + 'px';
+            foodElement.style.top = food.y + 'px';
+            foodElement.classList.add('food');
+            gameArea.appendChild(foodElement);
+        }
+
+        function didGameEnd() {
+            for (let i = 4; i < snake.length; i++) {
+                const didCollide = snake[i].x === snake[0].x && snake[i].y === snake[0].y;
+                if (didCollide) return true;
+            }
+            const hitLeftWall = snake[0].x < 0;
+            const hitRightWall = snake[0].x > gameArea.clientWidth - 20;
+            const hitTopWall = snake[0].y < 0;
+            const hitBottomWall = snake[0].y > gameArea.clientHeight - 20;
+            return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall;
+        }
+
+        function gameOver() {
+            alert('Game Over. Your score was ' + score);
+            document.location.reload();
+        }
+
+        document.addEventListener('keydown', changeDirection);
+        createFood();
+        main();
+    </script>
+</body>
+</html>

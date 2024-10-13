@@ -1,0 +1,15 @@
+{
+  "id": "lemon-tree",
+  "name": "Limoeiro",
+  "shortDescription": "Árvore frutífera com frutos cítricos. Requer sol pleno para um bom desenvolvimento.",
+  "description": "O Limoeiro é uma árvore frutífera conhecida por produzir frutos cítricos refrescantes e versáteis, amplamente utilizados na culinária e para preparo de bebidas. Originário do sudeste asiático, o limoeiro é apreciado por sua folhagem perene e pela abundância de limões amarelos ou verdes que oferece. Com um aroma característico, os limões são usados em uma variedade de pratos, desde sobremesas até pratos salgados. Essa árvore requer sol pleno para um desenvolvimento saudável e produtivo. Além de suas qualidades culinárias, o limoeiro também é valorizado por seu apelo estético em jardins e pomares.",
+  "imageUrl": "https://example.com/lemon-tree.jpg",
+  "facts": {
+    "scientificName": "Citrus limon",
+    "sunExposure": "Sol pleno",
+    "waterIntervalInDays": 10,
+    "soilType": "Solo bem drenado e arejado",
+    "hasFlowers": true,
+    "hasFruits": true
+  }
+}

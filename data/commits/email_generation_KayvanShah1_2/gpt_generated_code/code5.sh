@@ -1,0 +1,1 @@
+   docker push <account-id>.dkr.ecr.<region>.amazonaws.com/email-gen-lambda:latest

@@ -1,0 +1,47 @@
+.CommunityPost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__card{
+        width: 384px;
+        margin: 16px;
+    }
+    &__contentContainer{
+        max-height: 2000px;
+    }
+    &__header{
+        display: flex;
+        padding-bottom: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__markerIcon{
+        max-width: 100%;
+        width: 50px; 
+        height: auto;
+        padding-right: 10px;
+    }
+    &__textBody{ 
+        max-height: 6.5em;
+        overflow-y: auto;
+    }
+    &__headerLeft{
+        display: flex;
+        align-items: center;
+    }
+    &__headerRight{
+        display: flex;
+    }
+    &__bodyPreview{
+        display: flex;
+        justify-content: center;
+        max-height: 6.5em;
+        padding-bottom: 10px;
+    }
+    &__markerBodyPreview{
+        max-width: 100%;
+        width: 100px; 
+        height: auto;
+    }
+
+}

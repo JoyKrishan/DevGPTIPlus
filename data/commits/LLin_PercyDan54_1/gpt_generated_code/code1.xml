@@ -1,0 +1,36 @@
+<data name="edit" xml:space="preserve">
+    <value>编辑</value>
+</data>
+<data name="save" xml:space="preserve">
+    <value>保存</value>
+</data>
+<data name="reset" xml:space="preserve">
+    <value>重置</value>
+</data>
+<data name="delete" xml:space="preserve">
+    <value>删除</value>
+</data>
+<data name="seek_next" xml:space="preserve">
+    <value>前往下一拍</value>
+</data>
+<data name="seek_prev" xml:space="preserve">
+    <value>前往上一拍</value>
+</data>
+<data name="insert_new_line" xml:space="preserve">
+    <value>插入新歌词</value>
+</data>
+<data name="lyric_time" xml:space="preserve">
+    <value>歌词时间(毫秒)</value>
+</data>
+<data name="raw_lyric" xml:space="preserve">
+    <value>歌词原文</value>
+</data>
+<data name="lyric_translated" xml:space="preserve">
+    <value>歌词翻译</value>
+</data>
+<data name="lyric_time_to_track" xml:space="preserve">
+    <value>调整歌词到歌曲时间</value>
+</data>
+<data name="track_time_to_lyric" xml:space="preserve">
+    <value>调整歌曲到歌词时间</value>
+</data>

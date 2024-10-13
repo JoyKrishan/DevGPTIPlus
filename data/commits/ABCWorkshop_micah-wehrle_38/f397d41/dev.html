@@ -1,0 +1,7 @@
+  <li class="nav-item" [ngClass]="menuLink?.dropdown ? 'dropdown' : ''" (click)="menuLink?.callback && menuLink?.callback()">
+        <ng-container *ngIf="menuLink?.img">
+          <img class="float-end" [src]="menuLink?.img?.path" [alt]="menuLink?.img?.alt" [width]="menuLink?.img?.width ? menuLink?.img?.width : '30'" [height]="menuLink?.img?.height ? menuLink?.img?.height : '30'">
+                <ng-container *ngIf="dropdown?.img">
+                  <img class="float-end" [src]="dropdown?.img?.path" [alt]="dropdown?.img?.alt" [width]="dropdown?.img?.width ? dropdown?.img?.width : '30'" [height]="dropdown?.img?.height ? dropdown?.img?.height : '30'">
+        <ng-container *ngIf="menuLink?.img">
+          <img class="float-end" [src]="menuLink?.img?.path" [alt]="menuLink?.img?.alt" [width]="menuLink?.img?.width ? menuLink?.img?.width : '30'" [height]="menuLink?.img?.height ? menuLink?.img?.height : '30'">

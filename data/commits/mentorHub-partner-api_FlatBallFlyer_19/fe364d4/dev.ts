@@ -1,0 +1,1 @@
+        app.post('/api/partner/', (req, res) => partnerController.createPartner(req, res));

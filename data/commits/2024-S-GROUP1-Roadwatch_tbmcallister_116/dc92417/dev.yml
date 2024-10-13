@@ -1,0 +1,22 @@
+    docker:
+        # This job will create a docker instance, so that it can be used when jest is run
+        name: create docker 
+          - name: Set up Docker instance
+            working-directory: ./server
+            run: docker-compose up
+
+    jest_run:
+        name: run jest
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read
+            security-events: write
+            actions: read # only required for a private repository by github/codeql-action/upload-sarif to get the Action run status
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v3
+
+          
+          - name: Turn off Docker instance
+            working-directory: ./server
+            run: docker-compose down

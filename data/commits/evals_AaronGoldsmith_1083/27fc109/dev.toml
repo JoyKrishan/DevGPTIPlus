@@ -1,0 +1,13 @@
+    "pytest",
+    "langchain",
+    "types-PyYAML",
+]
+
+[project.optional-dependencies]
+formatters = [
+    "black",
+    "isort",
+    "autoflake"
+
+[tool.setuptools]
+packages = ["evals"]

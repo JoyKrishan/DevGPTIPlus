@@ -1,0 +1,30 @@
+name: Barbell Github Action
+    branches: ['*']
+    branches: ['main']
+
+          version: 8.x
+
+
+      
+      - name: Setup Prisma Schema
+        working-directory: .
+        
+
+        working-directory: .
+        env:
+          CI: true
+          cd apps/expo && pnpm run jest
+
+      - name: Run tests in api
+        run: |
+          cd packages/api && pnpm run vitest
+      - name: Upload expo coverage reports to Codecov
+          directory: ./apps/expo/jest-coverage/
+
+      # - name: Upload api coverage reports to Codecov
+      #   uses: codecov/codecov-action@v4.0.1
+      #   with:
+      #     token: ${{ secrets.CODECOV_TOKEN }}
+      #     slug: UNLV-CS472-672/2024-S-GROUP3-Barbell
+      #     directory: ./packages/api/vitest-coverage/
+      #     fail_ci_if_error: true

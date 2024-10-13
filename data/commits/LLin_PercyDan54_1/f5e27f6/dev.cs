@@ -1,0 +1,1 @@
+            Logger.Log($"[{Constants.LOG_PREFIX}] {(string.IsNullOrEmpty(message) ? "" : $"{message}: ")}{e.Message}", level: LogLevel.Important);

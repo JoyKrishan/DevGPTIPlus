@@ -1,0 +1,6 @@
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Proba", "Sudoku.Proba\Sudoku.Proba.csproj", "{1A8C7D67-ABB9-4054-A94C-661C193FF7E7}"
+EndProject
+		{1A8C7D67-ABB9-4054-A94C-661C193FF7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8C7D67-ABB9-4054-A94C-661C193FF7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8C7D67-ABB9-4054-A94C-661C193FF7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8C7D67-ABB9-4054-A94C-661C193FF7E7}.Release|Any CPU.Build.0 = Release|Any CPU

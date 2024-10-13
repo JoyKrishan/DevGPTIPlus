@@ -1,0 +1,4 @@
+content/
+└── blog/
+    └── my-new-markdown-file/
+        └── index.md

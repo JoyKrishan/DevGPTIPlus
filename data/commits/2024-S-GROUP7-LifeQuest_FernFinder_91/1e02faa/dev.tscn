@@ -1,0 +1,8 @@
+[gd_scene load_steps=7 format=3 uid="uid://cyfjohh3bf21f"]
+[ext_resource type="Script" path="res://Scripts/MapScene/Level2.gd" id="3_rjc3v"]
+[ext_resource type="Script" path="res://Scripts/MapScene/Level3.gd" id="4_ffyb0"]
+text = "Go to Level 1"
+script = ExtResource("3_rjc3v")
+text = "Go to Level 2"
+script = ExtResource("4_ffyb0")
+text = "Go to Level 3"

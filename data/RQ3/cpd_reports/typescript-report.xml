@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.4.0"
+         timestamp="2024-08-20T20:05:50.121-06:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/05-recipe-app_bmstyojaop_62/aee5cd2/dev.ts"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/05-recipe-app_bmstyojaop_62/ff74d9e/dev.ts"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_Aligary_107/9964ed6/dev.ts"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_Aligary_162/806bd93/dev.ts"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_Aligary_162/875bc1f/dev.ts"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_RedPenguin88_122/b569a65/dev.ts"
+         totalNumberOfTokens="1099"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_RedPenguin88_122/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_RedPenguin88_122/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="61"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/1818d1d/dev.ts"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/1af54ff/dev.ts"
+         totalNumberOfTokens="58"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/ab2d6ea/dev.ts"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/ae0a055/dev.ts"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/f864d78/dev.ts"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_105/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="315"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/1a33c8e/dev.ts"
+         totalNumberOfTokens="892"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/7c6e6e7/dev.ts"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/c1584a2/dev.ts"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/d61fa8a/dev.ts"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="97"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="182"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_trevortippery_120/29c7bc4/dev.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_trevortippery_147/675301c/dev.ts"
+         totalNumberOfTokens="97"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_238/014b279/dev.ts"
+         totalNumberOfTokens="311"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_258/ab033a0/dev.ts"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_258/cc8c1a5/dev.ts"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_258/d45004f/dev.ts"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_L-Hen_223/5a08c27/dev.ts"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_L-Hen_223/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_L-Hen_223/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_StefanoRubini_208/987ce8b/dev.ts"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_StefanoRubini_208/d1392e3/dev.ts"
+         totalNumberOfTokens="60"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_StefanoRubini_208/e743dcf/dev.ts"
+         totalNumberOfTokens="418"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_StefanoRubini_229/e7a7c23/dev.ts"
+         totalNumberOfTokens="305"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_bigboidanwithacan_225/664bab8/dev.ts"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_thienguen_251/84663ed/dev.ts"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_thienguen_251/e0cffd9/dev.ts"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_107/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_122/43480e3/dev.ts"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_122/b2c5d26/dev.ts"
+         totalNumberOfTokens="135"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_122/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="60"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/2db0667/dev.ts"
+         totalNumberOfTokens="201"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="150"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_razonm_111/2283b19/dev.ts"
+         totalNumberOfTokens="135"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/4b7907b/dev.ts"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ABCWorkshop_micah-wehrle_38/1356d8e/dev.ts"
+         totalNumberOfTokens="207"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ABCWorkshop_micah-wehrle_38/d0b28bd/dev.ts"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ABCWorkshop_micah-wehrle_38/f397d41/dev.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ABCWorkshop_micah-wehrle_38/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="94"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ABCWorkshop_micah-wehrle_38/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="47"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/BetterSteam_Multi538_76/08569dd/dev.ts"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/BetterSteam_Multi538_76/79b2085/dev.ts"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/BetterSteam_Multi538_76/8244934/dev.ts"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_28/57a61c5/dev.ts"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_29/49a253c/dev.ts"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_29/ac70dbd/dev.ts"
+         totalNumberOfTokens="75"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_29/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_29/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="88"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/HatchDevAssigmentSubmissions_Jybium_18/519615f/dev.ts"
+         totalNumberOfTokens="419"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/HatchDevAssigmentSubmissions_Jybium_18/a02ff74/dev.ts"
+         totalNumberOfTokens="901"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/HatchDevAssigmentSubmissions_Jybium_18/c187f18/dev.ts"
+         totalNumberOfTokens="7"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/JJMasterData_gumbarros_131/693b23e/dev.ts"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/2cb76ec/dev.ts"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/3f50167/dev.ts"
+         totalNumberOfTokens="48"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/81b56b6/dev.ts"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/d1ece76/dev.ts"
+         totalNumberOfTokens="126"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/e1b04b4/dev.ts"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/f42e31d/dev.ts"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Leaf_azho0003_90/ff877e7/dev.ts"
+         totalNumberOfTokens="93"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Lunar_Hsinny_45/73e5cd7/dev.ts"
+         totalNumberOfTokens="140"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Lunar_Hsinny_45/ba705a7/dev.ts"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Lunar_Hsinny_45/ef7a643/dev.ts"
+         totalNumberOfTokens="100"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Lunar_Hsinny_45/fd059f7/dev.ts"
+         totalNumberOfTokens="116"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenDevin_Borda_1204/6c8d1c8/dev.ts"
+         totalNumberOfTokens="307"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenDevin_Borda_1204/92c761a/dev.ts"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Polykey_amydevs_604/42a2280/dev.ts"
+         totalNumberOfTokens="28"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Polykey_tegefaulkes_609/a999060/dev.ts"
+         totalNumberOfTokens="294"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/65f098c/dev.ts"
+         totalNumberOfTokens="57"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/7083d29/dev.ts"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/7607f34/dev.ts"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/d32e2f9/dev.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/da0d8d7/dev.ts"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/f334e33/dev.ts"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/PrairieLearn_trombonekenny_9209/fb50bec/dev.ts"
+         totalNumberOfTokens="393"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_26/4a2feee/dev.ts"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_26/4a8104d/dev.ts"
+         totalNumberOfTokens="326"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_26/f92be59/dev.ts"
+         totalNumberOfTokens="581"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_26/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="79"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_26/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="83"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_29/44be4bd/dev.ts"
+         totalNumberOfTokens="199"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_29/52f4de3/dev.ts"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_29/6aa40c3/dev.ts"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_29/ad499a4/dev.ts"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/QRTaxi_Web_HiimKwak_29/ebb5029/dev.ts"
+         totalNumberOfTokens="172"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/WebBasic_YongHyeonLeeKr_80/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="230"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/WebBasic_YongHyeonLeeKr_80/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="246"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/WebBasic_YongHyeonLeeKr_80/gpt_generated_code/code3.ts"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/WebBasic_YongHyeonLeeKr_80/gpt_generated_code/code4.ts"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/WebBasic_YongHyeonLeeKr_80/gpt_generated_code/code5.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/0229af3/dev.ts"
+         totalNumberOfTokens="119"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_mva919_74/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="113"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_mva919_76/7f4d176/dev.ts"
+         totalNumberOfTokens="529"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_mva919_76/ea3a076/dev.ts"
+         totalNumberOfTokens="227"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blocksuite_regischen_5423/822cbf2/dev.ts"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blocksuite_regischen_5423/fe56b79/dev.ts"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blog_u-ecmaker_24/5c49eb1/dev.ts"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blog_u-ecmaker_24/6aef029/dev.ts"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blog_u-ecmaker_24/7ca6427/dev.ts"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/bunchee_thgh_266/88d3693/dev.ts"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/calling_omegamaster86_1/2d12280/dev.ts"
+         totalNumberOfTokens="73"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_HiimKwak_119/1e3149a/dev.ts"
+         totalNumberOfTokens="75"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_HiimKwak_119/3c1b8ac/dev.ts"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_v2_HiimKwak_68/0df62b9/dev.ts"
+         totalNumberOfTokens="295"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_v2_HiimKwak_68/291b608/dev.ts"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_v2_HiimKwak_68/308dd7e/dev.ts"
+         totalNumberOfTokens="885"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_v2_HiimKwak_68/6148e24/dev.ts"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/client_v2_HiimKwak_68/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="262"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/co-coding-platform_SipTea-25_8/e5b1762/dev.ts"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/0d3ae27/dev.ts"
+         totalNumberOfTokens="135"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"
+         totalNumberOfTokens="2400"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/0343967/dev.ts"
+         totalNumberOfTokens="178"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/25bf1b2/dev.ts"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/27be47a/dev.ts"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/2c0efd5/dev.ts"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/39df29a/dev.ts"
+         totalNumberOfTokens="68"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/3fe7b7a/dev.ts"
+         totalNumberOfTokens="119"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/4595e9b/dev.ts"
+         totalNumberOfTokens="57"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/4c76234/dev.ts"
+         totalNumberOfTokens="317"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/568174b/dev.ts"
+         totalNumberOfTokens="38"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/7aa626e/dev.ts"
+         totalNumberOfTokens="357"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/7d09d49/dev.ts"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/84c05e2/dev.ts"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/abff9f2/dev.ts"
+         totalNumberOfTokens="59"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/adc4dd6/dev.ts"
+         totalNumberOfTokens="38"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/b9da6c5/dev.ts"
+         totalNumberOfTokens="156"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/c6c6d00/dev.ts"
+         totalNumberOfTokens="126"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/cf0d185/dev.ts"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/e3d0cdb/dev.ts"
+         totalNumberOfTokens="206"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/f6d6a00/dev.ts"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/1709900/dev.ts"
+         totalNumberOfTokens="58"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/463437f/dev.ts"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/bd73f02/dev.ts"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/e2aa99e/dev.ts"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="34"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/gpt_generated_code/code3.ts"
+         totalNumberOfTokens="27"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/extension-bus_davestewart_3/gpt_generated_code/code4.ts"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fern_dannysheridan_2611/d94f0a7/dev.ts"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/21445c1/dev.ts"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/2eea79f/dev.ts"
+         totalNumberOfTokens="83"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/512f671/dev.ts"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/533ab54/dev.ts"
+         totalNumberOfTokens="106"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/796ffc5/dev.ts"
+         totalNumberOfTokens="59"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/7d43e1a/dev.ts"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/formbricks_Dhruwang_2351/ada61e9/dev.ts"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/hike-sdk_nvarsh-hm_19/deb9a7b/dev.ts"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/2923078/dev.ts"
+         totalNumberOfTokens="70"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/383deac/dev.ts"
+         totalNumberOfTokens="227"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/3f62494/dev.ts"
+         totalNumberOfTokens="791"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/55b4fa2/dev.ts"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/79bf687/dev.ts"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/d28d972/dev.ts"
+         totalNumberOfTokens="302"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/mentorHub-partner-api_FlatBallFlyer_19/fe364d4/dev.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_mitshelle_66/5f580a7/dev.ts"
+         totalNumberOfTokens="169"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/next.js14-tailwindcss-udemy-blog_exchange-wata_6/438fd0e/dev.ts"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/next.js14-tailwindcss-udemy-blog_exchange-wata_6/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/next.js14-tailwindcss-udemy-blog_exchange-wata_6/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/next.js14-tailwindcss-udemy-blog_exchange-wata_6/gpt_generated_code/code3.ts"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nishiki-frontend_nick-y-ito_271/4755a44/dev.ts"
+         totalNumberOfTokens="29"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nishiki-frontend_nick-y-ito_271/634ce95/dev.ts"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nishiki-frontend_nick-y-ito_271/7bc6885/dev.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nishiki-frontend_nick-y-ito_271/b92a8ec/dev.ts"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/node-CarPlay_gozmanyoni_70/b0029db/dev.ts"
+         totalNumberOfTokens="115"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/node-CarPlay_gozmanyoni_70/e2f1ccc/dev.ts"
+         totalNumberOfTokens="132"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/node-CarPlay_gozmanyoni_70/e4fa9aa/dev.ts"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/obsidian-symbols-prettifier_sharshuv-quotient_7/9a7cd42/dev.ts"
+         totalNumberOfTokens="101"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/obsidian-symbols-prettifier_sharshuv-quotient_7/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="101"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/obsidian-symbols-prettifier_sharshuv-quotient_7/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/625fac7/dev.ts"
+         totalNumberOfTokens="342"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/dca6908/dev.ts"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/e4a8e91/dev.ts"
+         totalNumberOfTokens="1381"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="304"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/gpt_generated_code/code5.ts"
+         totalNumberOfTokens="415"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/otter-blocks_Soare-Robert-Daniel_1878/40304d8/dev.ts"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/otter-blocks_Soare-Robert-Daniel_1878/e1d9fe5/dev.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pass-culture-app-native_TristanMaurier98_5423/361fa53/dev.ts"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pass-culture-app-native_TristanMaurier98_5423/7c80c95/dev.ts"
+         totalNumberOfTokens="59"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pass-culture-app-native_TristanMaurier98_5423/993e160/dev.ts"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pass-culture-app-native_TristanMaurier98_5423/b98c4a9/dev.ts"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/0fc24a2/dev.ts"
+         totalNumberOfTokens="155"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/2c8f5ca/dev.ts"
+         totalNumberOfTokens="343"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/517dd48/dev.ts"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/785d151/dev.ts"
+         totalNumberOfTokens="269"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/7d88536/dev.ts"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/7fab1b4/dev.ts"
+         totalNumberOfTokens="43"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/80ea9ea/dev.ts"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/8a09cec/dev.ts"
+         totalNumberOfTokens="287"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/ae73eee/dev.ts"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/b087bf7/dev.ts"
+         totalNumberOfTokens="63"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/b9f9c77/dev.ts"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/c0249df/dev.ts"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/c065b8c/dev.ts"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/ebd54e1/dev.ts"
+         totalNumberOfTokens="34"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/f1ca988/dev.ts"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/f929e15/dev.ts"
+         totalNumberOfTokens="765"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/f9c2b87/dev.ts"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pay.ubq.fi_Keyrxng_183/faf7219/dev.ts"
+         totalNumberOfTokens="124"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/3ef85b8/dev.ts"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/831073e/dev.ts"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/9e13bdc/dev.ts"
+         totalNumberOfTokens="63"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/a271aa8/dev.ts"
+         totalNumberOfTokens="306"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/ce7109d/dev.ts"
+         totalNumberOfTokens="925"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/pong_usatie_174/f48a323/dev.ts"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/sarcophagus-v2-sdk_knoll3_23/a7f11b8/dev.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/sarcophagus-v2-sdk_knoll3_23/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/sarcophagus-v2-sdk_knoll3_23/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/sarcophagus-v2-sdk_knoll3_23/gpt_generated_code/code4.ts"
+         totalNumberOfTokens="7"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/simple-math-api-exercise_onelikeandidie_35/e133484/dev.ts"
+         totalNumberOfTokens="627"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supabase_masaok_21827/69a4f6c/dev.ts"
+         totalNumberOfTokens="37"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supabase_masaok_21827/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="284"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/truffle-ai-backend_acreturs_52/09c7cf6/dev.ts"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/truffle-ai-backend_acreturs_52/3687c01/dev.ts"
+         totalNumberOfTokens="190"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/truffle-ai-backend_acreturs_52/7111e5f/dev.ts"
+         totalNumberOfTokens="232"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/truffle-ai-backend_acreturs_52/b529dd0/dev.ts"
+         totalNumberOfTokens="78"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/truffle-ai-backend_acreturs_52/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="91"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/type-fest_ajvincent_701/18df5b5/dev.ts"
+         totalNumberOfTokens="177"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/type-fest_ajvincent_701/66c7f17/dev.ts"
+         totalNumberOfTokens="131"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/type-fest_ajvincent_701/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/type-fest_ajvincent_701/gpt_generated_code/code2.ts"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/type-fest_ajvincent_701/gpt_generated_code/code3.ts"
+         totalNumberOfTokens="63"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/317e39d/dev.ts"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/3b2642a/dev.ts"
+         totalNumberOfTokens="250"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/68c7d71/dev.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/c48a9a4/dev.ts"
+         totalNumberOfTokens="118"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/ca0e2f1/dev.ts"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/cd3c7c4/dev.ts"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/ce15530/dev.ts"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/f5e698c/dev.ts"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_kamaalsultan_608/ffdf7ee/dev.ts"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_wannacfuture_759/25145a9/dev.ts"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_wannacfuture_759/71876d6/dev.ts"
+         totalNumberOfTokens="126"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_wannacfuture_759/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/01ff371/dev.ts"
+         totalNumberOfTokens="75"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/39247b5/dev.ts"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/3a4fa79/dev.ts"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/431650d/dev.ts"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/4ef2340/dev.ts"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/56b7820/dev.ts"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/5c3068f/dev.ts"
+         totalNumberOfTokens="324"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/7886bbf/dev.ts"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/7942e9c/dev.ts"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/d0282b8/dev.ts"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/dc11f11/dev.ts"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/de0671e/dev.ts"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/ee677d9/dev.ts"
+         totalNumberOfTokens="116"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/voicevox_weweweok_1384/gpt_generated_code/code1.ts"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/zigbee-herdsman_deviantintegral_992/1e1ab35/dev.ts"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/zigbee-herdsman_deviantintegral_992/48802a9/dev.ts"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/zigbee-herdsman_deviantintegral_992/8b0641f/dev.ts"
+         totalNumberOfTokens="0"/>
+   <duplication lines="30" tokens="294">
+      <file begintoken="17974"
+            column="3"
+            endcolumn="5"
+            endline="34"
+            endtoken="18267"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/4c76234/dev.ts"/>
+      <file begintoken="18345"
+            column="3"
+            endcolumn="5"
+            endline="34"
+            endtoken="18638"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/doodle-calendar_nuintee_1/7aa626e/dev.ts"/>
+      <codefragment><![CDATA[  const tabPanel = document.querySelector('div[role="tabpanel"]');
+  const tabPanelSpan = tabPanel?.querySelector("span");
+
+  const allExpandables = tabPanelSpan?.querySelectorAll("div[data-expandable]");
+  const colorSection = allExpandables?.item(allExpandables.length - 1);
+  const colorSectionTrigger = colorSection?.querySelector("button");
+
+  // 色セクションを開く
+  colorSectionTrigger?.click();
+
+  const colorTrigger = colorSection?.querySelector(
+    `div[id] > 
+     div > 
+     div:first-child >
+     div >
+     div[data-dragsource-ignore="true"] >
+     div:last-child >
+     div:last-child >
+     div:first-child >
+     span >
+     button
+    `
+  ) as HTMLButtonElement | null | undefined;
+
+  // 色ポップアップ表示ボタンのクリック
+  colorTrigger?.click();
+
+  const colorButtons = document.querySelectorAll(
+    'div[data-color][role="menuitemradio"]'
+  );
+]]></codefragment>
+   </duplication>
+   <duplication lines="51" tokens="255">
+      <file begintoken="914"
+            column="89"
+            endcolumn="4"
+            endline="237"
+            endtoken="1168"
+            line="187"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_RedPenguin88_122/b569a65/dev.ts"/>
+      <file begintoken="2541"
+            column="89"
+            endcolumn="4"
+            endline="116"
+            endtoken="2795"
+            line="82"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/1a33c8e/dev.ts"/>
+      <codefragment><![CDATA[      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Could not get markers' });
+    });
+  });
+
+  // Describe the test suite for DELETE /markers route
+  describe('DELETE /markers', () => {
+    // Test to delete a marker
+    test('should delete a marker', async () => {
+      const markerToDelete = { longitude: 5, latitude: 6 };
+      const mockRequestWithBody = { body: markerToDelete } as Request;
+
+      // Call the deleteMarker function with the mockRequest and mockResponse
+      await markerController.deleteMarker(mockRequestWithBody, mockResponse as Response);
+
+      // Assert that the status was called with 200
+      expect(mockResponse.status).toHaveBeenCalledWith(200);
+      
+      // Assert that the json function was called with a response containing a success message
+      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Marker deleted successfully' });
+    });
+
+    // Test to handle missing longitude and latitude
+    test('should handle missing longitude and latitude', async () => {
+      const mockRequestWithBody = { body: {} } as Request;
+
+      // Call the deleteMarker function with the mockRequest and mockResponse
+      await markerController.deleteMarker(mockRequestWithBody, mockResponse as Response);
+
+      // Assert that the status was called with 400
+      expect(mockResponse.status).toHaveBeenCalledWith(400);
+      
+      // Assert that the json function was called with a response containing an error message
+      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Longitude and Latitude are required' });
+    });
+
+    // Test to handle errors gracefully
+    test('should handle errors gracefully', async () => {
+      (Marker.findOneAndDelete as jest.Mock).mockRejectedValue(new Error('Database error') as never);
+      const mockRequestWithBody = { body: { longitude: 5, latitude: 6 } } as Request;
+
+      // Call the deleteMarker function with the mockRequest and mockResponse
+      await markerController.deleteMarker(mockRequestWithBody, mockResponse as Response);
+
+      // Assert that the status was called with 500
+      expect(mockResponse.status).toHaveBeenCalledWith(500);
+      
+      // Assert that the json function was called with a response containing an error message
+      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Could not delete user' });
+    });
+  });
+});]]></codefragment>
+   </duplication>
+   <duplication lines="21" tokens="169">
+      <file begintoken="16241"
+            column="55"
+            endcolumn="13"
+            endline="176"
+            endtoken="16409"
+            line="156"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16415"
+            column="66"
+            endcolumn="13"
+            endline="196"
+            endtoken="16583"
+            line="176"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16864"
+            column="63"
+            endcolumn="13"
+            endline="245"
+            endtoken="17032"
+            line="225"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[export const contentStates = mysqlTable('contentState', {
+  id: varchar('id', { length: 255 }).notNull().primaryKey(),
+  slug: varchar('name', { length: 255 }).notNull().unique(),
+  title: varchar('name', { length: 255 }).notNull(),
+  description: text('description'),
+  active: boolean('active').notNull().default(true),
+  createdAt: timestamp('createdAt', {
+    mode: 'date',
+    fsp: 3,
+  }).default(sql`CURRENT_TIMESTAMP(3)`),
+  updatedAt: timestamp('updatedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+  deletedAt: timestamp('deletedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+})
+
+export const contentVisibilities = mysqlTable('contentVisibility', {
+]]></codefragment>
+   </duplication>
+   <duplication lines="35" tokens="168">
+      <file begintoken="633"
+            column="7"
+            endcolumn="12"
+            endline="167"
+            endtoken="800"
+            line="133"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_RedPenguin88_122/b569a65/dev.ts"/>
+      <file begintoken="2384"
+            column="123"
+            endcolumn="12"
+            endline="86"
+            endtoken="2551"
+            line="63"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP1-Roadwatch_tbmcallister_116/1a33c8e/dev.ts"/>
+      <codefragment><![CDATA[      );
+    });
+
+    // Test to handle missing longitude and latitude
+    test('should handle missing longitude and latitude', async () => {
+      const mockRequestWithBody = { body: {} } as Request;
+
+      // Call the saveMarker function with the mockRequest and mockResponse
+      await markerController.saveMarker(mockRequestWithBody, mockResponse as Response);
+
+      // Assert that the status was called with 400
+      expect(mockResponse.status).toHaveBeenCalledWith(400);
+      
+      // Assert that the json function was called with a response containing an error message
+      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Longitude and Latitude are required' });
+    });
+
+    // Test to handle errors gracefully
+    test('should handle errors gracefully', async () => {
+      (Marker.prototype.save as jest.Mock).mockRejectedValue(new Error('Database error') as never);
+      const mockRequestWithBody = { body: { longitude: 5, latitude: 6 } } as Request;
+
+      // Call the saveMarker function with the mockRequest and mockResponse
+      await markerController.saveMarker(mockRequestWithBody, mockResponse as Response);
+
+      // Assert that the status was called with 500
+      expect(mockResponse.status).toHaveBeenCalledWith(500);
+      
+      // Assert that the json function was called with a response containing an error message
+      expect(mockResponse.json).toHaveBeenCalledWith({ message: 'Could not save marker' });
+    });
+  });
+
+  // Describe the test suite for GET /markers route
+  describe('GET /markers', () => {
+]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="149">
+      <file begintoken="15115"
+            column="51"
+            endcolumn="2"
+            endline="26"
+            endtoken="15263"
+            line="9"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15305"
+            column="9"
+            endcolumn="4"
+            endline="52"
+            endtoken="15453"
+            line="34"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[export const permissions = mysqlTable('permission', {
+  id: varchar('id', { length: 255 }).notNull().primaryKey(),
+  name: varchar('name', { length: 255 }).notNull().unique(),
+  description: text('description'),
+  active: boolean('active').notNull().default(true),
+  createdAt: timestamp('createdAt', {
+    mode: 'date',
+    fsp: 3,
+  }).default(sql`CURRENT_TIMESTAMP(3)`),
+  updatedAt: timestamp('updatedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+  deletedAt: timestamp('deletedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+})
+]]></codefragment>
+   </duplication>
+   <duplication lines="29" tokens="141">
+      <file begintoken="24836"
+            column="29"
+            endcolumn="12"
+            endline="41"
+            endtoken="24976"
+            line="13"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/gpt_generated_code/code2.ts"/>
+      <file begintoken="25344"
+            column="42"
+            endcolumn="12"
+            endline="54"
+            endtoken="25484"
+            line="28"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/open-truss_jonmagic_171/gpt_generated_code/code5.ts"/>
+      <codefragment><![CDATA[const resolvers: IResolvers = {
+  Query: {
+    hello: () => ({ message: "Hello World!" }),
+  },
+  Mutation: {
+    hello: (_, { input }) => {
+      return { message: `Hello ${input.name}!` };
+    },
+  },
+  Subscription: {
+    hello: {
+      subscribe: (_, __, { pubsub }) => {
+        setInterval(() => pubsub.publish("hello", { hello: { message: "Hello every second!" } }), 1000);
+        return pubsub.asyncIterator("hello");
+      },
+    },
+  },
+};
+
+// Create an executable schema
+const schema = makeExecutableSchema({
+  typeDefs,
+  resolvers,
+});
+
+// Create the GraphQL server
+const server = createYoga({
+  schema,
+  graphiql: {
+]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="129">
+      <file begintoken="15766"
+            column="29"
+            endcolumn="4"
+            endline="111"
+            endtoken="15894"
+            line="95"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16007"
+            column="29"
+            endcolumn="4"
+            endline="143"
+            endtoken="16135"
+            line="127"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    userId: varchar('userId', { length: 255 }).notNull(),
+    permissionId: varchar('permissionId', { length: 255 }).notNull(),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+  (up) => ({
+]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="112">
+      <file begintoken="15543"
+            column="29"
+            endcolumn="4"
+            endline="82"
+            endtoken="15654"
+            line="67"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15783"
+            column="41"
+            endcolumn="4"
+            endline="111"
+            endtoken="15894"
+            line="96"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16024"
+            column="41"
+            endcolumn="4"
+            endline="143"
+            endtoken="16135"
+            line="128"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    roleId: varchar('roleId', { length: 255 }).notNull(),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+  (ur) => ({
+]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="111">
+      <file begintoken="15156"
+            column="58"
+            endcolumn="13"
+            endline="28"
+            endtoken="15266"
+            line="11"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16299"
+            column="50"
+            endcolumn="13"
+            endline="176"
+            endtoken="16409"
+            line="159"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16473"
+            column="50"
+            endcolumn="13"
+            endline="196"
+            endtoken="16583"
+            line="179"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16922"
+            column="50"
+            endcolumn="13"
+            endline="245"
+            endtoken="17032"
+            line="228"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[  name: varchar('name', { length: 255 }).notNull().unique(),
+  description: text('description'),
+  active: boolean('active').notNull().default(true),
+  createdAt: timestamp('createdAt', {
+    mode: 'date',
+    fsp: 3,
+  }).default(sql`CURRENT_TIMESTAMP(3)`),
+  updatedAt: timestamp('updatedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+  deletedAt: timestamp('deletedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+})
+
+export const permissionsRelations = relations(permissions, ({ many }) => ({
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="110">
+      <file begintoken="15543"
+            column="29"
+            endcolumn="4"
+            endline="81"
+            endtoken="15652"
+            line="67"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16651"
+            column="51"
+            endcolumn="2"
+            endline="214"
+            endtoken="16760"
+            line="200"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    roleId: varchar('roleId', { length: 255 }).notNull(),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+]]></codefragment>
+   </duplication>
+   <duplication lines="54" tokens="109">
+      <file begintoken="4718"
+            column="3"
+            endcolumn="15"
+            endline="67"
+            endtoken="4826"
+            line="14"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_122/b2c5d26/dev.ts"/>
+      <file begintoken="5290"
+            column="3"
+            endcolumn="15"
+            endline="67"
+            endtoken="5398"
+            line="14"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_razonm_111/2283b19/dev.ts"/>
+      <codefragment><![CDATA[  | 'dedent'
+  | 'dollar'
+  | 'download'
+  | 'edit'
+  | 'eraser'
+  | 'facebook'
+  | 'fast-backward'
+  | 'fast-forward'
+  | 'filter'
+  | 'font'
+  | 'forward'
+  | 'globe'
+  | 'google-plus'
+  | 'heart-o'
+  | 'home'
+  | 'indent'
+  | 'info'
+  | 'instagram'
+  | 'italic'
+  | 'list'
+  | 'list-ol'
+  | 'location-arrow'
+  | 'map'
+  | 'map-marker'
+  | 'map-o'
+  | 'map-pin'
+  | 'pause'
+  | 'photo'
+  | 'pinterest'
+  | 'plus-square'
+  | 'quote-right'
+  | 'reddit'
+  | 'reply'
+  | 'save'
+  | 'star-o'
+  | 'step-backward'
+  | 'step-forward'
+  | 'stop'
+  | 'strikethrough'
+  | 'subscript'
+  | 'superscript'
+  | 'thumb-tack'
+  | 'trash-o'
+  | 'tumblr'
+  | 'twitter'
+  | 'underline'
+  | 'unlock-alt'
+  | 'upload'
+  | 'user'
+  | 'user-circle'
+  | 'user-circle-o'
+  | 'user-o'
+  | 'users'
+  | 'youtube';]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="108">
+      <file begintoken="15346"
+            column="60"
+            endcolumn="4"
+            endline="52"
+            endtoken="15453"
+            line="37"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16299"
+            column="50"
+            endcolumn="2"
+            endline="174"
+            endtoken="16406"
+            line="159"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16473"
+            column="50"
+            endcolumn="2"
+            endline="194"
+            endtoken="16580"
+            line="179"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16922"
+            column="50"
+            endcolumn="2"
+            endline="243"
+            endtoken="17029"
+            line="228"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    name: varchar('name', { length: 255 }).notNull().unique(),
+    description: text('description'),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+]]></codefragment>
+   </duplication>
+   <duplication lines="4" tokens="104">
+      <file begintoken="32137"
+            column="3"
+            endcolumn="112"
+            endline="6"
+            endtoken="32240"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_wannacfuture_759/71876d6/dev.ts"/>
+      <file begintoken="32242"
+            column="1"
+            endcolumn="110"
+            endline="8"
+            endtoken="32345"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ubiquibot_wannacfuture_759/gpt_generated_code/code1.ts"/>
+      <codefragment><![CDATA[  const lastAssignCommentOfHunter = comments
+    .filter((comment) => comment.user.type === UserType.Bot && comment.body.includes(assignees[0]) && comment.body.includes(deadLinePrefix))
+    .sort((a: Comment, b: Comment) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+  if (lastAssignCommentOfHunter.length > 0) activities.push(new Date(lastAssignCommentOfHunter[0].created_at));
+]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="103">
+      <file begintoken="15164"
+            column="34"
+            endcolumn="13"
+            endline="28"
+            endtoken="15266"
+            line="12"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16661"
+            column="78"
+            endcolumn="13"
+            endline="216"
+            endtoken="16763"
+            line="200"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16930"
+            column="34"
+            endcolumn="13"
+            endline="245"
+            endtoken="17032"
+            line="229"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[  description: text('description'),
+  active: boolean('active').notNull().default(true),
+  createdAt: timestamp('createdAt', {
+    mode: 'date',
+    fsp: 3,
+  }).default(sql`CURRENT_TIMESTAMP(3)`),
+  updatedAt: timestamp('updatedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+  deletedAt: timestamp('deletedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+})
+
+export const permissionsRelations = relations(permissions, ({ many }) => ({
+]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="102">
+      <file begintoken="15354"
+            column="36"
+            endcolumn="4"
+            endline="53"
+            endtoken="15455"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15553"
+            column="56"
+            endcolumn="4"
+            endline="82"
+            endtoken="15654"
+            line="67"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15793"
+            column="68"
+            endcolumn="4"
+            endline="111"
+            endtoken="15894"
+            line="96"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16034"
+            column="68"
+            endcolumn="4"
+            endline="143"
+            endtoken="16135"
+            line="128"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    description: text('description'),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+  (role) => ({
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="100">
+      <file begintoken="15164"
+            column="34"
+            endcolumn="2"
+            endline="26"
+            endtoken="15263"
+            line="12"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15553"
+            column="56"
+            endcolumn="4"
+            endline="81"
+            endtoken="15652"
+            line="67"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="15793"
+            column="68"
+            endcolumn="4"
+            endline="110"
+            endtoken="15892"
+            line="96"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16034"
+            column="68"
+            endcolumn="4"
+            endline="142"
+            endtoken="16133"
+            line="128"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16307"
+            column="34"
+            endcolumn="2"
+            endline="174"
+            endtoken="16406"
+            line="160"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16481"
+            column="34"
+            endcolumn="2"
+            endline="194"
+            endtoken="16580"
+            line="180"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16930"
+            column="34"
+            endcolumn="2"
+            endline="243"
+            endtoken="17029"
+            line="229"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[  description: text('description'),
+  active: boolean('active').notNull().default(true),
+  createdAt: timestamp('createdAt', {
+    mode: 'date',
+    fsp: 3,
+  }).default(sql`CURRENT_TIMESTAMP(3)`),
+  updatedAt: timestamp('updatedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+  deletedAt: timestamp('deletedAt', {
+    mode: 'date',
+    fsp: 3,
+  }),
+})
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="100">
+      <file begintoken="15354"
+            column="36"
+            endcolumn="4"
+            endline="52"
+            endtoken="15453"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <file begintoken="16661"
+            column="78"
+            endcolumn="2"
+            endline="214"
+            endtoken="16760"
+            line="200"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/course-builder_joelhooks_83/13be993/dev.ts"/>
+      <codefragment><![CDATA[    description: text('description'),
+    active: boolean('active').notNull().default(true),
+    createdAt: timestamp('createdAt', {
+      mode: 'date',
+      fsp: 3,
+    }).default(sql`CURRENT_TIMESTAMP(3)`),
+    updatedAt: timestamp('updatedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+    deletedAt: timestamp('deletedAt', {
+      mode: 'date',
+      fsp: 3,
+    }),
+  },
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

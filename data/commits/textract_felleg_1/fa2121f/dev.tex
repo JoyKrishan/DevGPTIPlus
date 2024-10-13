@@ -1,0 +1,69 @@
+\documentclass{report}
+\begin{document}
+
+\title{My Notes}
+\author{Your Name}
+\date{\today}
+
+\maketitle
+
+\tableofcontents
+\chapter{C++ Basics}
+
+\section{Variables}
+%keywords:var,vars
+
+\begin{verbatim}
+    int: integers                   // 4 bytes
+    double: floating-point numbers  // double 8 bytes
+    char: individual characters     // 1 byte
+    float:                          // 4 bytes
+    long:                           // 4 or 8 bytes (platform dependent)
+    long long:                      // 8 bytes
+    bool: true/false                // 1 byte
+\end{verbatim}
+
+\section{Auto}
+
+Automatic deduction of value types. Standard c++11
+
+\begin{verbatim}
+    const auto radius = 1.5;
+    const auto area = pi * radius * radius;
+    std::cout << area;
+\end{verbatim}
+
+\subsection{Logical Operators}
+%keywords:operators,and,or,not
+
+\begin{verbatim}
+    &&              and
+    ||              or
+    !               not
+
+    if (hunger && anger){}
+
+    ( !true )       not false
+    ( !(10 < 11) )  not condition
+\end{verbatim}
+
+\subsection{String Manipulation}
+%keywords:stringmanip
+
+\begin{verbatim}
+reversed_text += text
+
+std::string chapOnePath = parentDirectory + "/chap_1";
+\end{verbatim}
+
+\subsection{Scope}
+
+\begin{verbatim}
+run() {
+    {
+        inside scope
+    {
+
+}
+\end{verbatim}
+\end{document}

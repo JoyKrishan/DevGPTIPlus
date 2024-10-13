@@ -1,0 +1,1 @@
+        downloadAttachment: this._downloadAttachment.bind(this),

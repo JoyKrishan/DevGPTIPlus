@@ -1,0 +1,2 @@
+[![E2E Tests](https://github.com/suren-atoyan/react-pwa/actions/workflows/tests_e2e.yml/badge.svg)](https://github.com/suren-atoyan/react-pwa/actions/workflows/tests_e2e.yml)
+- [tests_e2e.yml](./.github/workflows/tests_e2e.yml) - runs e2e tests on every push and pull request to `main/master` branch.

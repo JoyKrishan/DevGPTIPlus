@@ -1,0 +1,1 @@
+ExecCondition=/bin/sh -c ". /opt/pwn.college/data/config.env; [ ! -z ${BACKUP_AES_KEY_FILE+x} ]"

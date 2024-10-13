@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "https://example.com/prometheus-unit-test-schema.json",
+  "title": "Prometheus Unit Test Schema",
+  "description": "Schema for Prometheus unit test files",
+  "type": "object",
+  "properties": {
+    "rule_files": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "List of rule files to consider for testing. Globs are supported."
+      }
+    },
+    "evaluation_interval": {
+      "type": "string",
+      "description": "The evaluation interval for the tests. [duration] format. Default is 1m.",
+      "default": "1m"
+    },
+    "group_eval_order": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "The order in which group names are listed for evaluation. Order is guaranteed only for the mentioned groups."
+      }
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "interval": {
+            "type": "string",
+            "description": "The interval for the series data. [duration] format."
+          },
+          "input_series": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "series": {
+                  "type": "string",
+                  "description": "The input series"
+                }
+              },
+              "required": ["series"]
+            },
+            "description": "List of input series"
+          },
+          "name": {
+            "type": "string",
+            "description": "The name of the test group"
+          },
+          "alert_rule_test": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "<alert_test_case>": {
+                  "type": "string",
+                  "description": "Alert test case"
+                }
+              },
+              "description": "Unit tests for alerting rules",
+              "required": ["<alert_test_case>"]
+            }
+          },
+          "promql_expr_test": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "<promql_test_case>": {
+                  "type": "string",
+                  "description": "PromQL test case"
+                }
+              },
+              "description": "Unit tests for PromQL expressions",
+              "required": ["<promql_test_case>"]
+            }
+          },
+          "external_labels": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "description": "External labels accessible to the alert template"
+            },
+            "description": "External labels accessible to the alert template"
+          },
+          "external_url": {
+            "type": "string",
+            "description": "External URL accessible to the alert template. Usually set using --web.external-url."
+          }
+        },
+        "required": ["interval", "input_series"]
+      }
+    }
+  },
+  "required": ["rule_files", "tests"]
+}

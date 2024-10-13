@@ -1,0 +1,8 @@
+
+          - name: Set up Docker instance
+            working-directory: ./server
+            run: docker compose up
+
+          - name: Start up Server
+            working-directory: ./server
+            run: npm run start

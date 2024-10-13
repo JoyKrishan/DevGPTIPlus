@@ -1,0 +1,131 @@
+.CreatePost {
+    &__postContainer {
+        @media screen and (min-width: 600px) {
+            padding-left: 450px;
+            padding-right: 450px;
+        }
+
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    &__dialog {
+        @media screen and (min-width: 600px) {margin-top: 0px;}
+
+        margin-top: 85px;
+    }
+
+    &__container {
+        margin: 25px;
+
+        @media screen and (min-width: 600px) {
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    }
+
+    &__first {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    &__title {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+
+    &__backButton {
+        border: 2px solid black !important;
+    }
+
+    &__close {
+        color: black;
+        size: 5px;
+    }
+
+    &__second {
+        padding-right: 10px;
+    }
+
+    &__text {
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 8px;
+    }
+
+    &__buttons {
+        display: flex;
+
+        @media screen and (min-width: 600px) {
+            justify-content: left;
+            gap: 15px;
+        }
+
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+
+    }
+
+    &__fab {
+        background-color: white !important;
+    }
+
+    &__active {
+        background-color: lightgrey !important;
+    }
+
+    &__images {
+        width: 34px;
+        height: 34px;
+    }
+
+    &__images2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__date {
+        width: 200px;
+        height: 40px;
+        color: grey;
+    }
+
+    &__third {
+        padding-bottom: 5px;
+    }
+
+    &__multi {
+        width: 100%;
+    }
+
+    &__fourth {
+        padding-bottom: 30px;
+    }
+
+    &__multi2 {
+        width: 100%;
+
+        @media screen and (min-width: 600px) {
+            width: 500px;
+        }
+    }
+
+    &__text3 {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+
+    &__lastButton {
+        padding-top: 35px;
+
+        @media screen and (min-width: 600px) {
+            padding-left: 225px;
+            padding-right: 225px;
+        }
+
+    }
+}

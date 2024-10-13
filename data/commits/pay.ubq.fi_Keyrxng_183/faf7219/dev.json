@@ -1,0 +1,3 @@
+    "start": "run-s start:sign start:ui",
+    "build": "run-s utils:build",
+}

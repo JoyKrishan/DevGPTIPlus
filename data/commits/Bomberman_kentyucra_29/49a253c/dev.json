@@ -1,0 +1,2 @@
+    "serve:watch": "nodemon src/server/server.ts",
+    "dev-start": " export SERVER_HOST=127.0.0.1 SERVER_PORT=3000 && npm-run-all --parallel serve:watch web:watch",

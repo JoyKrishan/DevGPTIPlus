@@ -1,0 +1,1 @@
+    return table, target_table

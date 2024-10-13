@@ -1,0 +1,2 @@
+User Prompt: "{user_prompt}"
+Choice: {user_choice}

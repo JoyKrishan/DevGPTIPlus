@@ -1,0 +1,1 @@
+      git clone --no-checkout <repository-url>

@@ -1,0 +1,1 @@
+      "app/api/packages": ["../../packages/js-core/dist/*", "../../packages/surveys/dist/*"],

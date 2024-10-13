@@ -1,0 +1,2 @@
+          cp package*.json ..
+          rm ../package*.json

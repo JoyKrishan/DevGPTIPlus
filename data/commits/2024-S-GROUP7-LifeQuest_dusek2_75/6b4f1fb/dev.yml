@@ -1,0 +1,8 @@
+               
+        # Create Env file
+        - name: 'Create env file'
+          run: |
+            touch .env
+            echo MONGO_URI=${{ secrets.MONGO_DB_CI }} >> .env
+            echo DATABASE_NAME=${{ secrets.DB_NAME }} >> .env
+            cat .env

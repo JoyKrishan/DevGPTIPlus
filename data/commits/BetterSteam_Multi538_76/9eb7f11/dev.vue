@@ -1,0 +1,7 @@
+          page: String(this.$route.query.page),
+          name: this.$route.query.name,
+          company: this.$route.query.company,
+          genre: this.$route.query.genre,
+          minPrice: String(this.$route.query.minPrice),
+          maxPrice: String(this.$route.query.maxPrice),
+          releaseDate: this.$route.query.releaseDate,
