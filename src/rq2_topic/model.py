@@ -37,7 +37,7 @@ def get_connected_to_db():
     if hostname == "srlab02":
         myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     else:
-        myclient = pymongo.MongoClient("mongodb://10.136.219.115:27017/")   
+        myclient = pymongo.MongoClient("mongodb://10.136.219.134:27017/")   
     mydb = myclient["devgpt_issues"]
     mycol = mydb["Issues_TP_v2"]
     return mydb, mycol
@@ -54,7 +54,7 @@ def create_document(mycol):
             doc.append(conversation['Prompt'])
             doc.append(conversation['Answer'])
 
-        conversation = ' '.join(doc)
+        conversation = '\n'.join(doc)
         documents.append(conversation)  
     return documents
 
@@ -62,13 +62,11 @@ def first_1000_words(text):
     return ' '.join(text.split()[:1000])
 
 def create_df_and_remove_duplicates(documents):
-
     df = pd.DataFrame(documents, columns=['Documents'])
     df['first_1000'] = df['Documents'].apply(first_1000_words)
     df_unique = df.drop_duplicates(subset='first_1000')
     df_unique = df_unique.drop(columns=['first_1000']) 
     df_unique.reset_index(drop=True, inplace=True)
-    
     return df_unique
 
 def create_count_vectorizer_w_wo_add_stopwords(keep_custom_stopwords = True):
@@ -79,10 +77,42 @@ def create_count_vectorizer_w_wo_add_stopwords(keep_custom_stopwords = True):
     vectorizer_model = CountVectorizer(ngram_range=(1, 2), stop_words= list(stop_words) if type(stop_words)!=list else stop_words)
     return vectorizer_model
 
-def model_fit_transform(df, vectorizer_model, sentence_model, verbose = False):
-    topic_model = BERTopic(embedding_model=sentence_model, vectorizer_model=vectorizer_model, calculate_probabilities=True, verbose=verbose, top_n_words=20)
-    topics, probs = topic_model.fit_transform(df)
+
+def train_model(docs, embeddings, sentence_model, vectorizer_model):
+    umap_model = UMAP(n_neighbors=15, n_components=5, 
+                  min_dist=0.0, metric='cosine', random_state=42)
+    topic_model = BERTopic(umap_model=umap_model,vectorizer_model=vectorizer_model, embedding_model=sentence_model, verbose=True)
+    topics, probs = topic_model.fit_transform(docs, embeddings)
     return topics, probs, topic_model
+
+def predict_topic(topic_model, docs, embeddings):
+    return topic_model.transform(docs, embeddings)
+
+
+def has_outliers(topic_model, df, topics):
+    try:
+        topic_model.reduce_outliers(df, topics)
+        return True
+    except ValueError:
+        return False
+
+def reduce_outliers(topic_model, documents, topics):
+    if has_outliers(topic_model, documents, topics):
+        new_topics = topic_model.reduce_outliers(documents, topics, strategy='embeddings')
+        return new_topics, topic_model
+    else:
+        print("No outliers to reduce.")
+        return topics, topic_model
+
+def save_topic_model(topic_model, model_name):
+    topic_model.save(f"model_dir/topic_model_{model_name}", serialization="safetensors")
+
+def load_topic_model(model_name):
+    model_path = f"model_dir/topic_model_{model_name}"
+    if not os.path.exists(model_path):
+        raise ValueError(f"Model path does not exist: {model_path}")
+    topic_model = BERTopic.load(model_path)
+    return topic_model
 
 def visualize_documents(df, sentence_model, topic_model, model_name, device):
     if isinstance(sentence_model, torch.nn.DataParallel):
@@ -101,79 +131,33 @@ def visualize_barchart(topic_model, model_name):
     fig.write_image(file = f"docs/figures/{model_name}_barchart2.pdf", format="pdf")
     fig.show()
 
-def reduce_outliers(topic_model, df, topics):
-    new_topics = topic_model.reduce_outliers(df, topics)
-    topic_model.update_topics(df, topics=new_topics)
-    return new_topics, topic_model
-
-def fit_transform_to_topic_model(df, sentence_model, vectorizer_model):
-    topics, probs, topic_model = model_fit_transform(df, vectorizer_model, sentence_model)
-    return topics, probs, topic_model, sentence_model
-
-def save_topic_model(topic_model, embedding_model_path, sentence_model):
-    topic_model.save(f"model_dir/topic_model_{embedding_model_path}", serialization="safetensors", save_embedding_model=sentence_model)
-
-
-def load_topic_model(embedding_model_path):
-    model_path = f"model_dir/topic_model_{embedding_model_path}"
-    
-    if not os.path.exists(model_path):
-        raise ValueError(f"Model path does not exist: {model_path}")
-
-    topic_model = BERTopic.load(model_path)
-    return topic_model
 
 if __name__ == "__main__":
+    
     assert_check_cache_file()
-
     mydb, mycol = get_connected_to_db()
-
+    
     docs = create_document(mycol)
-
     df = create_df_and_remove_duplicates(docs)
-
     vectorizer_model = create_count_vectorizer_w_wo_add_stopwords()
-
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
-    """
-    Here we try different combinations of sentence model and representation model
-    | Sentence Model | Representation Model |
-    | -------------- | --------------------- |
-    | BAAI/bge-en-icl | KeyBeRTInspired |
-    | BAAI/bge-en-icl | MaximalMarginalRelevance |
-    | dunzhang/stella_en_1.5B_v5 | MaximalMarginalRelevance | Done
-    | dunzhang/stella_en_1.5B_v5 | KeyBERTInspired | Done
-    """
+    # sentence_model = SentenceTransformer("dunzhang/stella_en_1.5B_v5", device=device)
+    # embeddings = sentence_model.encode(df['Documents'], show_progress_bar=True)
 
-    # embedding_model = SentenceTransformer("BAAI/bge-en-icl", device=device)
-
-    embedding_model = SentenceTransformer("dunzhang/stella_en_1.5B_v5", device=device)
-
-    # representation_model = KeyBERTInspired()
-
-    # # representation_model = MaximalMarginalRelevance()
-
-    # num_gpus = torch.cuda.device_count()
-    # if num_gpus > 1:
-    #     print(f"Using {num_gpus} GPUs")
-    #     device_ids = list(range(num_gpus))
-    #     embedding_model = torch.nn.DataParallel(embedding_model, device_ids=device_ids)
-
-    # topics, probs, topic_model, embedding_model = fit_transform_to_topic_model(df['Documents'], embedding_model , vectorizer_model)
-
+    # topics, probs, topic_model = train_model(df['Documents'], embeddings, sentence_model, vectorizer_model)
     # new_topics, topic_model = reduce_outliers(topic_model, df['Documents'], topics)
-
-    # print(topic_model.get_topic_info().head(2))
-
+    # topic_model.update_topics(df['Documents'], new_topics)
+    # predict_topics, _ = predict_topic(topic_model, df['Documents'], embeddings)
+      
+    # df = pd.DataFrame({"Document": df['Documents'], "Topic": new_topics})
+    # df.to_csv("data/rq2/topic_model_V6.csv")
+    # model_name = "stellav5"
+    # save_topic_model(topic_model,model_name)
+    
     # topic_model.get_topic_info().to_csv("data/rq2/topic_info_V2.csv")
     # topic_model.get_document_info(docs, df=df).to_csv("data/rq2/document_info_V2.csv")
-
-    model_filename = "stella_en_1.5B_v5"
-    # save_topic_model(topic_model, model_filename, embedding_model)
-
-    topic_model = load_topic_model(model_filename)
-
-    visualize_documents(df['Documents'], embedding_model, topic_model, model_filename, device)
-
-    visualize_barchart(topic_model, model_filename)
+    # model_filename = "stella_en_1.5B_v5"
+    # topic_model = load_topic_model(model_filename)
+    # visualize_documents(df['Documents'], embedding_model, topic_model, model_filename, device)
+    # visualize_barchart(topic_model, model_filename)
