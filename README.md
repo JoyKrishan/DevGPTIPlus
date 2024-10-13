@@ -47,10 +47,3 @@ Provide instructions and examples on how to use your project.
     git push origin feature/YourFeature
     ```
 5. Open a pull request. -->
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-This research is supported in part by the Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grants program, and by the industry-stream NSERC CREATE in Software Analytics Research (SOAR). 
-- References
