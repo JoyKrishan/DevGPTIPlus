@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>querySelector(All) with empty title attribute</title>
+<script src="/resources/testharness.js"></script>
+<script src="/resources/testharnessreport.js"></script>
+<!-- Regression test for https://github.com/jsdom/jsdom/issues/1163 -->
+
+<div>
+  <div></div>
+  <div title="" id="target"></div>
+  <div title="foo"></div>
+</div>
+
+<script>
+  "use strict";
+
+  test(() => {
+    const targetNode = document.getElementById('target');
+    const result = document.querySelectorAll('div[title=""]');
+    assert_array_equals(result, [targetNode], 'Should match the node with an empty title attribute');
+  }, "querySelectorAll for divs with empty title attribute");
+
+  test(() => {
+    const targetNode = document.getElementById('target');
+    const result = document.querySelectorAll('div[title][title=""]');
+    assert_array_equals(result, [targetNode], 'Should match the node with explicitly empty title attribute');
+  }, "querySelectorAll for divs with explicitly empty title attribute");
+</script>

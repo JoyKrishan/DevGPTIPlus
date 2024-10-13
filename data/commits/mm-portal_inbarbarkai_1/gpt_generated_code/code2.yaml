@@ -1,0 +1,36 @@
+     name: Build GitHub Pages
+     on:
+       push:
+         branches:
+           - main # Adjust this to the main branch name of your repository
+
+     jobs:
+       build:
+         runs-on: ubuntu-latest
+         steps:
+           - name: Checkout code
+             uses: actions/checkout@v2
+
+           - name: Set up Jekyll
+             uses: helaili/jekyll-action@2.1.0
+             with:
+               args: bundle install && bundle exec jekyll build -d docs
+
+           - name: Install Docker
+             run: |
+               sudo apt-get update -q
+               sudo apt-get -y install docker.io
+             if: matrix.os == 'ubuntu-latest'
+
+           - name: Render PlantUML diagrams
+             run: |
+               docker run --rm -v "$(pwd):/data" plantuml/plantuml:1.2021.10 plantuml /data/**/*.puml
+             working-directory: docs # Make sure to adjust the path to your Markdown files
+
+           - name: Commit and push changes
+             run: |
+               git config --global user.name 'GitHub Actions'
+               git config --global user.email 'actions@github.com'
+               git add docs
+               git commit -m "Auto-generate GitHub Pages"
+               git push origin gh-pages

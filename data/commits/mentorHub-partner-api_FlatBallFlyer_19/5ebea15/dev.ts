@@ -1,0 +1,1 @@
+        console.info("Configuration Initilized", JSON.stringify(this));        

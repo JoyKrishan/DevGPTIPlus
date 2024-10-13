@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#gameContainer {
+  display: none;
+  width: 450px; /* Adjust as needed */
+  height: 450px; /* Adjust as needed */
+  border: 1px solid black;
+  box-sizing: border-box; /* Ensures border size is included in width and height */
+}
+
+.box {
+  width: calc(100% / 15); /* Adjust as needed */
+  height: calc(100% / 15); /* Adjust as needed */
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensures border size is included in width and height */
+  float: left;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}

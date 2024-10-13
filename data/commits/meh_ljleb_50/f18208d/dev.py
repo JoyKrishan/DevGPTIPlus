@@ -1,0 +1,6 @@
+    a_reshape = a.reshape(-1, a.shape[-1]).float()
+    b_reshape = b.reshape(-1, a.shape[-1]).float()
+    cross_covariance = torch.matmul(a_reshape.T, b_reshape)
+    u, _, v = torch.svd(cross_covariance)
+    rotated_a = torch.matmul(a_reshape, transform)
+    return rotated_a.reshape_as(a).to(dtype=a.dtype)

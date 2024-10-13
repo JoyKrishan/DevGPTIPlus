@@ -1,0 +1,1 @@
+import LifeQuestFormTriangle from '../LifeQuestFormTriangle';

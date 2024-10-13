@@ -1,0 +1,5 @@
+
+### Environment Variables
+
+1. Create a `.env` file in the root directory of the project.
+2. Add the following environment variables to the `.env` file:

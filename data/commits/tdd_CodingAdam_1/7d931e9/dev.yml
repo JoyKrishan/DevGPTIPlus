@@ -1,0 +1,3 @@
+        run: nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
+      - name: Run pylint
+        run: pylint src

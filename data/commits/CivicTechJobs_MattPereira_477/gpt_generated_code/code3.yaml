@@ -1,0 +1,4 @@
+- name: Install dependencies
+  run: |
+    pip install --upgrade pip setuptools wheel
+    pip install mkdocs

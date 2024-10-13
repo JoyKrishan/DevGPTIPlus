@@ -1,0 +1,11 @@
+overwrite: true
+schema: "pages/api/schema.graphql"
+generates:
+  types/generated-types.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-resolvers"
+    config:
+      contextType: "@graphql-yoga/node#YogaContext"
+      useIndexSignature: true

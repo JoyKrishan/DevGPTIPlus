@@ -1,0 +1,1 @@
+      <LocationButton onPress={showLocationModal} testID="Ouvrir la modale de localisation">

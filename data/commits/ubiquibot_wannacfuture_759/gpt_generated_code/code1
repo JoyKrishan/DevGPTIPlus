@@ -1,0 +1,1 @@
+https://api.github.com/repos/:owner/:repo/pulls/:pull_number.diff

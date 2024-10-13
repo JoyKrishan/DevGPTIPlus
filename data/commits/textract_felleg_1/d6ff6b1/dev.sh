@@ -1,0 +1,1 @@
+}' $tex_file > keywords.csv

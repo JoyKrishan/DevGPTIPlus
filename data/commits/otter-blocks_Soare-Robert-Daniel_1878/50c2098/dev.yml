@@ -1,0 +1,11 @@
+
+
+
+
+          npx playwright install
+      - name: Playwright Blocks
+          npm run test:e2e:playwright
+          path: ./artifacts
+
+        id: summary
+

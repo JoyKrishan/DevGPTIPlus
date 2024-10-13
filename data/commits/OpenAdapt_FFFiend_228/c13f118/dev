@@ -1,0 +1,9 @@
+
+# VSCode
+.VSCode
+
+# Generated performance charts
+performance
+
+# Generated when adding editable dependencies in requirements.txt (-e)
+src

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banzuke Surfing Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link to the external CSS file -->
+    <!-- Uncomment this if you have styles to include -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <h1>Welcome to Banzuke Surfing Game!</h1>
+    <p id="user"></p>
+    <p>Select your Rikishi and start playing!</p>
+    <select id="rikishi">
+        <option value="1">Rikishi 1</option>
+        <option value="2">Rikishi 2</option>
+        <!-- more options here -->
+    </select>
+    <button id="startPlayingButton">Start Playing</button>
+    <hr>
+    <h2>Admin Panel</h2>
+    <p>Switch user:</p>
+    <input id="userSwitch" type="text">
+    <button id="switchUserButton">Switch User</button>
+    <p>Backfill contest results:</p>
+    <input id="backfillContest" type="text" placeholder="Enter contest name">
+    <input id="backfillRikishi" type="text" placeholder="Enter rikishi selection">
+    <button id="backfillResultsButton">Backfill Results</button>
+    <!-- Link to the external JavaScript file -->
+    <script type="module" src="game.js"></script>
+</body>
+</html>

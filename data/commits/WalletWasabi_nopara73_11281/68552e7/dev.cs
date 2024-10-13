@@ -1,0 +1,1 @@
+		if (!tx.Transaction.IsCoinBase && !Coins.Seen(txId)) // Transactions we already have and processed would be "double spends" but they shouldn't.

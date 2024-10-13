@@ -1,0 +1,29 @@
+name: Block Merge on Label
+
+on:
+  pull_request:
+    types:
+      - labeled
+      - unlabeled
+
+jobs:
+  block_merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check for blocking label
+      id: check_label
+      run: |
+        PR_LABELS=$(jq -r '.pull_request.labels[].name' "$GITHUB_EVENT_PATH")
+        if [[ $PR_LABELS == *"s: on hold"* ]]; then
+          echo "This PR has the 's: on hold' label."
+          exit 1
+        fi
+        echo "No blocking labels found"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Unblock Merge
+      if: ${{ steps.check_label.outcome == 'success' }}
+      run: |
+        echo "The PR does not have the 's: on hold' label. Merging is allowed."

@@ -1,0 +1,1 @@
+  password: { type: String, required: true },

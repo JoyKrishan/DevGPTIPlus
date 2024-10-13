@@ -1,0 +1,9 @@
+        "marginBottom": 20,
+            "translateY": 1334,
+        <Text
+          className="p-6 text-center text-xl font-bold text-white"
+          Select an Option
+        </Text>
+        <View>
+          <Text>
+            Child content goes here

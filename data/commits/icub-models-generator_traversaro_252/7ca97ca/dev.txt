@@ -1,0 +1,1 @@
+    add_icub_model_test(iCubGenova11)

@@ -1,0 +1,1 @@
+          resolvedText = resolvedText.replace(/\((.*?)\)/g, "$1");

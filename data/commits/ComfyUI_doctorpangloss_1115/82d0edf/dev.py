@@ -1,0 +1,1 @@
+    INPUT_IS_LIST: ClassVar[bool] = None

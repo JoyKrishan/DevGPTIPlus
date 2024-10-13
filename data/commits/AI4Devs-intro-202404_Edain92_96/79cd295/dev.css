@@ -1,0 +1,76 @@
+#maze {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+  display: inline-block;
+  position: relative;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.player {
+  background-color: blue;
+}
+
+#time {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.time {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  font-size: 24px;
+}
+
+.correct-cell {
+  background-color: #c9e2c4;
+}
+
+body {
+  background-color: #f0f0f0;
+  /* Color de fondo pastel */
+}
+
+.container {
+  text-align: center;
+}
+
+.maze {
+  border: 1px solid #000;
+  display: inline-block;
+  background-color: #fff;
+  /* Color de fondo para el laberinto */
+}
+
+.time {
+  border: 2px solid #007bff;
+  /* Borde del temporizador */
+  border-radius: 10px;
+  /* Borde redondeado */
+  padding: 10px;
+  background-color: #f8f9fa;
+  /* Color de fondo pastel */
+  font-size: 24px;
+  display: block;
+  margin: 20px auto;
+  /* Margen automático en la parte superior e inferior y centralizado horizontalmente */
+  width: 200px;
+  /* Ancho del temporizador */
+}

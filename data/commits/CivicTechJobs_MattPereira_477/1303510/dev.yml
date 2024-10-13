@@ -1,0 +1,10 @@
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install mkdocs
+          python mkdocs/mkdocs-config/setup.py develop
+          mkdocs gh-deploy --config-file mkdocs/mkdocs.yml

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Contains detailed information about each GitHub repository, including metadata, ownership, and configuration details.",
+  "entity_type": "repository",
+  "foreign_keys": {
+    "owner_id": "Links to the 'id' in the Users stream (Owner of the repository)."
+  },
+  "properties": {
+    "id": {
+      "type": ["null", "integer"],
+      "description": "The unique identifier for the repository."
+    },
+    "node_id": {
+      "type": ["null", "string"],
+      "description": "A node-specific identifier for the repository."
+    },
+    "name": {
+      "type": ["null", "string"],
+      "description": "The name of the repository."
+    },
+    "full_name": {
+      "type": ["null", "string"],
+      "description": "The full name of the repository including the owner's name."
+    },
+    "owner": {
+      "$ref": "user.json",
+      "description": "An object containing information about the repository owner."
+    },
+    "private": {
+      "type": ["null", "boolean"],
+      "description": "Indicates whether the repository is private."
+    },
+    "html_url": {
+      "type": ["null", "string"],
+      "description": "The URL of the repository on GitHub's web interface."
+    },
+    "description": {
+      "type": ["null", "string"],
+      "description": "A brief description of the repository."
+    },
+    "fork": {
+      "type": ["null", "boolean"],
+      "description": "Indicates whether the repository is a fork of another repository."
+    },
+    // ... (other properties with their respective descriptions)
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date and time when the repository was created."
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The date and time of the last update to the repository."
+    },
+    // ... (rest of the properties with their respective descriptions)
+  }
+}

@@ -1,0 +1,8 @@
+  @@index([personId, createdAt])
+  @@index([environmentId, updatedAt])
+  @@index([environmentId, createdAt])
+  @@index([createdAt])
+  brandColor           String?
+  /// @zod.custom(imports.ZProductStyling)
+  /// [Styling]
+  styling              Json            @default("{\"allowStyleOverwrite\":true}")

@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "videoId": "v123",
+      "title": "Introduction to Course Builder",
+      "url": "https://example.com/videos/intro"
+    }
+  ],
+  "articles": [
+    {
+      "articleId": "a456",
+      "title": "Getting Started with Course Builder",
+      "url": "https://example.com/articles/getting-started"
+    }
+  ],
+  "externalResources": [
+    {
+      "name": "Course Builder GitHub Repository",
+      "url": "https://github.com/coursebuilder/project"
+    }
+  ]
+}

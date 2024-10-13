@@ -1,0 +1,3 @@
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/routers/": ["./src/routers/*"],
+      "@/routers/*": ["./src/routers/*"]

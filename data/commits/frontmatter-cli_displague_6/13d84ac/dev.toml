@@ -1,0 +1,2 @@
+# Assume Python 3.11
+target-version = "py311"

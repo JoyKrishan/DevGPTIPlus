@@ -1,0 +1,25 @@
+// Function to perform a complex mathematical operation
+    // Calculate 'a'
+    int a = (x / 2) * y;
+    a = a + (x % 3);
+
+    // Calculate 'b'
+    int b = x;
+    b = b + (y / 2);
+
+    // Calculate 'c'
+    int c = x * y;
+    c = c + (x / y);
+
+    // Calculate intermediate result
+    int result = a * b;
+
+    // Final result calculation
+    result = result / c;
+
+    // Input values
+
+    // Perform complex operation and store the result
+
+    // Output the result
+

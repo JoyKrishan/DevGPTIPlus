@@ -1,0 +1,19 @@
+
+
+.show-cl {
+  display: block;
+}
+
+table[data-claim-rendered] button.hide-cl > svg.claim-loader {
+  display: none;
+}
+table[data-claim-rendered] button.show-cl > svg.claim-icon {
+  display: none;
+}
+
+table[data-claim-rendered] button.show-cl > svg.claim-loader {
+  display: unset;
+}
+table[data-claim-rendered] button.hide-cl > svg.claim-icon {
+  display: unset;
+}

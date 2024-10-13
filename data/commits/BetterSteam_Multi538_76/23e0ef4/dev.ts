@@ -1,0 +1,1 @@
+  { path: "/items", component: App },

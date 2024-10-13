@@ -1,0 +1,1 @@
+For any input on improving this project, feel free to reach out to [Josh](https://twitter.com/josh_bickett) on Twitter.If you want to contribute yourself, see [CONTRIBUTING.md](https://github.com/OthersideAI/self-operating-computer/blob/main/CONTRIBUTING.md).

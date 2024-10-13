@@ -1,7 +1,9 @@
 .env
 /*.json
 /*.csv
-data/ 
+data/api_get_json
+data/cleaned_data
+docs
 __pycache__/
 .venv
 model_dir/

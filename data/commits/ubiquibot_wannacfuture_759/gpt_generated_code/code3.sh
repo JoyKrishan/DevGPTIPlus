@@ -1,0 +1,1 @@
+curl -H "Accept: application/vnd.github.v3.diff" https://api.github.com/repos/ubiquity/ubiquibot/pulls/759.diff

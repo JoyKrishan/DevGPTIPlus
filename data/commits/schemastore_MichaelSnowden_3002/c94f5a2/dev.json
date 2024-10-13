@@ -1,0 +1,10 @@
+      "required": ["exp_labels"],
+      "required": ["eval_time", "alertname"],
+      "type": ["string", "null"]
+      "type": ["object", "null"]
+      "required": ["expr", "eval_time"],
+      "required": ["labels", "value"],
+      "required": ["series", "values"],
+      "required": ["interval", "input_series"],
+      "type": ["string", "null"]
+      "type": ["array", "null"]

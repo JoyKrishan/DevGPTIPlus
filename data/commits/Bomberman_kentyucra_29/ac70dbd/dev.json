@@ -1,0 +1,7 @@
+    "build-dev": "webpack --config webpack.dev.js",
+    "dev-start": "export SERVER_HOST=127.0.0.1 SERVER_PORT=3000 && npm run build-dev && npm run start:socket",
+    "lint": "eslint 'src/**'"
+    "pino": "^8.16.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",

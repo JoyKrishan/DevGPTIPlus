@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 7.5em;
+    margin-bottom: 20px;
+}
+
+.milliseconds {
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 3em;
+    padding: 20px 40px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn {
+    background: linear-gradient(rgb(6, 229, 255), rgb(0, 37, 255));
+    color: black;
+}
+
+.start-btn:hover {
+    background: linear-gradient(rgb(0, 37, 255), rgb(6, 229, 255));
+}
+
+.stop-btn, .reset-btn {
+    background-color: red;
+    color: black;
+}
+
+.stop-btn:hover, .reset-btn:hover {
+    background-color: darkred;
+}
+
+.save-btn {
+    background-color: green;
+    color: black;
+}
+
+.save-btn:hover {
+    background-color: darkgreen;
+}
+
+.saved-times {
+    margin-top: 20px;
+}
+
+#saved-times {
+    list-style-type: none;
+    padding: 0;
+}
+
+#saved-times label {
+    font-size: 1.5em;
+    color: green;
+}

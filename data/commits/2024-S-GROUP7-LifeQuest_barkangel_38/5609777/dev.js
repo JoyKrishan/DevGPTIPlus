@@ -1,0 +1,1 @@
+import QuestsPage from './pages/quests/QuestsPage';

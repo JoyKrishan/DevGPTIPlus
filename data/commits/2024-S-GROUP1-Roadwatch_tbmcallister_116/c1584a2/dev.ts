@@ -1,0 +1,1 @@
+    app.use('/', require('../../src/routes/Marker').default);

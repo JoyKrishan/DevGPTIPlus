@@ -1,0 +1,1 @@
+    ret = sliced_tensor.reshape(tuple(final_shape))

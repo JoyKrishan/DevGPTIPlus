@@ -1,0 +1,7 @@
+# Dependencies for this lab
+Flask
+nose
+pinocchio
+coverage
+pylint
+flake8

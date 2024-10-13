@@ -1,0 +1,25 @@
+    "content-hash": "37c7bba284025871d7134809613f51a9",
+            "version": "3.3.6",
+                "reference": "bf61570bb8d700098fbcf44e2f4258fd3f2ec5c2"
+                "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/bf61570bb8d700098fbcf44e2f4258fd3f2ec5c2",
+                "reference": "bf61570bb8d700098fbcf44e2f4258fd3f2ec5c2",
+                "source": "https://github.com/Codeinwp/themeisle-sdk/tree/v3.3.6"
+            "time": "2023-10-05T07:53:06+00:00"
+            "version": "v12.5.0",
+                "reference": "a4249b4a90437844f6c35e8701f8c68acd206f56"
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/a4249b4a90437844f6c35e8701f8c68acd206f56",
+                "reference": "a4249b4a90437844f6c35e8701f8c68acd206f56",
+                "phpunit/phpunit": "^5.7 || ^9.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v12.5.0"
+            "time": "2023-09-28T23:06:27+00:00"
+            "version": "v8.1.0",
+                "reference": "f5a8621ca0a28c93b37b827ef92e7b49ad3d1923"
+                "url": "https://api.github.com/repos/php-stubs/woocommerce-stubs/zipball/f5a8621ca0a28c93b37b827ef92e7b49ad3d1923",
+                "reference": "f5a8621ca0a28c93b37b827ef92e7b49ad3d1923",
+                "source": "https://github.com/php-stubs/woocommerce-stubs/tree/v8.1.0"
+            "time": "2023-09-12T20:25:04+00:00"
+            "version": "1.10.36",
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15"
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ffa3089511121a672e62969404e4fddc753f9b15",
+                "reference": "ffa3089511121a672e62969404e4fddc753f9b15",
+            "time": "2023-09-29T14:07:45+00:00"

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banzuke Surfing Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Welcome to Banzuke Surfing Game!</h1>
+    <p>Select your Rikishi and start playing!</p>
+    <select id="rikishi">
+        <option value="1">Rikishi 1</option>
+        <option value="2">Rikishi 2</option>
+        <!-- more options here -->
+    </select>
+    <button onclick="startPlaying()">Start Playing</button>
+    <script>
+        function startPlaying() {
+            var rikishi = $('#rikishi').val();
+            // This is where you'd connect to your game logic
+            // For example:
+            // sendRikishiToServer(rikishi);
+            alert("You selected: " + rikishi);
+        }
+    </script>
+</body>
+</html>

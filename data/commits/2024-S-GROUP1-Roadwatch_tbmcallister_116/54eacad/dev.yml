@@ -1,0 +1,13 @@
+  MONGODB_INITDB_DATABASE: roadwatch
+  MONGODB_INITDB_ROOT_USERNAME: root
+  MONGODB_INITDB_ROOT_PASSWORD: password
+            env:
+              # DB Connection
+              DB_HOST: mongodb
+              MONGODB_INITDB_DATABASE: roadwatch
+              MONGODB_INITDB_ROOT_USERNAME: root
+              MONGODB_INITDB_ROOT_PASSWORD: password
+              DB_PORT: 27017
+              image: mongo:latest
+              container_name: mongodb
+              restart: always

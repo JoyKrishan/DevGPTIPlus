@@ -1,0 +1,2 @@
+    "choice": "Other: Copy row 5 to row 3.",
+    "summary": "The user's intent was to copy the values from row 5 to row 3 in table_1 after initially deleting row 3."

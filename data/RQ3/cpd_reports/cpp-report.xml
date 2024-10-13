@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.4.0"
+         timestamp="2024-08-20T20:14:03.511-06:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_78/3d4617a/dev.cpp"
+         totalNumberOfTokens="140"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_78/d5a15ee/dev.cpp"
+         totalNumberOfTokens="227"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_78/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="192"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_80/1672cf5/dev.cpp"
+         totalNumberOfTokens="267"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_80/b76ec00/dev.cpp"
+         totalNumberOfTokens="171"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_80/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="226"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_63/08ca64e/dev.c"
+         totalNumberOfTokens="377"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_63/12ab690/dev.c"
+         totalNumberOfTokens="476"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_69/2b23743/dev.cpp"
+         totalNumberOfTokens="75"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_69/427b276/dev.cpp"
+         totalNumberOfTokens="67"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_69/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="100"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_87/23b7af3/dev.cpp"
+         totalNumberOfTokens="421"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_87/e58c95f/dev.cpp"
+         totalNumberOfTokens="372"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_87/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="372"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/0a9c2d0/dev.cpp"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/0a9c2d0/dev.hpp"
+         totalNumberOfTokens="27"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/162ca6b/dev.hpp"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/1cde811/dev.hpp"
+         totalNumberOfTokens="287"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/244a881/dev.cpp"
+         totalNumberOfTokens="144"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/244a881/dev.hpp"
+         totalNumberOfTokens="79"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/2721acc/dev.cpp"
+         totalNumberOfTokens="110"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/398a832/dev.cpp"
+         totalNumberOfTokens="155"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/398a832/dev.hpp"
+         totalNumberOfTokens="75"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/3fdff18/dev.cpp"
+         totalNumberOfTokens="125"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/3fdff18/dev.hpp"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/45ddc0a/dev.cpp"
+         totalNumberOfTokens="220"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/45ddc0a/dev.hpp"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/58d5d1d/dev.cpp"
+         totalNumberOfTokens="553"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/58d5d1d/dev.hpp"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/600da3b/dev.hpp"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/7465183/dev.cpp"
+         totalNumberOfTokens="136"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/790b2f7/dev.cpp"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/790b2f7/dev.hpp"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/7bbe659/dev.cpp"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/7bbe659/dev.hpp"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/98bdfcb/dev.cpp"
+         totalNumberOfTokens="1920"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/98bdfcb/dev.hpp"
+         totalNumberOfTokens="336"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/9c860d9/dev.cpp"
+         totalNumberOfTokens="86"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/a0e9eac/dev.cpp"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/a0e9eac/dev.hpp"
+         totalNumberOfTokens="67"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/a4a54f5/dev.cpp"
+         totalNumberOfTokens="172"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/a4a54f5/dev.hpp"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/a4ee07b/dev.cpp"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/b94aba6/dev.cpp"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/b94aba6/dev.hpp"
+         totalNumberOfTokens="148"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/ba717c7/dev.cpp"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/ba717c7/dev.hpp"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/c8abda6/dev.cpp"
+         totalNumberOfTokens="122"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/c8abda6/dev.hpp"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/cb85c89/dev.hpp"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/f8ffd72/dev.cpp"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/f8ffd72/dev.hpp"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="252"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/gpt_generated_code/code3.cpp"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_Aligary_75/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="212"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_Aligary_79/c16a9cd/dev.cpp"
+         totalNumberOfTokens="138"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_Aligary_79/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="138"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_54/8599375/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_54/e96b9f8/dev.cpp"
+         totalNumberOfTokens="63"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_54/gpt_generated_code/code1.c"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_55/40d1fe7/dev.c"
+         totalNumberOfTokens="718"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_55/9e92e87/dev.c"
+         totalNumberOfTokens="454"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_55/gpt_generated_code/code1.c"
+         totalNumberOfTokens="720"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_93/4ef8b07/dev.cpp"
+         totalNumberOfTokens="842"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_95/526f740/dev.cpp"
+         totalNumberOfTokens="578"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_95/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="73"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_95/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="78"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Cataclysm-BN_scarf005_3130/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/7b6fb86/dev.c"
+         totalNumberOfTokens="291"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/9dc3fa7/dev.cpp"
+         totalNumberOfTokens="368"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/c6fe284/dev.cpp"
+         totalNumberOfTokens="220"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code10.cpp"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code3.cpp"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code4.cpp"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code5.cpp"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code6.cpp"
+         totalNumberOfTokens="47"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code7.cpp"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code8.cpp"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_72/gpt_generated_code/code9.cpp"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_74/1080f2c/dev.cpp"
+         totalNumberOfTokens="292"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_74/232eaf3/dev.cpp"
+         totalNumberOfTokens="589"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7120/aad5e86/dev.cpp"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7120/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="303"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7123/1cb18a5/dev.cpp"
+         totalNumberOfTokens="198"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7123/8b3a15a/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7123/a2d28ee/dev.cpp"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7123/e224103/dev.cpp"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Mudlet_vadi2_7123/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="273"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/5cbc967/dev.hpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/6a53c2c/dev.cpp"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/6a53c2c/dev.hpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/6e1c97c/dev.hpp"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/7f50ec7/dev.cpp"
+         totalNumberOfTokens="79"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/7ff0e16/dev.cpp"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/c1a23b3/dev.cpp"
+         totalNumberOfTokens="150"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenSiv3D_comefrombottom_1097/c1a23b3/dev.hpp"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_56/26542d0/dev.cpp"
+         totalNumberOfTokens="163"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_56/2d33b6f/dev.cpp"
+         totalNumberOfTokens="106"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_68/2243cb4/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_68/b7917b3/dev.cpp"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_68/d4507c1/dev.cpp"
+         totalNumberOfTokens="123"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_68/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_70/a0b45b1/dev.cpp"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/9f1e6eb/dev.cpp"
+         totalNumberOfTokens="194"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/e3fb8f9/dev.cpp"
+         totalNumberOfTokens="249"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="258"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_74/3075678/dev.cpp"
+         totalNumberOfTokens="215"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_74/32369b7/dev.cpp"
+         totalNumberOfTokens="187"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_74/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="215"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_84/20ca59d/dev.cpp"
+         totalNumberOfTokens="264"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_93/520588d/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_93/a5751f6/dev.cpp"
+         totalNumberOfTokens="198"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_107/513b980/dev.cpp"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_107/682f441/dev.cpp"
+         totalNumberOfTokens="284"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_89/5da56e9/dev.cpp"
+         totalNumberOfTokens="141"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_89/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="137"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_91/6309ba7/dev.cpp"
+         totalNumberOfTokens="139"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_91/6b8c5cd/dev.cpp"
+         totalNumberOfTokens="110"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/c98785e/dev.c"
+         totalNumberOfTokens="431"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/c98785e/dev.cpp"
+         totalNumberOfTokens="215"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/387b9ea/dev.cpp"
+         totalNumberOfTokens="258"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/d3c74ad/dev.cpp"
+         totalNumberOfTokens="1134"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/e35463c/dev.cpp"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="448"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/4906982/dev.cpp"
+         totalNumberOfTokens="171"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/7144957/dev.cpp"
+         totalNumberOfTokens="195"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/be2c5c4/dev.cpp"
+         totalNumberOfTokens="72"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="179"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_57/7143e1a/dev.cpp"
+         totalNumberOfTokens="247"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_57/da326eb/dev.cpp"
+         totalNumberOfTokens="256"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_barkangel_64/5302f28/dev.cpp"
+         totalNumberOfTokens="125"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_barkangel_64/d60ebc6/dev.cpp"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_barkangel_64/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="255"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_dusek2_27/40c7764/dev.cpp"
+         totalNumberOfTokens="232"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_dusek2_27/471895b/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_dusek2_27/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="437"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_thegreatzoidberg_49/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="101"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_thegreatzoidberg_53/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="101"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_thegreatzoidberg_68/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="120"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_83/5f0e61e/dev.cpp"
+         totalNumberOfTokens="218"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_83/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="221"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_89/798dd74/dev.cpp"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_89/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="88"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_86/44d1635/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_86/535af63/dev.cpp"
+         totalNumberOfTokens="519"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_86/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="175"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_102/30aa8a1/dev.cpp"
+         totalNumberOfTokens="623"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_102/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="241"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_87/62491d0/dev.cpp"
+         totalNumberOfTokens="504"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_87/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="504"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_97/2925b12/dev.cpp"
+         totalNumberOfTokens="155"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_97/e0d9979/dev.cpp"
+         totalNumberOfTokens="274"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_38/1b26ed9/dev.c"
+         totalNumberOfTokens="293"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_38/b73f509/dev.c"
+         totalNumberOfTokens="249"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_38/gpt_generated_code/code1.c"
+         totalNumberOfTokens="331"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_58/e711751/dev.c"
+         totalNumberOfTokens="255"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/9210fa7/dev.cpp"
+         totalNumberOfTokens="475"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/ecc539e/dev.cpp"
+         totalNumberOfTokens="882"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="640"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/0f3c56c/dev.cpp"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/bc78bac/dev.cpp"
+         totalNumberOfTokens="745"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/ed023c3/dev.cpp"
+         totalNumberOfTokens="900"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/ed023c3/dev.hpp"
+         totalNumberOfTokens="768"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="749"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_100/394a353/dev.h"
+         totalNumberOfTokens="1308"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_100/6e471f9/dev.h"
+         totalNumberOfTokens="219"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_100/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="264"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_49/c720dda/dev.cpp"
+         totalNumberOfTokens="147"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_51/d4406f4/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_51/d4406f4/dev.h"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_54/0b58577/dev.cpp"
+         totalNumberOfTokens="342"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_54/437bfb4/dev.cpp"
+         totalNumberOfTokens="284"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_54/d3bc124/dev.cpp"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_54/fb41a24/dev.cpp"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_54/fb41a24/dev.h"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_83/048ed55/dev.cpp"
+         totalNumberOfTokens="162"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_83/4e28bea/dev.cpp"
+         totalNumberOfTokens="200"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_92/08f4844/dev.cpp"
+         totalNumberOfTokens="228"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_92/2bdd616/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_96/384b786/dev.cpp"
+         totalNumberOfTokens="78"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/1809cc8/dev.c"
+         totalNumberOfTokens="218"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/8ebbb8a/dev.c"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/gpt_generated_code/code1.c"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/gpt_generated_code/code2.c"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/gpt_generated_code/code3.c"
+         totalNumberOfTokens="204"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_89/552d99d/dev.cpp"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_89/7a67271/dev.cpp"
+         totalNumberOfTokens="61"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_89/e48d127/dev.cpp"
+         totalNumberOfTokens="290"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/79a7465/dev.c"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/79a7465/dev.cpp"
+         totalNumberOfTokens="228"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_65/130f70f/dev.cpp"
+         totalNumberOfTokens="190"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_65/794754b/dev.cpp"
+         totalNumberOfTokens="98"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_65/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="164"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_67/5988fba/dev.cpp"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_67/cf630ac/dev.cpp"
+         totalNumberOfTokens="162"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_67/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="162"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_71/15b469f/dev.cpp"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_71/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="411"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cse_491_fall_2023_ravipat3_69/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="398"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cse_491_fall_2023_ravipat3_69/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cse_491_fall_2023_ravipat3_69/gpt_generated_code/code3.cpp"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lfortran_Pranavchiku_2446/0a20412/dev.cpp"
+         totalNumberOfTokens="187"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lfortran_Pranavchiku_2446/482013b/dev.cpp"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lfortran_Pranavchiku_2446/482013b/dev.h"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lfortran_Pranavchiku_2446/5725a7b/dev.cpp"
+         totalNumberOfTokens="220"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lfortran_Pranavchiku_2446/8f86a27/dev.cpp"
+         totalNumberOfTokens="590"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llama.cpp_ikawrakow_1775/gpt_generated_code/code1.c"
+         totalNumberOfTokens="215"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llama.cpp_ikawrakow_1775/gpt_generated_code/code2.c"
+         totalNumberOfTokens="285"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llama.cpp_ikawrakow_1807/f5b6ed3/dev.cpp"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/22c8474/dev.c"
+         totalNumberOfTokens="177"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/34a6461/dev.c"
+         totalNumberOfTokens="16"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/4d42172/dev.c"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/6ef41e9/dev.cpp"
+         totalNumberOfTokens="106"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/6ef41e9/dev.h"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/d0e9ad5/dev.c"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/de9bd28/dev.c"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/fa24e0f/dev.c"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/fb6b2ec/dev.c"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/lpython_khushi-411_2323/gpt_generated_code/code1.c"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/2bd20ee/dev.cpp"
+         totalNumberOfTokens="1967"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/a9eb116/dev.cpp"
+         totalNumberOfTokens="329"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="69"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="90"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nix_colonelpanic8_8902/197afd0/dev.cc"
+         totalNumberOfTokens="250"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/15aa35b/dev.cpp"
+         totalNumberOfTokens="627"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/7a44e4e/dev.cpp"
+         totalNumberOfTokens="383"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/80f7cc0/dev.cc"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/98647df/dev.cpp"
+         totalNumberOfTokens="272"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d2fdba6/dev.cpp"
+         totalNumberOfTokens="94"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d2fdba6/dev.h"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d5d0af6/dev.cpp"
+         totalNumberOfTokens="351"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d835ae2/dev.cpp"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/3715ed5/dev.h"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/3715ed5/dev.hpp"
+         totalNumberOfTokens="165"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/45cb794/dev.cpp"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/9bd4ae9/dev.cpp"
+         totalNumberOfTokens="69"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/9bd4ae9/dev.hpp"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_26/6d8e1a6/dev.cpp"
+         totalNumberOfTokens="119"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_26/6d8e1a6/dev.h"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_26/6d8e1a6/dev.hpp"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/33ff7e5/dev.cpp"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/4345b9b/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/6c0255f/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/7f69f9a/dev.cpp"
+         totalNumberOfTokens="256"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/c5b3f31/dev.cpp"
+         totalNumberOfTokens="7"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/c6beec4/dev.cpp"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/d945163/dev.cpp"
+         totalNumberOfTokens="313"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/gpt_generated_code/code1.c"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/gpt_generated_code/code1.cpp"
+         totalNumberOfTokens="67"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/gpt_generated_code/code2.cpp"
+         totalNumberOfTokens="108"/>
+   <duplication lines="44" tokens="668">
+      <file begintoken="9777"
+            column="1"
+            endcolumn="19"
+            endline="54"
+            endtoken="10444"
+            line="11"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_55/40d1fe7/dev.c"/>
+      <file begintoken="10952"
+            column="1"
+            endcolumn="19"
+            endline="59"
+            endtoken="11619"
+            line="13"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_RedPenguin88_55/gpt_generated_code/code1.c"/>
+      <codefragment><![CDATA[char *base64dec(const char *src, size_t src_len) {
+    char *result, *dst;
+    static const char base64_digits[256] = {
+        ['+'] = 62, ['\\'] = 0, ['\n'] = 0, ['\r'] = 0, ['/'] = 63, ['0'] = 52, ['1'] = 53, ['2'] = 54, ['3'] = 55, ['4'] = 56,
+        ['5'] = 57, ['6'] = 58, ['7'] = 59, ['8'] = 60, ['9'] = 61, ['A'] = 0, ['B'] = 1, ['C'] = 2, ['D'] = 3, ['E'] = 4,
+        ['F'] = 5, ['G'] = 6, ['H'] = 7, ['I'] = 8, ['J'] = 9, ['K'] = 10, ['L'] = 11, ['M'] = 12, ['N'] = 13, ['O'] = 14,
+        ['P'] = 15, ['Q'] = 16, ['R'] = 17, ['S'] = 18, ['T'] = 19, ['U'] = 20, ['V'] = 21, ['W'] = 22, ['X'] = 23, ['Y'] = 24,
+        ['Z'] = 25, ['a'] = 26, ['b'] = 27, ['c'] = 28, ['d'] = 29, ['e'] = 30, ['f'] = 31, ['g'] = 32, ['h'] = 33, ['i'] = 34,
+        ['j'] = 35, ['k'] = 36, ['l'] = 37, ['m'] = 38, ['n'] = 39, ['o'] = 40, ['p'] = 41, ['q'] = 42, ['r'] = 43, ['s'] = 44,
+        ['t'] = 45, ['u'] = 46, ['v'] = 47, ['w'] = 48, ['x'] = 49, ['y'] = 50, ['z'] = 51
+    };
+
+    /* Allocate memory for decoded string */
+    result = dst = malloc(src_len / 4 * 3 + 1);
+    if (!result) {
+        fprintf(stderr, "Memory allocation failed\n");
+        return NULL;
+    }
+
+    /* Decode base64 characters */
+    while (*src) {
+        char firstChar = base64dec_getc(&src);
+        char secondChar = base64dec_getc(&src);
+        char thirdChar = base64dec_getc(&src);
+        char fourthChar = base64dec_getc(&src);
+        int a = base64_digits[(unsigned char)firstChar];
+        int b = base64_digits[(unsigned char)secondChar];
+        int c = base64_digits[(unsigned char)thirdChar];
+        int d = base64_digits[(unsigned char)fourthChar];
+        if (a == -1 || b == -1) {
+            fprintf(stderr, "Invalid input detected\n");
+            free(result);
+            return NULL;
+        }
+        *dst++ = (a << 2) | ((b & 0x30) >> 4);
+        if (thirdChar == '=')
+            break;
+        *dst++ = ((b & 0x0f) << 4) | ((c & 0x3c) >> 2);
+        if (fourthChar == '=')
+            break;
+        *dst++ = ((c & 0x03) << 6) | d;
+    }
+    *dst = '\0';
+    return result;]]></codefragment>
+   </duplication>
+   <duplication lines="92" tokens="504">
+      <file begintoken="27421"
+            column="1"
+            endcolumn="2"
+            endline="99"
+            endtoken="27924"
+            line="8"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_87/62491d0/dev.cpp"/>
+      <file begintoken="27926"
+            column="1"
+            endcolumn="2"
+            endline="97"
+            endtoken="28429"
+            line="6"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_87/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[using namespace std; 
+
+const int NINE = 9; // Number of cells in the board
+
+struct players {
+	string symbol; // Either X or O depending on player
+	int score; // How many wins a player has
+	players() {
+		symbol = "";
+		score = 0;
+	}
+};
+
+bool checkCellChoice(int choice) {
+	if (cin.fail() || choice < 1 || choice > NINE) {
+		cout << "Invalid input! Please enter a number between 1 and 9." << endl;
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		return false;
+	}
+	return true;
+}
+
+bool validateCell(players player, string board[], int choice, bool bot, bool debugMode) {
+	if (!bot) { // If it's not the computer
+		if (board[choice - 1] != to_string(choice)) {
+			cout << "This slot is already selected" << endl;
+			if (debugMode) {
+				cout << "\033[31mChecking the board for a winning sequence\n\033[30m";
+				outputBoard(board);
+				cout << "Player " + player.symbol + ", Make a selection: \n";
+				cout << "\033[31mPlay function called.\n\033[30m";
+			}
+			return false;
+		}
+	}
+	else { // If it's the computer
+		if (board[choice] == player.symbol || board[choice] == "X") {
+			if (debugMode) {
+				cout << "\033[31mCell is already selected!\nChanging selection.\n\033[30m\n";
+			}
+			return false;
+		}
+	}
+	return true;
+}
+
+void outputBoard(string board[]) {
+	cout << " -----------\n| "; // Top of board
+	for (int i = 0; i < NINE; i++) {
+		if (i % 3 == 0 && i != 0) {
+			cout << endl << " -----------\n| "; // line endings
+		}
+		cout << board[i] << " | "; // Outputs cells
+	}
+	cout << "\n -----------\n"; // Bottom of board
+}
+
+void selectCell(players player, string board[], int choice, bool bot, bool debugMode) {
+	int x = 0, y = 0;
+	if (!bot) { // If it's a player
+		cout << "Player " + player.symbol + ", Make a selection: \n";
+		if (debugMode) {
+			cout << "\033[31mPlay function called.\n\033[30m";
+		}
+		cin >> choice;
+		while (!checkCellChoice(choice) || !validateCell(player, board, choice, bot, debugMode)) {
+			cin >> choice;
+		}
+		board[choice - 1] = player.symbol; // Sets cell as taken
+	}
+	else { // If it's the computer
+		x = rand() % 3;
+		y = rand() % 3;
+		if (debugMode) {
+			cout << "\033[31mrow: " << x << " , col: " << y << "\033[30m\n";
+		}
+		choice = x * 3 + y; // Calculate the cell index
+		while (!validateCell(player, board, choice, bot, debugMode)) {
+			if (debugMode) {
+				cout << "\033[31mCell is already selected!\nChanging selection.\n\033[30m\n";
+			}
+			x = rand() % 3;
+			y = rand() % 3;
+			choice = x * 3 + y; // Calculate the cell index
+		}
+		if (debugMode) {
+			cout << "\033[31mPlaying in row: " << x << ", col: " << y << "\033[30m\n";
+		}
+		board[choice] = player.symbol;
+	}
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="98" tokens="467">
+      <file begintoken="30566"
+            column="34"
+            endcolumn="2"
+            endline="113"
+            endtoken="31032"
+            line="16"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/ecc539e/dev.cpp"/>
+      <file begintoken="31449"
+            column="53"
+            endcolumn="2"
+            endline="164"
+            endtoken="31915"
+            line="54"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[std::vector<std::string> deadEnds;
+
+int main(int argc, char* argv[])
+{
+    std::vector<std::string> wordBank;
+    std::vector<std::string> ladder;
+	std::ifstream inFile;
+	std::string word, target;
+	int status = 0;
+
+	if (argc != 2) {
+		status = 1;
+	}else {
+
+		inFile.open(argv[1]);
+
+		while (!inFile.eof()) {
+
+			std::string input;
+			inFile >> input;
+			wordBank.push_back(input);
+			if (inFile.eof())
+				break;
+
+		}
+
+		std::cin >> word >> target;
+
+		ladder.push_back(word);
+		bool found = false;
+		int past_size = -1;
+		while (!found) {
+			found = wordLadder(word, target, wordBank, ladder);
+
+			if (found) {
+				break;
+			}else {
+				if (past_size == ladder.size()) {
+					std::cout << "Solution Does Not Exist\n";
+					break;
+				}
+				ladder.pop_back();
+				
+				past_size = ladder.size();
+			}
+		}
+		//deleteDeadEnds(ladder);
+		
+		if (ladder.back() != target)
+			ladder.clear();
+
+		if(!ladder.empty())
+			for (auto word : ladder)
+				std::cout << word << '\n';
+	}
+
+    return 0;
+}
+
+bool wordLadder(std::string word, std::string wordFinal, const std::vector<std::string>& words,std::vector<std::string>& ladder)
+{
+	// base case
+	if (word == wordFinal) {
+		return true;
+	}
+	// general case
+	std::string strcomp;
+	int counter = 0;
+	for (auto begin = words.begin(); begin != words.end(); begin++) {
+		strcomp = *begin;
+		counter = 0;
+		if (isRedundant(*begin, ladder)) {
+			continue;
+		}
+
+		for (int i = 0; i < word.length(); i++) {
+			if (word[i] == strcomp[i]) 
+				counter++;
+		}
+
+		if (counter == word.length() - 1) {
+			ladder.push_back(*begin);
+			//std::cout << *begin << "\n";
+			bool found = wordLadder(*begin, wordFinal, words, ladder);
+			if (found) {
+				return true;
+			}else {
+				ladder.pop_back();
+			}
+		}
+		
+	}
+
+	return false;
+}
+
+bool isRedundant(std::string word, std::vector<std::string>& ladder)
+{
+]]></codefragment>
+   </duplication>
+   <duplication lines="53" tokens="372">
+      <file begintoken="2751"
+            column="1"
+            endcolumn="2"
+            endline="58"
+            endtoken="3122"
+            line="6"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_87/e58c95f/dev.cpp"/>
+      <file begintoken="3124"
+            column="1"
+            endcolumn="2"
+            endline="56"
+            endtoken="3495"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_87/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[void merge(std::vector<int>& array, int left, int mid, int right) {
+    int n1 = mid - left + 1;
+    int n2 = right - mid;
+
+    std::vector<int> leftArray(n1), rightArray(n2);
+
+    for (int i = 0; i < n1; ++i)
+        leftArray[i] = array[left + i];
+    for (int j = 0; j < n2; ++j)
+        rightArray[j] = array[mid + 1 + j];
+
+    int i = 0, j = 0, k = left;
+
+    while (i < n1 && j < n2) {
+        if (leftArray[i] <= rightArray[j])
+            array[k++] = leftArray[i++];
+        else
+            array[k++] = rightArray[j++];
+    }
+
+    while (i < n1)
+        array[k++] = leftArray[i++];
+    while (j < n2)
+        array[k++] = rightArray[j++];
+}
+
+void mergeSort(std::vector<int>& array, int begin, int end) {
+    if (begin < end) {
+        int mid = begin + (end - begin) / 2;
+        mergeSort(array, begin, mid);
+        mergeSort(array, mid + 1, end);
+        merge(array, begin, mid, end);
+    }
+}
+
+void printArray(const std::vector<int>& array) {
+    for (int num : array)
+        std::cout << num << " ";
+    std::cout << std::endl;
+}
+
+int main() {
+    std::vector<int> arr = {12, 11, 13, 5, 6, 7};
+    std::cout << "Given array is:\n";
+    printArray(arr);
+
+    mergeSort(arr, 0, arr.size() - 1);
+
+    std::cout << "\nSorted array is:\n";
+    printArray(arr);
+
+    return 0;
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="41" tokens="361">
+      <file begintoken="32380"
+            column="1"
+            endcolumn="18"
+            endline="104"
+            endtoken="32740"
+            line="64"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/bc78bac/dev.cpp"/>
+      <file begintoken="34799"
+            column="1"
+            endcolumn="18"
+            endline="116"
+            endtoken="35159"
+            line="71"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[bool DFS(std::unordered_map<std::string, vertex<std::string>>& map,
+         std::unordered_map<std::string, std::vector<std::string>>& keys) {
+    std::unordered_map<std::string, bool> visited;
+    std::string room = "MainHall";
+    visited[room] = true;
+    std::string current;
+
+    auto currentIt = map[room].begin();
+    current = *currentIt;
+
+    while (current != "Exit") {
+        room = crossEdges(current, map, keys, visited);
+        if (room == "End")
+            break;
+        if (!keys[room].empty()) {
+            map[keys[room][0]].addEdge(keys[room][1]);
+            map[keys[room][1]].addEdge(keys[room][0]);
+            currentIt = map[keys[room][0]].begin();
+            keys[room].clear();
+        } else {
+            currentIt = map[room].begin();
+        }
+        current = *currentIt;
+    }
+    return current == "Exit";
+}
+std::string crossEdges(const std::string& current,
+                       std::unordered_map<std::string, vertex<std::string>>& map,
+                       std::unordered_map<std::string, std::vector<std::string>>& keys,
+                       std::unordered_map<std::string, bool>& visited) {
+    visited[current] = true;
+    if (!keys[current].empty())
+        return current;
+    for (auto& neighbor : map[current]) {
+        if (!visited[neighbor]) {
+            std::string result = crossEdges(neighbor, map, keys, visited);
+            if (result != "End")
+                return result;
+        }
+    }
+    return "End";]]></codefragment>
+   </duplication>
+   <duplication lines="30" tokens="258">
+      <file begintoken="17714"
+            column="1"
+            endcolumn="3"
+            endline="34"
+            endtoken="17971"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/gpt_generated_code/code1.cpp"/>
+      <file begintoken="20555"
+            column="1"
+            endcolumn="3"
+            endline="67"
+            endtoken="20812"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/387b9ea/dev.cpp"/>
+      <codefragment><![CDATA[class Solution {
+public:
+    int minFallingPathSum(std::vector<std::vector<int>>& matrix) {
+        int rows = matrix.size();
+        int cols = matrix[0].size();
+
+        // Create a DP table to store intermediate results
+        std::vector<std::vector<int>> dp(rows, std::vector<int>(cols, 0));
+
+        // Copy the bottom row of the matrix to the DP table
+        for (int col = 0; col < cols; col++) {
+            dp[rows - 1][col] = matrix[rows - 1][col];
+        }
+
+        // Start from the second-to-last row and build the solution bottom-up
+        for (int row = rows - 2; row >= 0; row--) {
+            for (int col = 0; col < cols; col++) {
+                int left = (col > 0) ? dp[row + 1][col - 1] : INT_MAX;
+                int middle = dp[row + 1][col];
+                int right = (col < cols - 1) ? dp[row + 1][col + 1] : INT_MAX;
+
+                // Update the DP table with the minimum falling path sum
+                dp[row][col] = matrix[row][col] + std::min({left, middle, right});
+            }
+        }
+
+        // Find the minimum falling path sum from the top row
+        return *std::min_element(dp[0].begin(), dp[0].end());
+    }
+};]]></codefragment>
+   </duplication>
+   <duplication lines="48" tokens="241">
+      <file begintoken="26937"
+            column="1"
+            endcolumn="2"
+            endline="125"
+            endtoken="27177"
+            line="78"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_102/30aa8a1/dev.cpp"/>
+      <file begintoken="27179"
+            column="1"
+            endcolumn="2"
+            endline="51"
+            endtoken="27419"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_102/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[bool isPythagorean(int a, int b, int c) {
+    // Pythagorean theorem: a^2 + b^2 = c^2
+    return (a * a + b * b == c * c);
+}
+
+// Function to find the product of the Pythagorean triplet whose sum is given
+long long findPythagoreanProduct(int sumOfSides) {
+    if (sumOfSides < 12)
+        return -1; // Not possible to form a Pythagorean triplet with sum < 12
+    
+    long long maxProduct = -1;
+    
+    // Using Euclid's formula to find Pythagorean triplets
+    for (int m = 2; m * m < sumOfSides; ++m) {
+        for (int n = 1; n < m; ++n) {
+            // Euclid's formula to generate Pythagorean triplets:
+            // a = m^2 - n^2, b = 2mn, c = m^2 + n^2
+            int a = m * m - n * n;
+            int b = 2 * m * n;
+            int c = m * m + n * n;
+            
+            // Check if the triplet is valid and its sum equals sumOfSides
+            if (a + b + c == sumOfSides && isPythagorean(a, b, c)) {
+                long long product = a * b * c;
+                maxProduct = std::max(maxProduct, product);
+            }
+        }
+    }
+    
+    return maxProduct;
+}
+
+int main() {
+    int q;
+    std::cout << "How many times should this program be repeated: ";
+    std::cin >> q;
+
+    for (int i = 0; i < q; ++i) {
+        int sumOfSides;
+        std::cout << "Enter the sum of sides: ";
+        std::cin >> sumOfSides;
+
+        long long product = findPythagoreanProduct(sumOfSides);
+        std::cout << "Product of Pythagorean triplet: " << product << std::endl;
+    }
+
+    return 0;
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="38" tokens="233">
+      <file begintoken="29172"
+            column="36"
+            endcolumn="24"
+            endline="43"
+            endtoken="29404"
+            line="6"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_38/b73f509/dev.c"/>
+      <file begintoken="29759"
+            column="22"
+            endcolumn="24"
+            endline="64"
+            endtoken="29991"
+            line="18"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_58/e711751/dev.c"/>
+      <codefragment><![CDATA[    fprintf(stderr, "%s\n", message);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        handle_error("Usage: cbright [up|down]");
+    }
+    struct stat sb;
+    if (stat(FILE_PATH, &sb) == -1) {
+        handle_error("Failed to get file status");
+    }
+    FILE* file = fopen(FILE_PATH, "r+");
+    if (!file) {
+        handle_error("Failed to open file");
+    }
+    int cur_brightness;
+    fread(&cur_brightness, sizeof(int), 1, file);
+    int new_brightness;
+    if (strcmp(argv[1], "up") == 0) {
+        printf("Brightness up\n");
+        new_brightness = cur_brightness + BRIGHTNESS_INCREMENT;
+    } else if (strcmp(argv[1], "down") == 0) {
+        printf("Brightness down\n");
+        new_brightness = cur_brightness - BRIGHTNESS_INCREMENT;
+    } else {
+        handle_error("Unknown option");
+    }
+    if (new_brightness > MAX_BRIGHTNESS) {
+        new_brightness = MAX_BRIGHTNESS;
+    } else if (new_brightness < MIN_BRIGHTNESS) {
+        new_brightness = MIN_BRIGHTNESS;
+    }
+    printf("Current brightness: %i\n", cur_brightness);
+    printf("New brightness: %i\n", new_brightness);
+    fseek(file, 0, SEEK_SET);
+    fwrite(&new_brightness, sizeof(int), 1, file);
+    fclose(file);
+    exit(EXIT_SUCCESS);]]></codefragment>
+   </duplication>
+   <duplication lines="41" tokens="228">
+      <file begintoken="38188"
+            column="1"
+            endcolumn="2"
+            endline="43"
+            endtoken="38415"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_92/08f4844/dev.cpp"/>
+      <file begintoken="39515"
+            column="1"
+            endcolumn="2"
+            endline="53"
+            endtoken="39742"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/79a7465/dev.cpp"/>
+      <codefragment><![CDATA[double calculateRectangleArea(double length, double width) {
+    return length * width;
+}
+
+double calculateRectanglePerimeter(double length, double width) {
+    return 2 * (length + width);
+}
+
+double calculateRectangleVolume(double length, double width, double height) {
+    return length * width * height;
+}
+
+void printRectangleInformation(double area, double perimeter, double volume) {
+    std::cout << "Rectangle Area: " << area << std::endl;
+    std::cout << "Rectangle Perimeter: " << perimeter << std::endl;
+    std::cout << "Rectangle Volume: " << volume << std::endl;
+}
+
+int main() {
+    double length1 = 5;
+    double width1 = 4;
+    double height1 = 3;
+
+    double area1 = calculateRectangleArea(length1, width1);
+    double perimeter1 = calculateRectanglePerimeter(length1, width1);
+    double volume1 = calculateRectangleVolume(length1, width1, height1);
+
+    printRectangleInformation(area1, perimeter1, volume1);
+
+    double length2 = 6;
+    double width2 = 9;
+    double height2 = 10;
+
+    double area2 = calculateRectangleArea(length2, width2);
+    double perimeter2 = calculateRectanglePerimeter(length2, width2);
+    double volume2 = calculateRectangleVolume(length2, width2, height2);
+
+    printRectangleInformation(area2, perimeter2, volume2);
+
+    return 0;
+}]]></codefragment>
+   </duplication>
+   <duplication lines="29" tokens="227">
+      <file begintoken="31996"
+            column="1"
+            endcolumn="6"
+            endline="37"
+            endtoken="32222"
+            line="9"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/bc78bac/dev.cpp"/>
+      <file begintoken="34412"
+            column="1"
+            endcolumn="10"
+            endline="37"
+            endtoken="34638"
+            line="9"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[bool DFS(std::unordered_map<std::string, vertex<std::string>>& map,
+         std::unordered_map<std::string, std::vector<std::string>>& keys);
+
+std::string crossEdges(const std::string& current,
+                       std::unordered_map<std::string, vertex<std::string>>& map,
+                       std::unordered_map<std::string, std::vector<std::string>>& keys,
+                       std::unordered_map<std::string, bool>& visited);
+
+int main() {
+    std::string fileName;
+
+    // Load police station map
+    std::ifstream policeStationFile;
+    do {
+        std::cout << "Enter the police station file name: ";
+        std::cin >> fileName;
+        policeStationFile.open(fileName);
+    } while (!policeStationFile.is_open());
+
+    // Construct the graph
+    std::unordered_map<std::string, vertex<std::string>> map;
+    std::string line;
+    while (std::getline(policeStationFile, line)) {
+        std::istringstream iss(line);
+        std::string key, value;
+        if (iss >> key >> value) {
+            map[key].addEdge(value);
+            map[value].addEdge(key);
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="50" tokens="215">
+      <file begintoken="17973"
+            column="1"
+            endcolumn="2"
+            endline="52"
+            endtoken="18187"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_74/3075678/dev.cpp"/>
+      <file begintoken="18377"
+            column="1"
+            endcolumn="2"
+            endline="57"
+            endtoken="18591"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_74/gpt_generated_code/code1.cpp"/>
+      <file begintoken="20339"
+            column="1"
+            endcolumn="2"
+            endline="57"
+            endtoken="20553"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/c98785e/dev.cpp"/>
+      <codefragment><![CDATA[using namespace std;
+
+int main() {
+
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    cout << "\n\n";
+    
+    int oldNum;
+	int remaining;
+	int divSum = 0;
+
+	remaining = num;
+	for (int i = 1; i <= remaining; ++i) {
+		if (remaining == i) {
+			break;
+		}
+		if (num % i == 0) {
+			divSum += i;
+			remaining = num/i;
+			if (i != (num/i) && (num/i) != num) {
+				divSum += num/i;
+			}
+		}
+	}
+
+    oldNum = num;
+    num = divSum;
+	remaining = divSum;
+	divSum = 0;
+	for (int i = 1; i <= remaining; ++i) {
+		if (remaining == i) {
+			break;
+		}
+		if (num % i == 0) {
+			divSum += i;
+			remaining = num/i;
+			if (i != (num/i) && (num/i) != num) {
+				divSum += num/i;
+			}
+		}
+	}
+
+	if (divSum == oldNum) {
+		cout << "AMICABLE NUMBER!";
+	}
+
+    return 0;
+}]]></codefragment>
+   </duplication>
+   <duplication lines="51" tokens="210">
+      <file begintoken="30017"
+            column="5"
+            endcolumn="6"
+            endline="102"
+            endtoken="30226"
+            line="52"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/9210fa7/dev.cpp"/>
+      <file begintoken="30600"
+            column="2"
+            endcolumn="3"
+            endline="70"
+            endtoken="30809"
+            line="22"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/ecc539e/dev.cpp"/>
+      <file begintoken="31483"
+            column="5"
+            endcolumn="6"
+            endline="120"
+            endtoken="31692"
+            line="70"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[    std::ifstream inFile;
+    std::string word, target;
+    int status = 0;
+
+    // Check command-line arguments
+    if (argc != 2) {
+        status = 1;
+    } else {
+        inFile.open(argv[1]);
+
+        // Read word bank from file
+        while (!inFile.eof()) {
+            std::string input;
+            inFile >> input;
+            wordBank.push_back(input);
+            if (inFile.eof())
+                break;
+        }
+
+        // Take input of starting and final words
+        std::cin >> word >> target;
+
+        ladder.push_back(word);
+        bool found = false;
+        int past_size = -1;
+
+        // Find word ladder
+        while (!found) {
+            found = wordLadder(word, target, wordBank, ladder);
+
+            if (found) {
+                break;
+            } else {
+                if (past_size == ladder.size()) {
+                    std::cout << "Solution Does Not Exist\n";
+                    break;
+                }
+                ladder.pop_back();
+                past_size = ladder.size();
+            }
+        }
+
+        // Clear ladder if the final word is not reached
+        if (ladder.back() != target)
+            ladder.clear();
+
+        // Print word ladder
+        if (!ladder.empty())
+            for (auto word : ladder)
+                std::cout << word << '\n';
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="28" tokens="188">
+      <file begintoken="21111"
+            column="9"
+            endcolumn="6"
+            endline="91"
+            endtoken="21298"
+            line="64"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/d3c74ad/dev.cpp"/>
+      <file begintoken="22327"
+            column="14"
+            endcolumn="6"
+            endline="67"
+            endtoken="22514"
+            line="41"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[        pop_heap(openSet.begin(), openSet.end());
+        openSet.pop_back();
+        closedSet.push_back(current);
+        int parentIndex = closedSet.size()-1;
+
+    // Usage of the applyOperator function
+
+    // UP operator
+    if (current.blankRow > 0) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.UP(); });
+    }
+
+    // DOWN operator
+    if (current.blankRow < 3) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.DOWN(); });
+    }
+
+    // LEFT operator
+    if (current.blankColumn != 0) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.LEFT(); });
+    }
+
+    // RIGHT operator
+    if (current.blankColumn != 3) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.RIGHT(); });
+    }
+
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="39" tokens="171">
+      <file begintoken="22595"
+            column="5"
+            endcolumn="2"
+            endline="48"
+            endtoken="22765"
+            line="10"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/4906982/dev.cpp"/>
+      <file begintoken="23044"
+            column="5"
+            endcolumn="2"
+            endline="46"
+            endtoken="23214"
+            line="11"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[    string stars(35, '*'); // String to create the border of asterisks
+
+    // Print the top border
+    cout << endl << stars << endl;
+
+    // Loop through each row of the grid
+    for (int i = 0; i < height; i++) {
+        cout << '*'; // Print left border
+
+        // Loop through each column of the grid
+        for (int j = 0; j < width; j++) {
+            if (grid[j][i].isEmpty()) {
+                // If the cell is empty, print spaces to represent it
+                cout << "   ";
+            }
+            else {
+                if (grid[j][i].isThereAPersonStandingHere()) {
+                    // If a person is standing in the cell, print their ID surrounded by spaces
+                    cout << ' ' << grid[j][i].getPersonID() << ' ';
+                }
+                else {
+                    if (!(grid[j][i].isThereAPersonSittingHere())) {
+                        // If a person is not standing or sitting in the cell, print "c" surrounded by spaces
+                        cout << " c ";
+                    }
+                    else {
+                        // If a person is sitting in the cell, print their ID surrounded by square brackets
+                        cout << '[' << grid[j][i].getPersonID() << ']';
+                    }
+                }
+            }
+        }
+
+        cout << '*' << endl; // Print right border after each row
+    }
+
+    // Print the bottom border
+    cout << stars << endl << endl;
+}]]></codefragment>
+   </duplication>
+   <duplication lines="30" tokens="162">
+      <file begintoken="40210"
+            column="1"
+            endcolumn="2"
+            endline="31"
+            endtoken="40371"
+            line="2"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_67/cf630ac/dev.cpp"/>
+      <file begintoken="40373"
+            column="1"
+            endcolumn="2"
+            endline="49"
+            endtoken="40534"
+            line="2"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_salazw1_67/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[using namespace std;
+
+const int ARRAY_SIZE = 4;
+
+void findMinMax(double[], double&, double&);
+
+int main()
+{
+    double list[ARRAY_SIZE] = {3.5, 1.6, -4.9, 2.5};
+    double minimum = list[0];
+    double maximum = list[0];
+    findMinMax(list, minimum, maximum);
+    cout << "Minimum: " << minimum << endl;
+    cout << "Maximum: " << maximum << endl;
+    return 0;
+}
+
+void findMinMax(double list[], double& minimum, double& maximum)
+{
+    for (int i = 1; i < ARRAY_SIZE; i++)
+    {
+        if (list[i] < minimum){
+            minimum = list[i];
+        }
+        else if (list[i] > maximum)
+        {
+            maximum = list[i];
+        }
+    }
+}]]></codefragment>
+   </duplication>
+   <duplication lines="24" tokens="161">
+      <file begintoken="21137"
+            column="36"
+            endcolumn="6"
+            endline="89"
+            endtoken="21297"
+            line="66"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/d3c74ad/dev.cpp"/>
+      <file begintoken="21984"
+            column="53"
+            endcolumn="10"
+            endline="25"
+            endtoken="22144"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/e35463c/dev.cpp"/>
+      <file begintoken="22353"
+            column="36"
+            endcolumn="10"
+            endline="66"
+            endtoken="22513"
+            line="43"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_FernFinder_65/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[        closedSet.push_back(current);
+        int parentIndex = closedSet.size()-1;
+
+    // Usage of the applyOperator function
+
+    // UP operator
+    if (current.blankRow > 0) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.UP(); });
+    }
+
+    // DOWN operator
+    if (current.blankRow < 3) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.DOWN(); });
+    }
+
+    // LEFT operator
+    if (current.blankColumn != 0) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.LEFT(); });
+    }
+
+    // RIGHT operator
+    if (current.blankColumn != 3) {
+        applyOperator(current, parentIndex, openSet, closedSet, [](Node& node) { node.RIGHT(); });
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="31" tokens="161">
+      <file begintoken="30263"
+            column="5"
+            endcolumn="18"
+            endline="137"
+            endtoken="30423"
+            line="107"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/9210fa7/dev.cpp"/>
+      <file begintoken="30851"
+            column="2"
+            endcolumn="15"
+            endline="109"
+            endtoken="31011"
+            line="78"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/ecc539e/dev.cpp"/>
+      <file begintoken="31734"
+            column="5"
+            endcolumn="18"
+            endline="160"
+            endtoken="31894"
+            line="130"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_73/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[    if (word == wordFinal) {
+        return true;
+    }
+
+    // General case: find adjacent words in the word bank
+    std::string strcomp;
+    int counter = 0;
+    for (auto begin = words.begin(); begin != words.end(); begin++) {
+        strcomp = *begin;
+        counter = 0;
+        if (isRedundant(*begin, ladder)) {
+            continue;
+        }
+
+        for (int i = 0; i < word.length(); i++) {
+            if (word[i] == strcomp[i]) 
+                counter++;
+        }
+
+        if (counter == word.length() - 1) {
+            ladder.push_back(*begin);
+            bool found = wordLadder(*begin, wordFinal, words, ladder);
+            if (found) {
+                return true;
+            } else {
+                ladder.pop_back();
+            }
+        }
+    }
+
+    return false;
+]]></codefragment>
+   </duplication>
+   <duplication lines="22" tokens="151">
+      <file begintoken="14417"
+            column="28"
+            endcolumn="40"
+            endline="38"
+            endtoken="14567"
+            line="17"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_74/1080f2c/dev.cpp"/>
+      <file begintoken="14715"
+            column="21"
+            endcolumn="26"
+            endline="49"
+            endtoken="14865"
+            line="16"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_74/232eaf3/dev.cpp"/>
+      <file begintoken="14987"
+            column="21"
+            endcolumn="26"
+            endline="115"
+            endtoken="15137"
+            line="89"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_74/232eaf3/dev.cpp"/>
+      <codefragment><![CDATA[    int continueCollumn = 0;
+    currentCharacter = getCharacterOnBoard(x,y);
+    for(aroundRow = -1; aroundRow <= 1; aroundRow++)
+    {
+        for(aroundCollumn = -1; aroundCollumn <= 1; aroundCollumn++)
+        {
+            if((aroundRow == 0 && aroundCollumn == 0) || x + aroundRow < 0 || y + aroundCollumn < 0 || 
+                x + aroundRow >= DIMENSION || y + aroundCollumn >= DIMENSION)
+            {
+                continue;
+            }
+            currentCharacter = getCharacterOnBoard(x + aroundRow, y + aroundCollumn);
+            if(currentCharacter == opponentIcon)
+            {
+                continueRow = x + aroundRow;
+                continueCollumn = y + aroundCollumn;
+                while(continueRow >= 0 || continueRow < DIMENSION || continueCollumn >= 0 || continueCollumn < DIMENSION)
+                {
+                    continueRow += aroundRow;
+                    continueCollumn += aroundCollumn;
+                    currentCharacter = getCharacterOnBoard(continueRow,continueCollumn);
+                    if(currentCharacter != '_' && currentCharacter != playerIcon)
+]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="149">
+      <file begintoken="17564"
+            column="9"
+            endcolumn="62"
+            endline="59"
+            endtoken="17712"
+            line="48"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/e3fb8f9/dev.cpp"/>
+      <file begintoken="17820"
+            column="9"
+            endcolumn="62"
+            endline="32"
+            endtoken="17968"
+            line="20"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/gpt_generated_code/code1.cpp"/>
+      <file begintoken="20661"
+            column="9"
+            endcolumn="62"
+            endline="65"
+            endtoken="20809"
+            line="53"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/387b9ea/dev.cpp"/>
+      <codefragment><![CDATA[        for (int row = rows - 2; row >= 0; row--) {
+            for (int col = 0; col < cols; col++) {
+                int left = (col > 0) ? dp[row + 1][col - 1] : INT_MAX;
+                int middle = dp[row + 1][col];
+                int right = (col < cols - 1) ? dp[row + 1][col + 1] : INT_MAX;
+
+                // Update the DP table with the minimum falling path sum
+                dp[row][col] = matrix[row][col] + std::min({left, middle, right});
+            }
+        }
+        // Find the minimum falling path sum from the top row
+        return *std::min_element(dp[0].begin(), dp[0].end());]]></codefragment>
+   </duplication>
+   <duplication lines="26" tokens="139">
+      <file begintoken="25131"
+            column="1"
+            endcolumn="10"
+            endline="127"
+            endtoken="25269"
+            line="102"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_83/5f0e61e/dev.cpp"/>
+      <file begintoken="25350"
+            column="1"
+            endcolumn="10"
+            endline="29"
+            endtoken="25488"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_83/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[std::string findMonth(int index) {
+    const int startingIndices[] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};
+    const char* monthNames[] = {"JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
+
+    for (int i = 0; i < 12; ++i) {
+        if (index >= startingIndices[i] && index < startingIndices[i + 1]) {
+            return monthNames[i];
+        }
+    }
+
+    return ""; // Handle out-of-range input
+}
+
+int findDay(const std::string& month, int index) {
+    const int startingIndices[] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};
+
+    for (int i = 0; i < 12; ++i) {
+        if (month == findMonth(startingIndices[i])) {
+            return index - startingIndices[i] + 1;
+        }
+    }
+
+    return -1; // Handle invalid month input
+}
+
+int main(void){
+]]></codefragment>
+   </duplication>
+   <duplication lines="57" tokens="138">
+      <file begintoken="9375"
+            column="1"
+            endcolumn="2"
+            endline="60"
+            endtoken="9512"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_Aligary_79/c16a9cd/dev.cpp"/>
+      <file begintoken="9514"
+            column="1"
+            endcolumn="2"
+            endline="60"
+            endtoken="9651"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_Aligary_79/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[using namespace std;
+
+// Function declaration
+void displayMainMenu();
+
+int main() {
+    // Variable declarations
+    char input;
+    int Caccounts = 0; // Counter for checking accounts
+    int Saccounts = 0; // Counter for savings accounts
+    int count = 0; // Counter variable, assumed for writeFile() function
+
+    // Display main menu and process user input until 'Q' is entered
+    do {
+        // Display main menu options
+        displayMainMenu();
+
+        // Read user input
+        cin >> input;
+
+        // Convert input to uppercase for consistency
+        input = toupper(input);
+
+        // Process user input using switch statement
+        switch (input) {
+            case 'D':
+                // Placeholder for processing deposit functionality
+                // processMoney(Caccounts, Saccounts, true, false);
+                break;
+            case 'W':
+                // Placeholder for processing withdrawal functionality
+                // processMoney(Caccounts, Saccounts, false, true);
+                break;
+            case 'Q':
+                // Placeholder for exiting the program
+                // writeFile(/* Pass necessary arguments */);
+                cout << "Goodbye!" << endl;
+                break;
+            default:
+                // Inform the user of an invalid selection
+                cout << "Invalid selection. Please try again." << endl;
+                break;
+        }
+    } while (input != 'Q'); // Continue loop until 'Q' is entered
+
+    return 0;
+}
+
+// Function definition for displaying the main menu
+void displayMainMenu() {
+    cout << "Main Menu" << endl;
+    cout << "Please make your selection" << endl;
+    cout << "D - Deposit money" << endl;
+    cout << "W - Withdraw money" << endl;
+    cout << "Q - Quit" << endl;
+    cout << "Selection: ";
+}]]></codefragment>
+   </duplication>
+   <duplication lines="21" tokens="137">
+      <file begintoken="28587"
+            column="1"
+            endcolumn="2"
+            endline="27"
+            endtoken="28723"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_97/e0d9979/dev.cpp"/>
+      <file begintoken="28724"
+            column="1"
+            endcolumn="2"
+            endline="89"
+            endtoken="28860"
+            line="63"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_bigboidanwithacan_97/e0d9979/dev.cpp"/>
+      <codefragment><![CDATA[using namespace std;
+
+
+int main(){
+    int t;
+    cin >> t;
+    for(int a0 = 0; a0 < t; a0++){
+        long long n, temp;
+        unsigned long long sum = 0;
+        cin >> n;
+        temp = (n - 1) / 3;
+        sum = (3 * temp * (temp + 1))/2; 
+        temp = (n -1) / 5;
+        sum += (5 * temp * (temp + 1))/2;
+        temp = (n - 1) / 15;
+        sum -= (15 * temp * (temp + 1))/2;
+       
+        cout << sum << endl;
+    }
+    return 0;
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="136">
+      <file begintoken="5063"
+            column="103"
+            endcolumn="40"
+            endline="39"
+            endtoken="5198"
+            line="25"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/58d5d1d/dev.cpp"/>
+      <file begintoken="6647"
+            column="9"
+            endcolumn="39"
+            endline="189"
+            endtoken="6782"
+            line="175"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/98bdfcb/dev.cpp"/>
+      <codefragment><![CDATA[				commandBuffer->CmdPipelineBarrier(VK_PIPELINE_STAGE_TRANSFER_BIT, VK_PIPELINE_STAGE_TRANSFER_BIT, barrier);
+
+				VkImageBlit blit{};
+				blit.srcOffsets[0] = {0, 0, 0};
+				blit.srcOffsets[1] = {mipWidth, mipHeight, 1};
+				blit.srcSubresource.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
+				blit.srcSubresource.mipLevel = i - 1;
+				blit.srcSubresource.baseArrayLayer = 0;
+				blit.srcSubresource.layerCount = 1;
+				blit.dstOffsets[0] = {0, 0, 0};
+				blit.dstOffsets[1] = { mipWidth > 1 ? mipWidth / 2 : 1, mipHeight > 1 ? mipHeight / 2 : 1, 1 };
+				blit.dstSubresource.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
+				blit.dstSubresource.mipLevel = i;
+				blit.dstSubresource.baseArrayLayer = 0;
+				blit.dstSubresource.layerCount = 1;
+]]></codefragment>
+   </duplication>
+   <duplication lines="20" tokens="130">
+      <file begintoken="38057"
+            column="5"
+            endcolumn="59"
+            endline="31"
+            endtoken="38186"
+            line="12"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_83/4e28bea/dev.cpp"/>
+      <file begintoken="38282"
+            column="5"
+            endcolumn="59"
+            endline="40"
+            endtoken="38411"
+            line="18"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_junxjr_92/08f4844/dev.cpp"/>
+      <file begintoken="39609"
+            column="5"
+            endcolumn="59"
+            endline="50"
+            endtoken="39738"
+            line="22"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/79a7465/dev.cpp"/>
+      <codefragment><![CDATA[    std::cout << "Rectangle Volume: " << volume << std::endl;
+}
+
+int main() {
+    double length1 = 5;
+    double width1 = 4;
+    double height1 = 3;
+
+    double area1 = calculateRectangleArea(length1, width1);
+    double perimeter1 = calculateRectanglePerimeter(length1, width1);
+    double volume1 = calculateRectangleVolume(length1, width1, height1);
+
+    printRectangleInformation(area1, perimeter1, volume1);
+    double length2 = 6;
+    double width2 = 9;
+    double height2 = 10;
+    double area2 = calculateRectangleArea(length2, width2);
+    double perimeter2 = calculateRectanglePerimeter(length2, width2);
+    double volume2 = calculateRectangleVolume(length2, width2, height2);
+    printRectangleInformation(area2, perimeter2, volume2);]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="120">
+      <file begintoken="4935"
+            column="4"
+            endcolumn="57"
+            endline="23"
+            endtoken="5054"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/58d5d1d/dev.cpp"/>
+      <file begintoken="6506"
+            column="3"
+            endcolumn="56"
+            endline="169"
+            endtoken="6625"
+            line="151"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/98bdfcb/dev.cpp"/>
+      <codefragment><![CDATA[			VkImageMemoryBarrier barrier{};
+			barrier.sType = VK_STRUCTURE_TYPE_IMAGE_MEMORY_BARRIER;
+			barrier.image = image;
+			barrier.srcQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED;
+			barrier.dstQueueFamilyIndex = VK_QUEUE_FAMILY_IGNORED;
+			barrier.subresourceRange.aspectMask = VK_IMAGE_ASPECT_COLOR_BIT;
+			barrier.subresourceRange.baseArrayLayer = 0;
+			barrier.subresourceRange.layerCount = 1;
+			barrier.subresourceRange.levelCount = 1;
+
+			int32_t mipWidth = texWidth;
+			int32_t mipHeight = texHeight;
+
+			for (u32 i = 1; i < mipLevels; i++) {
+				barrier.subresourceRange.baseMipLevel = i - 1;
+				barrier.oldLayout = VK_IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL;
+				barrier.newLayout = VK_IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL;
+				barrier.srcAccessMask = VK_ACCESS_TRANSFER_WRITE_BIT;
+				barrier.dstAccessMask = VK_ACCESS_TRANSFER_READ_BIT;
+]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="118">
+      <file begintoken="32222"
+            column="5"
+            endcolumn="6"
+            endline="54"
+            endtoken="32339"
+            line="37"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/bc78bac/dev.cpp"/>
+      <file begintoken="34639"
+            column="5"
+            endcolumn="10"
+            endline="55"
+            endtoken="34756"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_39otsu_78/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[    }
+    policeStationFile.close();
+
+    // Get the key locations
+    std::unordered_map<std::string, std::vector<std::string>> keys;
+    do {
+        std::cout << "Enter the keys file name: ";
+        std::cin >> fileName;
+        policeStationFile.open(fileName);
+    } while (!policeStationFile.is_open());
+
+    while (std::getline(policeStationFile, line)) {
+        std::istringstream iss(line);
+        std::string key, value1, value2;
+        if (iss >> key >> value1 >> value2) {
+            keys[key].emplace_back(value1);
+            keys[key].emplace_back(value2);
+    }
+]]></codefragment>
+   </duplication>
+   <duplication lines="27" tokens="118">
+      <file begintoken="36498"
+            column="9"
+            endcolumn="25"
+            endline="42"
+            endtoken="36615"
+            line="16"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_100/6e471f9/dev.h"/>
+      <file begintoken="36742"
+            column="9"
+            endcolumn="25"
+            endline="59"
+            endtoken="36859"
+            line="32"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_100/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[        Iterator() : current(nullptr) {}
+        // Constructor initializes current to the given node pointer
+        Iterator(Node *ptr) : current(ptr) {}
+
+        // Dereference operator returns the data of the current node
+        T operator*() const { return current->data; }
+
+        // Postfix increment operator moves the iterator to the next node
+        const Iterator &operator++(int) {
+            current = current->next;
+            return *this;
+        }
+
+        // Postfix decrement operator moves the iterator to the previous node
+        const Iterator &operator--(int) {
+            current = current->prev;
+            return *this;
+        }
+
+        // Equality comparison operator
+        bool operator==(const Iterator &rhs) const { return current == rhs.current; }
+
+        // Inequality comparison operator
+        bool operator!=(const Iterator &rhs) const { return current != rhs.current; }
+
+        // Allow LL to access Iterator's private members
+        friend class LL;
+]]></codefragment>
+   </duplication>
+   <duplication lines="3" tokens="115">
+      <file begintoken="38510"
+            column="1"
+            endcolumn="50"
+            endline="7"
+            endtoken="38624"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/1809cc8/dev.c"/>
+      <file begintoken="38866"
+            column="5"
+            endcolumn="54"
+            endline="3"
+            endtoken="38980"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_jusasin_91/gpt_generated_code/code3.c"/>
+      <codefragment><![CDATA[return!0<t?t<3?main(-79,-13,a+main(-87,1-_,main(-86,0,a+1)+a)):
+1,t<_?main(t+1,_,a):3,main(-94,-27+t,a)&&t==2?_<13?
+main(2,_+1,"%s %d %d\n"):9:16:t<0?t<-72?main(_,t,
+]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="110">
+      <file begintoken="19685"
+            column="1"
+            endcolumn="2"
+            endline="32"
+            endtoken="19794"
+            line="16"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_91/6309ba7/dev.cpp"/>
+      <file begintoken="19796"
+            column="1"
+            endcolumn="2"
+            endline="35"
+            endtoken="19905"
+            line="12"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_renm10_91/6b8c5cd/dev.cpp"/>
+      <codefragment><![CDATA[void swap(Rectangle& lhs, Rectangle& rhs)
+{
+    Rectangle temp;
+    temp.height = lhs.height;
+    temp.y = ground - lhs.height;
+
+    lhs.height = rhs.height;
+    lhs.y = ground - rhs.height;
+
+    rhs.height = temp.height;
+    rhs.y = temp.y;
+
+    lhs.color = sf::Color(255,255,255);
+    rhs.color = sf::Color(255,255,255);
+
+    sf::sleep(sf::milliseconds(10));
+}]]></codefragment>
+   </duplication>
+   <duplication lines="22" tokens="101">
+      <file begintoken="23294"
+            column="12"
+            endcolumn="25"
+            endline="38"
+            endtoken="23394"
+            line="17"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_57/7143e1a/dev.cpp"/>
+      <file begintoken="23545"
+            column="14"
+            endcolumn="29"
+            endline="22"
+            endtoken="23645"
+            line="10"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_57/da326eb/dev.cpp"/>
+      <codefragment><![CDATA[    visited.add(beginWord);
+    
+    // Initialize the number of changes needed to transform beginWord to endWord
+    int changes = 1;
+    
+    // Begin BFS traversal
+    while (!queue.isEmpty()) {
+        int size = queue.size();
+        // Process all words at the current level of BFS
+        for (int i = 0; i < size; i++) {
+            // Retrieve the current word from the queue
+            String word = queue.poll();
+            // If the current word equals endWord, return the number of changes needed
+            if (word.equals(endWord)) 
+                return changes;
+            
+            // Iterate through each character of the word
+            for (int j = 0; j < word.length(); j++) {
+                // Iterate through all possible characters from 'a' to 'z'
+                for (int k = 'a'; k <= 'z'; k++) {
+                    // Replace the j-th character of the word with the character represented by k
+                    char[] arr = word.toCharArray();
+]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="101">
+      <file begintoken="24806"
+            column="1"
+            endcolumn="2"
+            endline="21"
+            endtoken="24906"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_thegreatzoidberg_49/gpt_generated_code/code1.cpp"/>
+      <file begintoken="24908"
+            column="1"
+            endcolumn="2"
+            endline="32"
+            endtoken="25008"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_thegreatzoidberg_53/gpt_generated_code/code1.cpp"/>
+      <codefragment><![CDATA[void fillArrayWithMultiplesOfFive(int array[], int size) {
+    for (int i = 0; i < size; ++i) {
+        array[i] = i * 5;
+    }
+}
+
+int main() {
+    const int arraySize = 10;
+    int numbers[arraySize];
+
+    fillArrayWithMultiplesOfFive(numbers, arraySize);
+
+    for (int i = 0; i < arraySize; ++i) {
+        std::cout << numbers[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}]]></codefragment>
+   </duplication>
+   <duplication lines="9" tokens="100">
+      <file begintoken="17464"
+            column="5"
+            endcolumn="55"
+            endline="46"
+            endtoken="17563"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/e3fb8f9/dev.cpp"/>
+      <file begintoken="17719"
+            column="5"
+            endcolumn="55"
+            endline="16"
+            endtoken="17818"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_78/gpt_generated_code/code1.cpp"/>
+      <file begintoken="20560"
+            column="5"
+            endcolumn="55"
+            endline="49"
+            endtoken="20659"
+            line="40"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/387b9ea/dev.cpp"/>
+      <codefragment><![CDATA[    int minFallingPathSum(std::vector<std::vector<int>>& matrix) {
+        int rows = matrix.size();
+        int cols = matrix[0].size();
+        // Create a DP table to store intermediate results
+        std::vector<std::vector<int>> dp(rows, std::vector<int>(cols, 0));
+
+        // Copy the bottom row of the matrix to the DP table
+        for (int col = 0; col < cols; col++) {
+            dp[rows - 1][col] = matrix[rows - 1][col];
+]]></codefragment>
+   </duplication>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/1cde811/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/1cde811/dev.cpp' at line 1, column 33: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Better-than-Nothing_axelcoezard_57/1cde811/dev.cpp' at line 1, column 33: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:37)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Cataclysm-BN_scarf005_3130/ac8f52a/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Cataclysm-BN_scarf005_3130/ac8f52a/dev.cpp' at line 1, column 20: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Cataclysm-BN_scarf005_3130/ac8f52a/dev.cpp' at line 1, column 20: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:37)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/985fd0e/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/985fd0e/dev.cpp' at line 2, column 1: &#34;\n&#34; (10), after : &#34;\&#34;// Print Grid&#34; (in lexical state DEFAULT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_45/985fd0e/dev.cpp' at line 2, column 1: "\n" (10), after : "\"// Print Grid" (in lexical state DEFAULT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:37)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_49/c720dda/dev.h"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_49/c720dda/dev.h' at line 8, column 7: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_Redblaze74_49/c720dda/dev.h' at line 8, column 7: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/8cb2414/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/8cb2414/dev.cpp' at line 1, column 60: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/8cb2414/dev.cpp' at line 1, column 60: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d835ae2/dev.h"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d835ae2/dev.h' at line 37, column 7: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d835ae2/dev.h' at line 37, column 7: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/e75203f/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/e75203f/dev.cpp' at line 1, column 61: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/e75203f/dev.cpp' at line 1, column 61: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/3715ed5/dev.cpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/3715ed5/dev.cpp' at line 8, column 7: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/3715ed5/dev.cpp' at line 8, column 7: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/9bd4ae9/dev.h"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/9bd4ae9/dev.h' at line 7, column 7: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserv_takumihara_20/9bd4ae9/dev.h' at line 7, column 7: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/33ff7e5/dev.hpp"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/33ff7e5/dev.hpp' at line 1, column 17: &lt;EOF&gt; after : &#34;&#34; (in lexical state PREPROCESSOR_OUTPUT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/33ff7e5/dev.hpp' at line 1, column 17: &lt;EOF&gt; after : "" (in lexical state PREPROCESSOR_OUTPUT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:2203)
+	at net.sourceforge.pmd.lang.cpp.ast.CppParserImplTokenManager.getNextToken(CppParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:37)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+</pmd-cpd>

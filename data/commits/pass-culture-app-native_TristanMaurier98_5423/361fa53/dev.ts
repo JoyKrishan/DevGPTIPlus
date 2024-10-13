@@ -1,0 +1,1 @@
+export const HorizontalSeparator = styled.View<{ color?: ColorsEnum }>(({ color, theme }) => ({

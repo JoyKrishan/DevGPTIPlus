@@ -1,0 +1,1 @@
+  const value = { sp, updateSp: updateSearchParams, getItem, setItem, removeItem, clear, dontStringifySetItem: true, };

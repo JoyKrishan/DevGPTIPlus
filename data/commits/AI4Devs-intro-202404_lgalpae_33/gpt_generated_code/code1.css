@@ -1,0 +1,28 @@
+/* Estilos para los inputs de tiempo */
+.timeInput {
+    width: 60px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.timer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timer h2 {
+    margin-bottom: 10px;
+}
+
+#buttonContainer {
+    margin-top: 10px;
+}
+
+#timeDisplay {
+    font-size: 24px;
+    margin-top: 20px;
+}

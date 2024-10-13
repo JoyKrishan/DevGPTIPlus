@@ -1,0 +1,6 @@
+# Vim swp files
+**/*.swp
+**/*.swo
+
+# Default output directory
+output/

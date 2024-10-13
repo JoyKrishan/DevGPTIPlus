@@ -1,0 +1,15 @@
+   <blocks>
+     <block type="bitwise_and">
+       <value name="A">
+         <shadow type="math_number">
+           <field name="NUM">0</field>
+         </shadow>
+       </value>
+       <value name="B">
+         <shadow type="math_number">
+           <field name="NUM">0</field>
+         </shadow>
+       </value>
+     </block>
+     <!-- Add similar blocks for OR, XOR, and NOT -->
+   </blocks>

@@ -1,0 +1,15 @@
+{
+  "id": "spider-plant",
+  "name": "Clorofito",
+  "shortDescription": "Planta fácil de cuidar, ótima para ambientes internos. Folia variegada e cascata elegante.",
+  "description": "O Clorofito, conhecido popularmente como 'planta-aranha', é uma escolha popular para aqueles que buscam uma planta fácil de cuidar, sendo especialmente indicado para ambientes internos. Originário da África do Sul, esta planta apresenta folhas verdes e variegadas, proporcionando um visual decorativo. Sua folhagem cascata adiciona um toque elegante a prateleiras e suportes suspensos. O Clorofito é altamente adaptável a diferentes condições de luz e solo, tornando-se uma opção versátil para jardineiros iniciantes. Além de sua estética agradável, essa planta tem a capacidade única de produzir pequenas plantas 'filhas' em suas hastes, adicionando um charme adicional ao ambiente.",
+  "imageUrl": "https://example.com/spider-plant.jpg",
+  "facts": {
+    "scientificName": "Chlorophytum comosum",
+    "sunExposure": "Luz indireta",
+    "waterIntervalInDays": 7,
+    "soilType": "Solo leve",
+    "hasFlowers": true,
+    "hasFruits": false
+  }
+}

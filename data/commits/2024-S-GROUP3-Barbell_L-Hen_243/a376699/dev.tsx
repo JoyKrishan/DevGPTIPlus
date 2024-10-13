@@ -1,0 +1,1 @@
+              <Text className='mx-3 my-[12px] text-[20px] text-slate-200'>{exercise.name}</Text>

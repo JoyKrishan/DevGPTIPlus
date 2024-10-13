@@ -1,0 +1,1 @@
+./plex create -t tools/openbabel/pdb-to-sdf-openbabel.json -i testdata/7n9g.pdb --autoRun=True

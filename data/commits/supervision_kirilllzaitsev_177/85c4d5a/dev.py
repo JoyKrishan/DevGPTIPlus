@@ -1,0 +1,1 @@
+        cbar = ax.figure.colorbar(im, ax=ax)

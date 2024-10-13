@@ -1,0 +1,206 @@
+      summary: (UI) index.html
+      summary: (UI) Get embeddings
+      summary: (UI) Get extensions
+      summary: (UI) Upload an image.
+      summary: (UI) View image
+      summary: (UI) Get queue info
+      summary: (UI) Post prompt
+      summary: (UI) Get object info
+      summary: (UI) Get history
+      summary: (UI) Post history
+      summary: (UI) Get queue
+      summary: (UI) Post queue
+      summary: (UI) Post interrupt
+  /api/v1/images/{digest}:
+    get:
+      summary: (API) Get image
+      description: |
+        Returns an image given a content hash.
+      parameters:
+        - name: digest
+          in: path
+          required: true
+          description: A digest of the request used to generate the imaeg
+          schema:
+            type: string
+          example: e5187160a7b2c496773c1c5a45bfd3ffbf25eaa5969328e6469d36f31cf240a3
+      responses:
+        404:
+          description: No image was found.
+        200:
+          description: An image.
+          content:
+            image/png:
+              schema:
+                type: string
+                format: binary
+      summary: (API) Get prompt
+        Return the last prompt run anywhere that was used to produce an image
+        
+      summary: (API) Generate image
+        Run a prompt to generate an image.
+        
+          headers:
+            Location:
+              description: The URL to the file based on a hash of the request body.
+              example: /api/v1/images/e5187160a7b2c496773c1c5a45bfd3ffbf25eaa5969328e6469d36f31cf240a3
+              schema:
+                type: string
+            Digest:
+              description: The digest of the request body
+              example: SHA256=e5187160a7b2c496773c1c5a45bfd3ffbf25eaa5969328e6469d36f31cf240a3
+              schema:
+                type: string
+            Content-Disposition:
+              description: The filename when a SaveImage node is specified.
+              example: filename=ComfyUI_00001.png
+              schema:
+                type: string
+            text/uri-list:
+              schema:
+                description: |
+                  The URI to retrieve the binary content of the image.
+                  
+                  This will return two URLs. The first is the ordinary ComfyUI view image URL that exactly corresponds
+                  to the UI call. The second is the URL that corresponds to sha256 hash of the request body.
+                  
+                  Hashing function for web browsers:
+                  
+                  ```js
+                  async function generateHash(body) {
+                    // Stringify and sort keys in the JSON object
+                    let str = JSON.stringify(body);
+                  
+                    // Encode the string as a Uint8Array
+                    let encoder = new TextEncoder();
+                    let data = encoder.encode(str);
+                  
+                    // Create a SHA-256 hash of the data
+                    let hash = await window.crypto.subtle.digest('SHA-256', data);
+                  
+                    // Convert the hash (which is an ArrayBuffer) to a hex string
+                    let hashArray = Array.from(new Uint8Array(hash));
+                    let hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+                  
+                    return hashHex;
+                  }
+                  ```
+                  
+                  Hashing function for nodejs:
+                  
+                  ```js
+                  const crypto = require('crypto');
+                  
+                  function generateHash(body) {
+                    // Stringify and sort keys in the JSON object
+                    let str = JSON.stringify(body);
+                  
+                    // Create a SHA-256 hash of the string
+                    let hash = crypto.createHash('sha256');
+                    hash.update(str);
+                  
+                    // Return the hexadecimal representation of the hash
+                    return hash.digest('hex');
+                  }
+                  ```
+                  
+                  Hashing function for python:
+                  ```python
+                  def digest(data: dict | str) -> str:
+                    json_str = data if isinstance(data, str) else json.dumps(data)
+                    json_bytes = json_str.encode('utf-8')
+                    hash_object = hashlib.sha256(json_bytes)
+                    return hash_object.hexdigest()
+                  
+                  ```
+                type: string
+                example: |
+                  /api/v1/images/e5187160a7b2c496773c1c5a45bfd3ffbf25eaa5969328e6469d36f31cf240a3
+                  http://127.0.0.1:8188/view?filename=ComfyUI_00001_.png&type=output
+                description: The PNG binary content.
+      example: {
+        "3": {
+          "class_type": "KSampler",
+          "inputs": {
+            "cfg": 8,
+            "denoise": 1,
+            "latent_image": [
+              "5",
+              0
+            ],
+            "model": [
+              "4",
+              0
+            ],
+            "negative": [
+              "7",
+              0
+            ],
+            "positive": [
+              "6",
+              0
+            ],
+            "sampler_name": "euler",
+            "scheduler": "normal",
+            "seed": 8566257,
+            "steps": 20
+          }
+        },
+        "4": {
+          "class_type": "CheckpointLoaderSimple",
+          "inputs": {
+            "ckpt_name": "v1-5-pruned-emaonly.ckpt"
+          }
+        },
+        "5": {
+          "class_type": "EmptyLatentImage",
+          "inputs": {
+            "batch_size": 1,
+            "height": 512,
+            "width": 512
+          }
+        },
+        "6": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "4",
+              1
+            ],
+            "text": "masterpiece best quality girl"
+          }
+        },
+        "7": {
+          "class_type": "CLIPTextEncode",
+          "inputs": {
+            "clip": [
+              "4",
+              1
+            ],
+            "text": "bad hands"
+          }
+        },
+        "8": {
+          "class_type": "VAEDecode",
+          "inputs": {
+            "samples": [
+              "3",
+              0
+            ],
+            "vae": [
+              "4",
+              2
+            ]
+          }
+        },
+        "9": {
+          "class_type": "SaveImage",
+          "inputs": {
+            "filename_prefix": "ComfyUI",
+            "images": [
+              "8",
+              0
+            ]
+          }
+        }
+      }

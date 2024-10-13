@@ -1,0 +1,27 @@
+jobs:
+  lint-format-backend:
+    name: Lint and Format Backend
+    runs-on: ubuntu-latest
+    steps:
+      # Steps for linting and formatting
+      - name: Format with Black
+        run: |
+          find . -name "*.py" -print0 | xargs -0 black --check --experimental-string-processing --line-length=120
+          echo "##[error] Autoformatting failed" # Output an error message
+
+  autoformat-on-failure:
+    name: Autoformat on Failure
+    runs-on: ubuntu-latest
+    needs: lint-format-backend
+
+    steps:
+      - name: Check for failure
+        run: |
+          if [[ $(grep -c "Autoformatting failed" $GITHUB_WORKSPACE/$GITHUB_JOB.log) -gt 0 ]]; then
+            echo "Autoformatting failed, triggering autoformat job"
+          else
+            echo "No autoformatting issues"
+            exit 0
+          fi
+
+      # Additional steps to run autoformatting or any other actions

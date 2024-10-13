@@ -1,0 +1,1 @@
+#if defined(_WIN32)

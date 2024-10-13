@@ -1,0 +1,17 @@
+        """
+        Removes the nth node from the end of a singly-linked list.
+
+        Args:
+            head (Optional[ListNode]): The head pointer of the linked list.
+            n (int): The position of the node to remove from the end of the list.
+
+        Returns:
+            Optional[ListNode]: The head pointer of the linked list after removal.
+        """
+
+        # Creating a dummy head node to handle edge cases
+        # Initialize fast and slow pointers
+        # Move fast pointer to the n+1-th node from the beginning
+        # Move both pointers until fast pointer reaches the end
+        # Check if the node to remove is the head node
+            # Remove the nth node from the end

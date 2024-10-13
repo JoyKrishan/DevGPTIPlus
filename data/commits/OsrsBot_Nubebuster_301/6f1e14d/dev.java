@@ -1,0 +1,1 @@
+        if (canvas == null || !canvas.isValid()) {

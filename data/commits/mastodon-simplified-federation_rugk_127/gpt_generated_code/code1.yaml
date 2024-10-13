@@ -1,0 +1,44 @@
+name: Generate Release Notes
+
+on:
+  push:
+    branches:
+      - main  # Update the branch name as needed
+
+jobs:
+  generate_release_notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install required tools (if any)
+        # If you need any additional tools, you can install them here
+
+      - name: Generate Release Notes
+        run: |
+          # Write shell commands to parse changelog data and generate JSON
+          # Replace the commands below with your actual parsing logic
+          release_notes="{"
+          for lang_dir in $(ls -d assets/texts/*); do
+            lang=$(basename $lang_dir)
+            changelog_file="${lang}/Changelog/2.2.html"
+            if [ -f "$changelog_file" ]; then
+              content=$(cat $changelog_file)
+              release_notes+="\"${lang}\":\"${content}\","
+            fi
+          done
+          release_notes="${release_notes%,}"  # Remove trailing comma
+          release_notes+="}"
+
+          echo "::set-output name=release_notes::$(echo $release_notes)"
+
+      - name: Use wdzeng/firefox-addon Action
+        uses: wdzeng/firefox-addon@v1.1.0-alpha.0
+        with:
+          addon-guid: your-addon's-guid
+          xpi-path: your-addon.zip
+          self-hosted: false
+          release-notes: ${{ steps.generate_release_notes.outputs.release_notes }}
+          jwt-issuer: ${{ secrets.FIREFOX_JWT_ISSUER }}
+          jwt-secret: ${{ secrets.FIREFOX_JWT_SECRET }}

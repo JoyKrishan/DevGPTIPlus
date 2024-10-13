@@ -1,0 +1,1 @@
+import PageContent from '../../components/PageContent';

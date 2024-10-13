@@ -1,0 +1,17 @@
+.page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field_container {
+  background-color: lightgray;
+  width: 40%;
+}
+
+.logo_container {
+  width: 40%;
+}

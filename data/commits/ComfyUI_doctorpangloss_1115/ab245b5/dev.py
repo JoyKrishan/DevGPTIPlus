@@ -1,0 +1,2 @@
+        return get_queue_priority(self.queue_tuple) < get_queue_priority(other.queue_tuple)
+def validate_prompt(prompt: dict) -> typing.Tuple[bool, dict | typing.List[dict] | None, typing.List[str], dict | list]:

@@ -1,0 +1,4 @@
+  pull_request:
+        with:
+          submodules: "recursive" # Ensures submodules are checked out
+          cloudflare_api_token: JWo5dPsoyohH5PRu89-RktjCvRN0-ODC6CC9ZBqF # Specifically scoped for public contributors to automatically deploy to our team Cloudflare account

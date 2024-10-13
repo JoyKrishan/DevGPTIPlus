@@ -1,0 +1,9 @@
+bokeh==3.3.2
+Faker==22.0.0
+folium==0.15.1
+ipython==8.19.0
+jupyter-collaboration==2.0.1
+nbconvert==7.14.0
+pandas==2.1.4
+Pillow==10.2.0
+typing-extensions==4.9.0

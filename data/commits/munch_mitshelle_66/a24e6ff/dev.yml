@@ -1,0 +1,3 @@
+            # Add Codespell for checking typos
+            - name: Check Typos with codespell
+              run: codespell -S __pycache__ -r --ignore-words-list=pylint

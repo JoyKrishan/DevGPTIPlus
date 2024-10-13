@@ -1,0 +1,1 @@
+  NDK=${NDK:-android-ndk-r23b}

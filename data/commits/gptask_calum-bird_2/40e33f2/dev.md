@@ -1,0 +1,1 @@
+Running in development: Run `./scripts/test.sh` or alternatively run:

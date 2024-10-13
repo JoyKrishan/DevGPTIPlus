@@ -1,0 +1,1 @@
+const lastPart = "/post/9wkGQnZ8gp6nkxlP94lH".split("/").pop();

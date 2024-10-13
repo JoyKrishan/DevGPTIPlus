@@ -1,0 +1,9 @@
+enum Gender {
+  MALE
+  FEMALE
+  PREFERNOTTOSAY
+}
+
+// * gender: User gender, default to prefer not to say.
+  clerkId              String?        @unique
+  gender               Gender?        @default(PREFERNOTTOSAY)

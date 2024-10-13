@@ -1,0 +1,1 @@
+./plex create -t tools/openbabel/<json-file> -i <your-input-file> --autoRun=True

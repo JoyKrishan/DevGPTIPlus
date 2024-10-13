@@ -1,0 +1,27 @@
+      react-native-calendars:
+        specifier: ^1.1304.1
+        version: 1.1304.1(react-native@0.73.6)(react@18.2.0)
+  /react-native-calendars@1.1304.1(react-native@0.73.6)(react@18.2.0):
+    resolution: {integrity: sha512-D1aU5lLhi7KCCCeHhKOkcC41K8s3paiiIfMaOQx6NezCbgKHelqT01WPpAZLh3Cm0QTC5EZo0oDPD0mCdKrDgQ==}
+    dependencies:
+      hoist-non-react-statics: 3.3.2
+      lodash: 4.17.21
+      memoize-one: 5.2.1
+      prop-types: 15.8.1
+      react-native-swipe-gestures: 1.0.5
+      recyclerlistview: 4.2.0(react-native@0.73.6)(react@18.2.0)
+      xdate: 0.8.2
+    optionalDependencies:
+      moment: 2.30.1
+    transitivePeerDependencies:
+      - react
+      - react-native
+    dev: true
+
+  /react-native-swipe-gestures@1.0.5:
+    resolution: {integrity: sha512-Ns7Bn9H/Tyw278+5SQx9oAblDZ7JixyzeOczcBK8dipQk2pD7Djkcfnf1nB/8RErAmMLL9iXgW0QHqiII8AhKw==}
+    dev: true
+
+  /xdate@0.8.2:
+    resolution: {integrity: sha512-sNBlLfOC8S3V0vLDEUianQOXcTsc9j4lfeKU/klHe0RjHAYn0CXsSttumTot8dzalboV8gZbH38B+WcCIBjhFQ==}
+    dev: true

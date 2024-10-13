@@ -1,0 +1,24 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI4Devs - Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <div class="container">
+        <h1>AI4Devs - Stopwatch</h1>
+        <div class="controls">
+            <input type="radio" name="mode" id="stopwatch-mode" checked>
+            <label for="stopwatch-mode">Stopwatch</label>
+            <input type="radio" name="mode" id="countdown-mode">
+            <label for="countdown-mode">Countdown</label>
+        </div>
+        <div class="timer-container">
+            <input type="text" id="timer" value="00:00:00:00" disabled>
+            <input type="text" id="countdown-input" placeholder="Enter time (HH:MM:SS)" disabled>
+        </div>
+        <div class="button-container">
+            <button id="start-btn" class="start-btn">Start</button>
+            <button id="stop-btn" class="stop-btn">Stop</button>
+            <button id="clear-btn" class="clear-btn">Clear</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</html>

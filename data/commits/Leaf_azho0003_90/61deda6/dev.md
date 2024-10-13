@@ -1,0 +1,1 @@
+3. Replace Leaf/node_modules/bcryptjs/dist/bcrypt.js with Leaf/bcrypt.js

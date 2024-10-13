@@ -1,0 +1,4 @@
+  fail-by-blocking-label:
+      - name: Fail if PR is labeled by a blocking label
+        if: contains(github.event.pull_request.labels.*.name, 'do NOT merge yet') || contains(github.event.pull_request.labels.*.name, 's:\ on hold')
+          echo "This PR is blocked by label 'do NOT merge yet' or 's: on hold'!"

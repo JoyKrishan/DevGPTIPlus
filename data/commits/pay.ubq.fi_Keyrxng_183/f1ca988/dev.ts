@@ -1,0 +1,1 @@
+  const currentNetworkId = (await web3provider.getNetwork()).chainId;

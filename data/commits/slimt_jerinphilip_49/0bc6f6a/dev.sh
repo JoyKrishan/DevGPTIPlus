@@ -1,0 +1,1 @@
+brew install protobuf # not really required, CI seems to fail

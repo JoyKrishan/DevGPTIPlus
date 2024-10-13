@@ -1,0 +1,1 @@
+    <RegisterWrapper className="space-y-8">

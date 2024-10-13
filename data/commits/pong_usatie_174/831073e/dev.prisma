@@ -1,0 +1,12 @@
+  id          Int          @id @default(autoincrement())
+  name        String
+  users       UserOnRoom[]
+  Message     Message[]
+  accessLevel AccessLevel
+  password    String?
+}
+
+enum AccessLevel {
+  PUBLIC
+  PRIVATE
+  PROTECTED

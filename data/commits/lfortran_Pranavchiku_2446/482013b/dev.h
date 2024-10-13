@@ -1,0 +1,1 @@
+    bool legacy_array_sections = false;

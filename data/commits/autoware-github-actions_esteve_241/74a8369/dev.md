@@ -1,0 +1,1 @@
+| save-json-output      | false    | Save the output contents to artifact in json format.     |

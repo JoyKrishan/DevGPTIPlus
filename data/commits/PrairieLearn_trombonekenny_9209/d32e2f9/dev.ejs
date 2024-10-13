@@ -1,0 +1,7 @@
+    <% if (assessment.type === 'Exam') { %>
+    <% } %>
+          <%- include('../partials/question', {question_context: assessment.type === 'Exam' ? 'student_exam' : 'student_homework'}); %>
+          <% if (assessment.type === 'Exam') { %>
+          <% } else { %>
+          <%- include('../partials/assessmentScorePanel') %>
+          <% } %>

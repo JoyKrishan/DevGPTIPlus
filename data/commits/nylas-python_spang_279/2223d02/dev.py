@@ -1,0 +1,1 @@
+        status: The status of the slot. Typically "busy"

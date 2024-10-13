@@ -1,0 +1,11 @@
+        "Yes, replace all values and delete row 5",
+        "No, just replace the values without deleting row 5",
+        "other (please specify)"
+    "choice": "Yes, replace all values and delete row 5"
+    "type": "finish",
+    "summary": "The user's intent was to completely replace all values in row 3 with those from row 5 in table_1. Then delete row 5."
+        "Delete the entire row",
+        "Clear data only, keep row",
+        "Remove incorrect or outdated information",
+        "Reset values temporarily for audit purposes",
+        "other (please specify)"

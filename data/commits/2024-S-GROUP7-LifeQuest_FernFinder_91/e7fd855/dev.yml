@@ -1,0 +1,3 @@
+          env:
+            MONGODB_URI: ${{ secrets.MONGO_DB_URI }}
+            DATABASE_NAME: ${{ secrets.DATABASE_NAME }}

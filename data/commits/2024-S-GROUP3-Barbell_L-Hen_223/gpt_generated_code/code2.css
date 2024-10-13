@@ -1,0 +1,9 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}

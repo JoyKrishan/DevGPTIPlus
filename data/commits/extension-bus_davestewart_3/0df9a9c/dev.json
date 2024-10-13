@@ -1,0 +1,2 @@
+    "dev": "nodemon -w src -e ts --exec npm run build",
+    "nodemon": "^3.0.3",

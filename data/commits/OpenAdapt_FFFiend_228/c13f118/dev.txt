@@ -1,0 +1,4 @@
+-e git+https://github.com/abrichr/atomacos.git; sys_platform == 'darwin'
+setuptools-lint
+sphinx
+-e git+https://github.com/abrichr/pynput.git#egg=pynput

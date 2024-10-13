@@ -1,0 +1,1 @@
+   plex create -t gnina.json -i {input_directory} --autoRun=True

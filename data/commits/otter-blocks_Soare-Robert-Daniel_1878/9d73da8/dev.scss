@@ -1,0 +1,23 @@
+	--pag-border-color-hover: var(--pag-border-color); // TODO: add handles for this.
+		align-items: baseline;
+		gap: var(--pag-gap);
+		color: var(--pag-color);
+		.o-pag-item:not(.o-dots) {
+			background-color: var(--pag-bg-color);
+			border-color: var(--pag-border-color);
+			border-radius: var(--pag-border-radius);
+			border-width: var(--pag-border-width);
+			padding: var(--pag-padding);
+			color: inherit;
+			border-style: solid;
+			box-sizing: border-box;
+			text-align: center;
+			margin: 0;
+			&:hover {
+				background-color: var(--pag-bg-color-hover);
+				border-color: var(--pag-border-color-hover);
+				color: var(--pag-color-hover);
+			&[aria-current="page"] {
+				background-color: var(--pag-bg-color-active);
+				border-color: var(--pag-border-color-active);
+				color: var(--pag-color-active);

@@ -1,0 +1,1 @@
+    dim = list(orig_dim) # make a copy

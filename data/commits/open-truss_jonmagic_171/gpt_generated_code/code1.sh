@@ -1,0 +1,1 @@
+npm install @graphql-tools/load @graphql-tools/graphql-file-loader

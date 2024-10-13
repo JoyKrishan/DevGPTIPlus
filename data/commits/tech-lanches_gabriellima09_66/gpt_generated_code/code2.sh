@@ -1,0 +1,1 @@
+kubectl apply -f techlanches-sql-pv.yaml

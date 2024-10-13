@@ -1,0 +1,4 @@
+    "db:migrate:proxy": {
+      "env": ["MIGRATE_DATABASE_URL", "DATABASE_URL"],
+      "outputs": []
+    },

@@ -1,0 +1,1 @@
+python script.py -l test_directory/

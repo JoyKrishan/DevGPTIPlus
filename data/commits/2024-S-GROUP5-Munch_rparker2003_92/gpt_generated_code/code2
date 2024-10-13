@@ -1,0 +1,13 @@
+- your_project_folder/
+  - app.py
+  - routes/
+    - user_routes.py
+    - post_routes.py
+    - feed_routes.py
+    - recipe_routes.py
+    - like_routes.py
+    - comment_routes.py
+    - bookmark_routes.py
+    - follow_routes.py
+    - yelpAPI/
+      - fakeDataAPI.py

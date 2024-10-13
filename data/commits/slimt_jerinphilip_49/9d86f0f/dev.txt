@@ -1,0 +1,1 @@
+target_include_directories(slimt_jni PRIVATE ${JNI_INCLUDE_DIRS})

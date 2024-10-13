@@ -1,0 +1,5 @@
+Sheet ID {sheet_id}
+Row Count: {row_count}
+Column Names: {column_names}
+Table Diff After User Change: {NL_diff}
+User Prompt: {user_prompt}

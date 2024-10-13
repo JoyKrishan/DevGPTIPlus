@@ -1,0 +1,103 @@
+.SettingsPage {
+
+    &__two_column_grid {
+        display: grid;
+        grid-template-columns: 0.5fr 1.75fr;
+        grid-gap: 1.25rem;
+        @media (max-width: 48rem) { // For tablet and mobile
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__two_column_grid_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        border-radius: 0.75rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1);
+        height: calc(100vh - 9.5rem);
+        @media (max-width: 48rem) { // For tablet and mobile
+            max-height: calc(100vh - 21.25rem); // Used chatGPT to calculate the height more accurately
+        }
+    }
+
+    &__two_column_grid_item__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #f5f5f5;
+        border-radius: 0.75rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1);
+        @media (max-width: 48rem) { // For tablet and mobile
+            max-height: 30vh;
+            padding-left: 20px;
+            overflow-y: auto;
+        }
+    }
+
+    &__grid_container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    &__menu_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media (width <= 48.00rem) {
+            flex-flow: row wrap; // Lays menu items out in a row on smaller screens
+            justify-content: center; // This will center the items in the container
+            align-items: center;
+            max-height: auto;
+        }
+    }
+
+    &__menu_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-bottom: 1px solid ;
+        border-bottom: 1px solid #ccc;
+
+        @media (width <= 48.00rem) {
+            border-bottom: none;
+            border-right: 1px solid #ccc;
+            padding-right: 0.75rem;
+            padding-left: 0.75rem;
+            &:last-child {
+                border-right: none; // Remove right border for the last item
+            }
+        }
+    }
+    
+    &__component_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-top: 0.75rem;
+        justify-content: flex-start;
+        align-items: stretch;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1);
+        max-height: calc(100vh - 15.75rem);
+        overflow-y: auto;
+
+        @media (width <= 48.00rem) {
+            width: 100%;
+        }
+    }
+}

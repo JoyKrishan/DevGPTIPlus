@@ -1,0 +1,16 @@
+                v-if="isMultipleEngine"
+              <q-btn v-else outline @click="openFaq">FAQを見る</q-btn>
+                        class="audio-cells"
+                        :model-value="audioKeys"
+                        :item-key="itemKey"
+                        :prevent-on-filter="false"
+                        @update:model-value="updateAudioKeys"
+                        <template #item="{ element }">
+                            class="draggable-cursor"
+                            :audio-key="element"
+                            @focus-cell="focusCell"
+                          @click="addAudioItem"
+                      :active-audio-key="activeAudioKey"
+              :active-audio-key="activeAudioKey"
+    :character-infos="orderedAllCharacterInfos"
+    :character-infos="orderedAllCharacterInfos"

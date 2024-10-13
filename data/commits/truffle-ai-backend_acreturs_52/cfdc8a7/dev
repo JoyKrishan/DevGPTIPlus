@@ -1,0 +1,1 @@
+COPY --from=build /app/packages/repo_job/package.json /app/packages/repo_job/package.json

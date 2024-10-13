@@ -1,0 +1,1 @@
+export function skipMemoText(targettext: string): string {

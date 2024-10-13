@@ -1,0 +1,8 @@
+     (rule
+      (deps
+       %{bin:js_of_ocaml}
+       (:some-cmi %{lib:<library_name>:melange/<library_name>.cmi}))
+      (target <library_name>-cmijs.js)
+      (action
+       (bash
+        "find $(dirname %{some-cmi}) -name \"*.cmi\" -or -name \"*.cmj\" | xargs js_of_ocaml build-fs -o %{target}")))

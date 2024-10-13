@@ -1,0 +1,1 @@
+namespace osu.Game.Rulesets.IGPlayer.Feature.Player.Plugins.Config

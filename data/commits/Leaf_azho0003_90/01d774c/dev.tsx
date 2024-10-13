@@ -1,0 +1,6 @@
+                    flex:1,
+                        wide ? { width: "100%" } : { alignSelf: "center" },
+                        position:"absolute",
+                        padding: 3,
+                        right:12,
+                        zIndex: 1,

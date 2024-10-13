@@ -1,0 +1,3 @@
+DOCKER_REGISTRY=ghcr.io
+DOCKER_ORG=opendevin
+DOCKER_IMAGE=sandbox

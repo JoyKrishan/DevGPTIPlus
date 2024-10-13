@@ -1,0 +1,7 @@
+        # Print Coverage Reports
+        - name: Print coverage reports
+            cd ../backend
+            npm run coverage
+
+            
+

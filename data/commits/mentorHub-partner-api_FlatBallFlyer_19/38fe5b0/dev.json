@@ -1,0 +1,13 @@
+  "compilerOptions": {
+    "target": "ES2020",  // Updated to support ECMAScript private fields
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2020"]  // Ensures that all necessary library files are included
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,33 @@
+name: Create Release with stats.md as Notes
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get content of stats.md
+        id: stats
+        run: |
+          content="$(cat stats.md)"
+          content="${content//'%'/'%25'}"
+          content="${content//$'\n'/'%0A'}"
+          content="${content//$'\r'/'%0D'}"
+          echo "::set-output name=content::$content"
+        
+      - name: Create Release
+        id: create_release
+        uses: gh-actions/create-release@v1.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: ${{ steps.stats.outputs.content }}
+          draft: false
+          prerelease: false

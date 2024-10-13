@@ -1,0 +1,2 @@
+      "eslint --fix",
+      "bash .github/workflows/scripts/kebab-case.sh"

@@ -1,0 +1,62 @@
+      '@formbricks/js-core':
+        specifier: workspace:*
+        version: link:../../packages/js-core
+      '@formbricks/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      terser:
+        specifier: ^5.29.1
+        version: 5.29.1
+      vite:
+        specifier: ^5.1.6
+        version: 5.1.6(terser@5.29.1)
+      vite-plugin-dts:
+        specifier: ^3.7.3
+        version: 3.7.3(typescript@5.3.3)(vite@5.1.6)
+
+  packages/js-core:
+    devDependencies:
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      browserslist: 4.23.0
+      '@babel/template': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/template': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/template': 7.24.0
+      '@babel/traverse': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/template': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/helper-plugin-utils': 7.24.0
+      '@babel/parser': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/parser': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/parser': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/parser': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/types': 7.24.0
+      '@babel/parser': 7.24.0
+    dev: false
+      browserslist: 4.23.0
+    dev: false
+    dev: false

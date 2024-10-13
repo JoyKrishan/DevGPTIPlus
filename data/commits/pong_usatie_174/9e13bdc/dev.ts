@@ -1,0 +1,5 @@
+        .createRoom(constants.room.publicRoom, owner.accessToken)
+      .createRoom(constants.room.publicRoom, 'invalid_access_token')
+        .createRoom(constants.room.publicRoom, owner.accessToken)
+        .createRoom(constants.room.publicRoom, owner.accessToken)
+      .createRoom(constants.room.publicRoom, owner.accessToken)

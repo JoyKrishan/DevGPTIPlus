@@ -1,0 +1,1 @@
+| 6.0.3   | 2024-04-08 | [36898](https://github.com/airbytehq/airbyte/pull/36898)                                                              | Update car prices and years                                                                                     |

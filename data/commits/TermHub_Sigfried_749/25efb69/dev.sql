@@ -1,0 +1,1 @@
+CREATE INDEX session_conceptidx{{optional_index_suffix}} ON public.session_concept{{optional_suffix}}(session_id, concept_id);

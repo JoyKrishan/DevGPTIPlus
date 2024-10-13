@@ -1,0 +1,1 @@
+    LEFT JOIN concept_depth cd ON ca.ancestor_concept_id = cd.descendant_concept_id

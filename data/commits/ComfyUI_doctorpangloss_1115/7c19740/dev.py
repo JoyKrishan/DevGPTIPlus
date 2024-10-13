@@ -1,0 +1,1 @@
+if args.force_fp16 or cpu_state == CPUState.MPS:

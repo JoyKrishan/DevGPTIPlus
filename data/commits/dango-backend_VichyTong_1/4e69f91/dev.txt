@@ -1,0 +1,17 @@
+{'row': 4, 'col': 1, 'old_value': null, 'new_value': '1'}
+{'row': 4, 'col': 2, 'old_value': null, 'new_value': '2'}
+{'row': 4, 'col': 3, 'old_value': null, 'new_value': '3'}
+{'row': 4, 'col': 4, 'old_value': null, 'new_value': '4'}
+{'row': 4, 'col': 5, 'old_value': null, 'new_value': '5'}
+Summary: In table1.csv, sequentially insert values into the fourth row according to column number.
+{'row': 4, 'col': 1, 'old_value': "1", 'new_value': null}
+{'row': 4, 'col': 2, 'old_value': "2", 'new_value': null}
+{'row': 4, 'col': 3, 'old_value': "3", 'new_value': null}
+{'row': 5, 'col': 1, 'old_value': null, 'new_value': '1'}
+{'row': 5, 'col': 2, 'old_value': null, 'new_value': '2'}
+{'row': 5, 'col': 3, 'old_value': null, 'new_value': '3'}
+Summary: In table2.csv, move row 4 to row 5.
+{'row': 7, 'col': 1, 'old_value': null, 'new_value': '452'}
+{'row': 7, 'col': 2, 'old_value': null, 'new_value': '424'}
+{'row': 7, 'col': 3, 'old_value': null, 'new_value': '981'}
+{'row': 7, 'col': 4, 'old_value': null, 'new_value': '1423'}

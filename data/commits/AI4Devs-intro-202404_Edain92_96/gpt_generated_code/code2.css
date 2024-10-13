@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f0f0; /* Color de fondo pastel */
+}
+
+.container {
+  text-align: center;
+}
+
+.maze {
+  border: 1px solid #000;
+  display: inline-block;
+  background-color: #fff; /* Color de fondo para el laberinto */
+}
+
+.time {
+  border: 2px solid #007bff; /* Borde del temporizador */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 10px;
+  background-color: #f8f9fa; /* Color de fondo pastel */
+  font-size: 24px;
+  display: block;
+  margin-top: 20px;
+  width: 200px; /* Ancho del temporizador */
+}
+
+.cell {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.player {
+  background-color: #007bff; /* Color azul pastel para la celda del jugador */
+}
+
+.wall {
+  background-color: #c9e2c4; /* Color verde pastel para las celdas de las paredes */
+}
+
+.end {
+  background-color: #ffc107; /* Color amarillo pastel para la celda de salida */
+}

@@ -1,0 +1,2 @@
+# We must loop over each keyword in the comma-separated `keywords` value. According to Chat GPT, the way to do this is using IFS. However, since in this scope we are already using IFS to parse the string to split by `:` (e.g. `%keywords:var,vars:Variables`), we have to juggle the IFS.
+# We save the old IFS, perform the loop over `keywords`, and then restore the original IFS.

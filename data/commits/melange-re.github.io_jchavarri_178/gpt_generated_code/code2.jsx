@@ -1,0 +1,1 @@
+     import "../../_build/default/playground/<library_name>-cmijs";

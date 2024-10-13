@@ -1,0 +1,1 @@
+    if ('debug' in req.query && res.locals.authn_provider_name === 'LTI 1.3') {

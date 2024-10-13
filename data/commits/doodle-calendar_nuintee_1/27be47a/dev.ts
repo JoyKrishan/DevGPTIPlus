@@ -1,0 +1,1 @@
+      js: ["src/scripts/content.tsx"],

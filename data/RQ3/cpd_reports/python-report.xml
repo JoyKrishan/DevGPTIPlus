@@ -1,0 +1,2980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.4.0"
+         timestamp="2024-08-20T20:02:16.066-06:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-EPITA-SCIA-PPC-Sudoku-NLP_camilziane_13/fb92ab0/dev.py"
+         totalNumberOfTokens="2271"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_258/cc8c1a5/dev.py"
+         totalNumberOfTokens="225"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP3-Barbell_AaronFmyHub_258/d45004f/dev.py"
+         totalNumberOfTokens="489"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_107/703235f/dev.py"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_122/45e5dd5/dev.py"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/2db0667/dev.py"
+         totalNumberOfTokens="465"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/4d7a4b8/dev.py"
+         totalNumberOfTokens="1353"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/a494a88/dev.py"
+         totalNumberOfTokens="847"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_47/a85b4f6/dev.py"
+         totalNumberOfTokens="142"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_StacL_67/976c013/dev.py"
+         totalNumberOfTokens="736"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/2026394/dev.py"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/6f814ef/dev.py"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/abae771/dev.py"
+         totalNumberOfTokens="246"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/b73f970/dev.py"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/ba89edd/dev.py"
+         totalNumberOfTokens="119"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/bb3a8bf/dev.py"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/bb43e45/dev.py"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/d8d11cb/dev.py"
+         totalNumberOfTokens="260"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/f420b4a/dev.py"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/gpt_generated_code/code1.py"
+         totalNumberOfTokens="37"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/3f15f3c/dev.py"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/405eb7f/dev.py"
+         totalNumberOfTokens="659"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/4b7907b/dev.py"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/74e9e3c/dev.py"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/9d13493/dev.py"
+         totalNumberOfTokens="627"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/a6fbd0d/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/gpt_generated_code/code1.py"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/gpt_generated_code/code2.py"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_rparker2003_92/gpt_generated_code/code3.py"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP7-LifeQuest_dusek2_121/1e34f7b/dev.py"
+         totalNumberOfTokens="319"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP7-LifeQuest_dusek2_121/3c469b9/dev.py"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP7-LifeQuest_dusek2_121/gpt_generated_code/code1.py"
+         totalNumberOfTokens="319"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_AlphabetWolf_2/35d9570/dev.py"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_AlphabetWolf_2/gpt_generated_code/code1.py"
+         totalNumberOfTokens="50"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_AlphabetWolf_3/a06e911/dev.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_AlphabetWolf_3/gpt_generated_code/code1.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_77/3991171/dev.py"
+         totalNumberOfTokens="399"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_SwiftNemesis_77/gpt_generated_code/code1.py"
+         totalNumberOfTokens="302"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_59/25da61e/dev.py"
+         totalNumberOfTokens="365"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_59/8ebe061/dev.py"
+         totalNumberOfTokens="957"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_61/2098742/dev.py"
+         totalNumberOfTokens="27"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_61/24c0434/dev.py"
+         totalNumberOfTokens="753"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_cozloff_61/b4574fe/dev.py"
+         totalNumberOfTokens="411"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_koyomi7_10/73a68f5/dev.py"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_koyomi7_10/7699836/dev.py"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_koyomi7_10/gpt_generated_code/code1.py"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_koyomi7_12/aa46dea/dev.py"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_koyomi7_12/gpt_generated_code/code1.py"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/a255fc5/dev.py"
+         totalNumberOfTokens="148"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/e4aade2/dev.py"
+         totalNumberOfTokens="148"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/gpt_generated_code/code1.py"
+         totalNumberOfTokens="148"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_73/0859e85/dev.py"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_73/d3ec336/dev.py"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_73/gpt_generated_code/code1.py"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/109ef0b/dev.py"
+         totalNumberOfTokens="211"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/8dacf76/dev.py"
+         totalNumberOfTokens="211"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/gpt_generated_code/code1.py"
+         totalNumberOfTokens="211"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AI-Learning_parthasarathydNU_2/gpt_generated_code/code1.py"
+         totalNumberOfTokens="117"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AI4Devs-intro-202404_julian5147_110/1d86b23/dev.py"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/090468c/dev.py"
+         totalNumberOfTokens="193"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/437c77c/dev.py"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/457bae4/dev.py"
+         totalNumberOfTokens="693"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/46f2fab/dev.py"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/9f3b0c7/dev.py"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/d303657/dev.py"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Adafruit_CircuitPython_RA8875_DJDevon3_31/gpt_generated_code/code1.py"
+         totalNumberOfTokens="580"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/52cb3db/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/8fbee93/dev.py"
+         totalNumberOfTokens="275"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/957a8ac/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/aa9631a/dev.py"
+         totalNumberOfTokens="108"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/bed988e/dev.py"
+         totalNumberOfTokens="57"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/AutoTx_nerfZael_68/fac2dc7/dev.py"
+         totalNumberOfTokens="125"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/BLINK_sujishna_1/gpt_generated_code/code1.py"
+         totalNumberOfTokens="443"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_B-Timok_63/79d3544/dev.py"
+         totalNumberOfTokens="37"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_B-Timok_65/c237e15/dev.py"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_B-Timok_67/43aa5e6/dev.py"
+         totalNumberOfTokens="110"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_KingJordan152_56/84611ab/dev.py"
+         totalNumberOfTokens="219"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_KingJordan152_56/gpt_generated_code/code1.py"
+         totalNumberOfTokens="85"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_KingJordan152_70/gpt_generated_code/code1.py"
+         totalNumberOfTokens="94"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_76/08b88a1/dev.py"
+         totalNumberOfTokens="406"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_80/1b9022c/dev.py"
+         totalNumberOfTokens="408"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_91/582dd00/dev.py"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_91/gpt_generated_code/code1.py"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_91/gpt_generated_code/code2.py"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_sooble13_91/gpt_generated_code/code3.py"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_tbmcallister_45/gpt_generated_code/code1.py"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_tbmcallister_47/3f8aee7/dev.py"
+         totalNumberOfTokens="81"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_tbmcallister_47/gpt_generated_code/code1.py"
+         totalNumberOfTokens="81"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_tbmcallister_49/399bf67/dev.py"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_tbmcallister_49/gpt_generated_code/code1.py"
+         totalNumberOfTokens="55"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_38/39616e6/dev.py"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_38/71c72e9/dev.py"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_38/babcaba/dev.py"
+         totalNumberOfTokens="182"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_40/af84e00/dev.py"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_40/c7ba5e6/dev.py"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_42/505b909/dev.py"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_trevortippery_42/ea781f7/dev.py"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/10b8be1/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/18d2b23/dev.py"
+         totalNumberOfTokens="540"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/1cef547/dev.py"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/3d3c5ae/dev.py"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/3ed81c1/dev.py"
+         totalNumberOfTokens="41"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/5af026f/dev.py"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/5b61c4f/dev.py"
+         totalNumberOfTokens="117"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/65722c2/dev.py"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/66b857d/dev.py"
+         totalNumberOfTokens="724"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/6986e4c/dev.py"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/705c4ca/dev.py"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/7a1f064/dev.py"
+         totalNumberOfTokens="16"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/81c9a7c/dev.py"
+         totalNumberOfTokens="483"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/87cf8f6/dev.py"
+         totalNumberOfTokens="228"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/94fa7a3/dev.py"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/96af8f7/dev.py"
+         totalNumberOfTokens="140"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/ab245b5/dev.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/b3038de/dev.py"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ComfyUI_doctorpangloss_1115/dc4289d/dev.py"
+         totalNumberOfTokens="90"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/50abfa7/dev.py"
+         totalNumberOfTokens="79"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/a0df3d2/dev.py"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/a2392e6/dev.py"
+         totalNumberOfTokens="89"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/a2f20ce/dev.py"
+         totalNumberOfTokens="184"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/415c5ae/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code1.py"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code2.py"
+         totalNumberOfTokens="37"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code3.py"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code4.py"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code5.py"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/GetEntry_TechnoTOG_4/gpt_generated_code/code6.py"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_GNAR1ZARD_37/8e3b4a1/dev.py"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_GNAR1ZARD_37/e3355d5/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_GNAR1ZARD_39/b438341/dev.py"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_GNAR1ZARD_48/5f70168/dev.py"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_49/3e23507/dev.py"
+         totalNumberOfTokens="219"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_50/4917fe1/dev.py"
+         totalNumberOfTokens="715"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_50/gpt_generated_code/code1.py"
+         totalNumberOfTokens="714"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_51/gpt_generated_code/code1.py"
+         totalNumberOfTokens="47"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/1d95e65/dev.py"
+         totalNumberOfTokens="426"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/9932dcd/dev.py"
+         totalNumberOfTokens="929"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/gpt_generated_code/code1.py"
+         totalNumberOfTokens="570"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_66/8c72709/dev.py"
+         totalNumberOfTokens="67"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_66/aa03b2f/dev.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_66/c8e15fa/dev.py"
+         totalNumberOfTokens="67"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_66/gpt_generated_code/code1.py"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_68/258e36e/dev.py"
+         totalNumberOfTokens="131"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_68/e49f3fc/dev.py"
+         totalNumberOfTokens="236"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_68/gpt_generated_code/code1.py"
+         totalNumberOfTokens="312"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_76/63927df/dev.py"
+         totalNumberOfTokens="190"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_76/6c001b9/dev.py"
+         totalNumberOfTokens="165"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/InstantID_nosiu_89/03f4001/dev.py"
+         totalNumberOfTokens="3727"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/InstantID_nosiu_89/598e9a8/dev.py"
+         totalNumberOfTokens="257"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/InstantID_nosiu_89/7814728/dev.py"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/InstantID_nosiu_89/gpt_generated_code/code1.py"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/InstantID_nosiu_89/gpt_generated_code/code2.py"
+         totalNumberOfTokens="83"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Morpheus_taylor-ennen_659/40fed32/dev.py"
+         totalNumberOfTokens="203"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/0f16141/dev.py"
+         totalNumberOfTokens="100"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/1595f11/dev.py"
+         totalNumberOfTokens="139"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/18d88e9/dev.py"
+         totalNumberOfTokens="162"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/22e909c/dev.py"
+         totalNumberOfTokens="69"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/35744e9/dev.py"
+         totalNumberOfTokens="48"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/476182e/dev.py"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/7e1b00c/dev.py"
+         totalNumberOfTokens="244"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/8a930ba/dev.py"
+         totalNumberOfTokens="108"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/91b723d/dev.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/9d36aa6/dev.py"
+         totalNumberOfTokens="86"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/bd9d9f6/dev.py"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/c13f118/dev.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/cf0a20b/dev.py"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/ed43a61/dev.py"
+         totalNumberOfTokens="102"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/f925168/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/fd7d46f/dev.py"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_KrishPatel13_489/bbabd22/dev.py"
+         totalNumberOfTokens="598"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_KrishPatel13_489/e266543/dev.py"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_KrishPatel13_489/gpt_generated_code/code1.py"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_KrishPatel13_489/gpt_generated_code/code2.py"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_KrishPatel13_489/gpt_generated_code/code3.py"
+         totalNumberOfTokens="66"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenDevin_Borda_1204/4356449/dev.py"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenDevin_Borda_1204/6c8d1c8/dev.py"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenDevin_Borda_1204/e0e4230/dev.py"
+         totalNumberOfTokens="192"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_FPSwitch_101/1d8cf97/dev.py"
+         totalNumberOfTokens="28"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_FPSwitch_105/650af55/dev.py"
+         totalNumberOfTokens="91"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_FPSwitch_105/7ae8ffe/dev.py"
+         totalNumberOfTokens="132"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_FPSwitch_109/105e029/dev.py"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_FPSwitch_109/d28a8e5/dev.py"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_51/18b9b15/dev.py"
+         totalNumberOfTokens="28"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_51/gpt_generated_code/code1.py"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/c82bbfc/dev.py"
+         totalNumberOfTokens="264"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/f8d5fc7/dev.py"
+         totalNumberOfTokens="44"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/gpt_generated_code/code1.py"
+         totalNumberOfTokens="243"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Niblick1020_95/ab0277e/dev.py"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Niblick1020_95/e865d5b/dev.py"
+         totalNumberOfTokens="165"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Niblick1020_95/gpt_generated_code/code1.py"
+         totalNumberOfTokens="387"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Ramirez-Christopher_70/2c115dc/dev.py"
+         totalNumberOfTokens="125"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_57/f1010f7/dev.py"
+         totalNumberOfTokens="169"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_57/gpt_generated_code/code1.py"
+         totalNumberOfTokens="194"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_76/2927c84/dev.py"
+         totalNumberOfTokens="208"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_76/6553362/dev.py"
+         totalNumberOfTokens="191"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_76/gpt_generated_code/code1.py"
+         totalNumberOfTokens="198"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_84/5d9d036/dev.py"
+         totalNumberOfTokens="138"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_84/820616f/dev.py"
+         totalNumberOfTokens="82"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_93/f3233b4/dev.py"
+         totalNumberOfTokens="168"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_esquek1_93/f51aae7/dev.py"
+         totalNumberOfTokens="555"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/4306c76/dev.py"
+         totalNumberOfTokens="96"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/799eed5/dev.py"
+         totalNumberOfTokens="142"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/c98785e/dev.py"
+         totalNumberOfTokens="198"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/f2458bf/dev.py"
+         totalNumberOfTokens="781"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/gpt_generated_code/code1.py"
+         totalNumberOfTokens="776"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/bd30c7a/dev.py"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_82/gpt_generated_code/code1.py"
+         totalNumberOfTokens="56"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/3be7404/dev.py"
+         totalNumberOfTokens="193"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/f5e3453/dev.py"
+         totalNumberOfTokens="601"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/gpt_generated_code/code1.py"
+         totalNumberOfTokens="119"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/gpt_generated_code/code2.py"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/gpt_generated_code/code3.py"
+         totalNumberOfTokens="38"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TermHub_Sigfried_749/gpt_generated_code/code4.py"
+         totalNumberOfTokens="59"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_10/4f35bcd/dev.py"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_10/57983c1/dev.py"
+         totalNumberOfTokens="78"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_10/75c5d35/dev.py"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_10/e323a6b/dev.py"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_10/gpt_generated_code/code1.py"
+         totalNumberOfTokens="503"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_12/cb777a5/dev.py"
+         totalNumberOfTokens="27"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_12/f3e6d04/dev.py"
+         totalNumberOfTokens="58"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/TodoistAutomation_grodtron_12/gpt_generated_code/code1.py"
+         totalNumberOfTokens="58"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/airbyte_evantahler_36898/08a4bb8/dev.py"
+         totalNumberOfTokens="572"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/angr_fmagin_4403/gpt_generated_code/code1.py"
+         totalNumberOfTokens="118"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/0229af3/dev.py"
+         totalNumberOfTokens="250"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/2f4e656/dev.py"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/3d2ac0a/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/8412131/dev.py"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/ask-a-question_sidravi1_205/f22ea2e/dev.py"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/axolotl_scottfleming_1504/8670bed/dev.py"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/axolotl_scottfleming_1504/gpt_generated_code/code1.py"
+         totalNumberOfTokens="25"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_91/06f1ccc/dev.py"
+         totalNumberOfTokens="429"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_BitsyBirb_91/gpt_generated_code/code1.py"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/5abe2f5/dev.py"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/gpt_generated_code/code1.py"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/dd08431/dev.py"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/gpt_generated_code/code1.py"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_42/420c553/dev.py"
+         totalNumberOfTokens="137"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_42/89cc45c/dev.py"
+         totalNumberOfTokens="138"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_42/gpt_generated_code/code1.py"
+         totalNumberOfTokens="210"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_58/e711751/dev.py"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_58/fbdbf71/dev.py"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_58/gpt_generated_code/code1.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_62/fa061a6/dev.py"
+         totalNumberOfTokens="432"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_taylorfinelli_62/gpt_generated_code/code1.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/blog_Stivaros_426/gpt_generated_code/code1.py"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/camel_yiyiyi0817_328/f0d516f/dev.py"
+         totalNumberOfTokens="163"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/camel_yiyiyi0817_328/gpt_generated_code/code1.py"
+         totalNumberOfTokens="145"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/camel_yiyiyi0817_328/gpt_generated_code/code2.py"
+         totalNumberOfTokens="129"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/1faf0de/dev.py"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/354f243/dev.py"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/3d08af8/dev.py"
+         totalNumberOfTokens="368"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/52462c5/dev.py"
+         totalNumberOfTokens="90"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/658e29f/dev.py"
+         totalNumberOfTokens="182"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/a443dff/dev.py"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/b90b6c3/dev.py"
+         totalNumberOfTokens="367"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/d74ab46/dev.py"
+         totalNumberOfTokens="16"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/e9c0318/dev.py"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cocemfe-sevilla_tcabgom_241/gpt_generated_code/code1.py"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/952588c/dev.py"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/a180440/dev.py"
+         totalNumberOfTokens="335"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/de6f143/dev.py"
+         totalNumberOfTokens="315"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/gpt_generated_code/code1.py"
+         totalNumberOfTokens="316"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_63/9b391c5/dev.py"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_63/gpt_generated_code/code1.py"
+         totalNumberOfTokens="120"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/5526db5/dev.py"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_nguyenj21_95/gpt_generated_code/code1.py"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cudf_brandon-b-miller_15418/30b0f2b/dev.py"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cudf_brandon-b-miller_15418/968aef5/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cudf_brandon-b-miller_15418/a15dd45/dev.py"
+         totalNumberOfTokens="503"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cudf_brandon-b-miller_15418/gpt_generated_code/code1.py"
+         totalNumberOfTokens="51"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/136e3ff/dev.py"
+         totalNumberOfTokens="370"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/1a03eb3/dev.py"
+         totalNumberOfTokens="300"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/1eb99d5/dev.py"
+         totalNumberOfTokens="218"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/2081f96/dev.py"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/4e69f91/dev.py"
+         totalNumberOfTokens="265"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/4e8803f/dev.py"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/785f546/dev.py"
+         totalNumberOfTokens="154"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/8569859/dev.py"
+         totalNumberOfTokens="38"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/9407f89/dev.py"
+         totalNumberOfTokens="1302"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/aab3fe5/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/ae6ca8b/dev.py"
+         totalNumberOfTokens="216"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/b26127c/dev.py"
+         totalNumberOfTokens="823"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/b644ed7/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/bf256a4/dev.py"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dango-backend_VichyTong_1/c6cec05/dev.py"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dbt-loom_geoHeil_33/82b2a88/dev.py"
+         totalNumberOfTokens="105"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dbt-loom_geoHeil_33/gpt_generated_code/code1.py"
+         totalNumberOfTokens="243"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/dojo_adamdoupe_219/gpt_generated_code/code1.py"
+         totalNumberOfTokens="114"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/easy-hire-backend_roslinmahmud_11/2dcdd70/dev.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/easy-hire-backend_roslinmahmud_11/42f0075/dev.py"
+         totalNumberOfTokens="411"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/easy-hire-backend_roslinmahmud_11/8e2d802/dev.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/easy-hire-backend_roslinmahmud_11/a13fe0d/dev.py"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/email_generation_KayvanShah1_2/8dad81f/dev.py"
+         totalNumberOfTokens="60"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/email_generation_KayvanShah1_2/gpt_generated_code/code1.py"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/email_generation_KayvanShah1_2/gpt_generated_code/code2.py"
+         totalNumberOfTokens="70"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/email_generation_KayvanShah1_2/gpt_generated_code/code3.py"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/evals_AaronGoldsmith_1083/27fc109/dev.py"
+         totalNumberOfTokens="130"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/evals_AaronGoldsmith_1083/e111b40/dev.py"
+         totalNumberOfTokens="111"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/exa-py_cmishra_5/gpt_generated_code/code1.py"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fake-munch_noodaj_3/659a5ed/dev.py"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fake-munch_noodaj_3/gpt_generated_code/code1.py"
+         totalNumberOfTokens="129"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fake-munch_noodaj_5/c8696a0/dev.py"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fake-munch_noodaj_5/gpt_generated_code/code1.py"
+         totalNumberOfTokens="112"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/fake-munch_noodaj_7/c265429/dev.py"
+         totalNumberOfTokens="9"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/faker_prescod_1988/2d67b8e/dev.py"
+         totalNumberOfTokens="1255"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/frontmatter-cli_displague_6/gpt_generated_code/code2.py"
+         totalNumberOfTokens="256"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/gptask_calum-bird_2/5d6b128/dev.py"
+         totalNumberOfTokens="115"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/gptask_calum-bird_2/74b84f4/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/htmx-demo_bbelderbos_2/bbb6d49/dev.py"
+         totalNumberOfTokens="95"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/htmx-demo_bbelderbos_2/gpt_generated_code/code1.py"
+         totalNumberOfTokens="107"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/icub-models-generator_traversaro_252/gpt_generated_code/code1.py"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/instructor_jxnl_186/gpt_generated_code/code1.py"
+         totalNumberOfTokens="79"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/justthoughts_m-c-frank_70/gpt_generated_code/code1.py"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/justthoughts_m-c-frank_70/gpt_generated_code/code2.py"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/justthoughts_m-c-frank_70/gpt_generated_code/code3.py"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/02648a0/dev.py"
+         totalNumberOfTokens="140"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/5d9ee4a/dev.py"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/8d0ec85/dev.py"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/8fdb607/dev.py"
+         totalNumberOfTokens="157"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/9191cc7/dev.py"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/cacf264/dev.py"
+         totalNumberOfTokens="204"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/f3d67a3/dev.py"
+         totalNumberOfTokens="90"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/gpt_generated_code/code2.py"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llm_simonw_400/1c21929/dev.py"
+         totalNumberOfTokens="232"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llm_simonw_400/23cbb44/dev.py"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llm_simonw_400/53c845e/dev.py"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llm_simonw_400/662315a/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/llm_simonw_400/gpt_generated_code/code1.py"
+         totalNumberOfTokens="324"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/0681458/dev.py"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/09bed88/dev.py"
+         totalNumberOfTokens="73"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/149ab16/dev.py"
+         totalNumberOfTokens="16"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/18bff99/dev.py"
+         totalNumberOfTokens="114"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/1dafe83/dev.py"
+         totalNumberOfTokens="254"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/1f380c8/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/1f497e9/dev.py"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/1f71391/dev.py"
+         totalNumberOfTokens="47"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/1fe0882/dev.py"
+         totalNumberOfTokens="15"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/2810d89/dev.py"
+         totalNumberOfTokens="190"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/36fccaa/dev.py"
+         totalNumberOfTokens="58"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/47bdac9/dev.py"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/8172927/dev.py"
+         totalNumberOfTokens="134"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/b464fd3/dev.py"
+         totalNumberOfTokens="100"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/cbb6a06/dev.py"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/ce62946/dev.py"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/e1dc59c/dev.py"
+         totalNumberOfTokens="155"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/f11c054/dev.py"
+         totalNumberOfTokens="2"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/f18208d/dev.py"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/meh_ljleb_50/f954270/dev.py"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_119/a335357/dev.py"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_119/gpt_generated_code/code1.py"
+         totalNumberOfTokens="65"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_121/477b377/dev.py"
+         totalNumberOfTokens="3"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_121/gpt_generated_code/code1.py"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_124/4d45930/dev.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_Fabrizv_124/gpt_generated_code/code1.py"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_92/ae63370/dev.py"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_92/gpt_generated_code/code1.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_97/a2b170a/dev.py"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_97/gpt_generated_code/code1.py"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_99/7d3406f/dev.py"
+         totalNumberOfTokens="184"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_99/gpt_generated_code/code1.py"
+         totalNumberOfTokens="316"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_105/15f4edb/dev.py"
+         totalNumberOfTokens="212"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_105/f723cbc/dev.py"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_105/gpt_generated_code/code1.py"
+         totalNumberOfTokens="80"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/43799e5/dev.py"
+         totalNumberOfTokens="209"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/5614661/dev.py"
+         totalNumberOfTokens="28"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/d270d77/dev.py"
+         totalNumberOfTokens="149"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/gpt_generated_code/code1.py"
+         totalNumberOfTokens="109"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_107/a77e1ba/dev.py"
+         totalNumberOfTokens="57"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_107/cc090fc/dev.py"
+         totalNumberOfTokens="131"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_107/gpt_generated_code/code1.py"
+         totalNumberOfTokens="73"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_53/bbff460/dev.py"
+         totalNumberOfTokens="41"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_53/da78f19/dev.py"
+         totalNumberOfTokens="130"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_53/gpt_generated_code/code1.py"
+         totalNumberOfTokens="122"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_55/64d32b3/dev.py"
+         totalNumberOfTokens="99"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_55/98703e6/dev.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_55/gpt_generated_code/code1.py"
+         totalNumberOfTokens="100"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/69fc33f/dev.py"
+         totalNumberOfTokens="10"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/85ff2ff/dev.py"
+         totalNumberOfTokens="40"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/fe544a4/dev.py"
+         totalNumberOfTokens="43"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/gpt_generated_code/code1.py"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/gpt_generated_code/code2.py"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/gpt_generated_code/code3.py"
+         totalNumberOfTokens="34"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/gpt_generated_code/code4.py"
+         totalNumberOfTokens="27"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_haiimkeith_57/gpt_generated_code/code5.py"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_mitshelle_60/f35c93d/dev.py"
+         totalNumberOfTokens="39"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_mitshelle_60/gpt_generated_code/code1.py"
+         totalNumberOfTokens="57"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_mitshelle_66/1f48209/dev.py"
+         totalNumberOfTokens="98"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/4124d8a/dev.py"
+         totalNumberOfTokens="425"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/4aa3389/dev.py"
+         totalNumberOfTokens="282"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/50533ad/dev.py"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/5fd789f/dev.py"
+         totalNumberOfTokens="270"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/66bdbc0/dev.py"
+         totalNumberOfTokens="61"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/689b0b6/dev.py"
+         totalNumberOfTokens="798"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/74c73ba/dev.py"
+         totalNumberOfTokens="81"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/88baa1d/dev.py"
+         totalNumberOfTokens="246"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/8a488f9/dev.py"
+         totalNumberOfTokens="264"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/ae47c80/dev.py"
+         totalNumberOfTokens="420"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/cb561d5/dev.py"
+         totalNumberOfTokens="53"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/e168097/dev.py"
+         totalNumberOfTokens="267"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_82/gpt_generated_code/code1.py"
+         totalNumberOfTokens="19"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_82/gpt_generated_code/code2.py"
+         totalNumberOfTokens="12"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/79fd325/dev.py"
+         totalNumberOfTokens="1202"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_111/1bc995f/dev.py"
+         totalNumberOfTokens="4"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_111/gpt_generated_code/code1.py"
+         totalNumberOfTokens="215"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/748d410/dev.py"
+         totalNumberOfTokens="1206"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/dd8aa80/dev.py"
+         totalNumberOfTokens="600"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/f7ada66/dev.py"
+         totalNumberOfTokens="116"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/gpt_generated_code/code1.py"
+         totalNumberOfTokens="34"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/gpt_generated_code/code2.py"
+         totalNumberOfTokens="33"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/gpt_generated_code/code3.py"
+         totalNumberOfTokens="48"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/0b6d168/dev.py"
+         totalNumberOfTokens="92"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/ae85a5b/dev.py"
+         totalNumberOfTokens="154"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/b5ef7a2/dev.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/c7e1134/dev.py"
+         totalNumberOfTokens="1151"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/f03cbc6/dev.py"
+         totalNumberOfTokens="216"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_69/4b9c270/dev.py"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_69/54ff7fa/dev.py"
+         totalNumberOfTokens="24"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_69/gpt_generated_code/code1.py"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_85/b5b5cac/dev.py"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_85/fd35d1c/dev.py"
+         totalNumberOfTokens="85"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_tadakane_85/gpt_generated_code/code1.py"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nunn_ece495_final_byarbrough_1/702744f/dev.py"
+         totalNumberOfTokens="98"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nunn_ece495_final_byarbrough_1/gpt_generated_code/code1.py"
+         totalNumberOfTokens="167"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nylas-python_spang_279/83345c8/dev.py"
+         totalNumberOfTokens="28"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nylas-python_spang_279/89b35d7/dev.py"
+         totalNumberOfTokens="7"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nylas-python_spang_279/9bd6100/dev.py"
+         totalNumberOfTokens="21"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nylas-python_spang_279/ba36d95/dev.py"
+         totalNumberOfTokens="62"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/nylas-python_spang_279/gpt_generated_code/code1.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/oai-monarch-plugin_oneilsh_39/75f4f59/dev.py"
+         totalNumberOfTokens="76"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/py-tree-sitter-languages_Freed-Wu_33/553520a/dev.py"
+         totalNumberOfTokens="388"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/qontract-reconcile_maorfr_3630/37b2cb6/dev.py"
+         totalNumberOfTokens="54"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/qontract-reconcile_maorfr_3630/gpt_generated_code/code1.py"
+         totalNumberOfTokens="88"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/qontract-reconcile_maorfr_3630/gpt_generated_code/code2.py"
+         totalNumberOfTokens="23"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_Prureddy_61/89267f2/dev.py"
+         totalNumberOfTokens="173"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/0ebf8d4/dev.py"
+         totalNumberOfTokens="130"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/1553446/dev.py"
+         totalNumberOfTokens="327"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/4e980a3/dev.py"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/b76407e/dev.py"
+         totalNumberOfTokens="333"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/e7dbb26/dev.py"
+         totalNumberOfTokens="695"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_klxu03_57/f4c1378/dev.py"
+         totalNumberOfTokens="35"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_younesbram_52/9efbd9b/dev.py"
+         totalNumberOfTokens="416"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/self-operating-computer_younesbram_52/f2a8147/dev.py"
+         totalNumberOfTokens="135"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/skrub_LilianBoulard_581/2befe87/dev.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/skrub_LilianBoulard_581/7628387/dev.py"
+         totalNumberOfTokens="37"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/e5ce367/dev.py"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/stable-diffusion-webui-wd14-tagger_idiotcommerce_4/c52fa20/dev.py"
+         totalNumberOfTokens="365"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/35d9ee7/dev.py"
+         totalNumberOfTokens="347"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/4375e19/dev.py"
+         totalNumberOfTokens="200"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/43cca52/dev.py"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/476be52/dev.py"
+         totalNumberOfTokens="444"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/6784c78/dev.py"
+         totalNumberOfTokens="325"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/6a8f3fc/dev.py"
+         totalNumberOfTokens="837"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/85c4d5a/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/9c5c296/dev.py"
+         totalNumberOfTokens="41"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/ad06937/dev.py"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/c9d2b52/dev.py"
+         totalNumberOfTokens="43"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/d480ff5/dev.py"
+         totalNumberOfTokens="128"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/d4ea295/dev.py"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/e01e495/dev.py"
+         totalNumberOfTokens="7"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/supervision_kirilllzaitsev_177/e1ee80c/dev.py"
+         totalNumberOfTokens="322"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/taxonium_simonbukin_534/14e3abe/dev.py"
+         totalNumberOfTokens="527"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/taxonium_simonbukin_534/bdd87cb/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tdd_CodingAdam_1/gpt_generated_code/code1.py"
+         totalNumberOfTokens="1"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tema_an2semestru1_PYTHON_antonioghica_1/3fa23bd/dev.py"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tema_an2semestru1_PYTHON_antonioghica_1/gpt_generated_code/code1.py"
+         totalNumberOfTokens="84"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tema_an2semestru1_PYTHON_antonioghica_1/gpt_generated_code/code2.py"
+         totalNumberOfTokens="8"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/03df129/dev.py"
+         totalNumberOfTokens="236"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/0701e71/dev.py"
+         totalNumberOfTokens="36"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/1f8d806/dev.py"
+         totalNumberOfTokens="314"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/317ebaf/dev.py"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/351af9d/dev.py"
+         totalNumberOfTokens="101"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/4c95cf0/dev.py"
+         totalNumberOfTokens="122"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/501ade2/dev.py"
+         totalNumberOfTokens="237"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/53b6f23/dev.py"
+         totalNumberOfTokens="83"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/5a1fc19/dev.py"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/70f96ea/dev.py"
+         totalNumberOfTokens="60"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/8f4d896/dev.py"
+         totalNumberOfTokens="49"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/b4351c6/dev.py"
+         totalNumberOfTokens="130"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/b772785/dev.py"
+         totalNumberOfTokens="104"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/c2b4b6e/dev.py"
+         totalNumberOfTokens="85"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/c9b9cfd/dev.py"
+         totalNumberOfTokens="11"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/d62c2ff/dev.py"
+         totalNumberOfTokens="85"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/d753553/dev.py"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/f672a9c/dev.py"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/f7dadaf/dev.py"
+         totalNumberOfTokens="229"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/fd1162d/dev.py"
+         totalNumberOfTokens="64"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/fe8589a/dev.py"
+         totalNumberOfTokens="144"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/tinygrad_geohotstan_1661/gpt_generated_code/code1.py"
+         totalNumberOfTokens="589"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/gpt_generated_code/code1.py"
+         totalNumberOfTokens="52"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/webserver_lmangall_180/gpt_generated_code/code2.py"
+         totalNumberOfTokens="68"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/1ab9210/dev.py"
+         totalNumberOfTokens="18"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/6177f6d/dev.py"
+         totalNumberOfTokens="38"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/897e8e0/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/e1c3df1/dev.py"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/gpt_generated_code/code1.py"
+         totalNumberOfTokens="17"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/gpt_generated_code/code2.py"
+         totalNumberOfTokens="30"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/xarray_max-sixty_8208/gpt_generated_code/code3.py"
+         totalNumberOfTokens="17"/>
+   <duplication lines="172" tokens="714">
+      <file begintoken="23134"
+            column="1"
+            endcolumn="23"
+            endline="295"
+            endtoken="23847"
+            line="124"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_50/4917fe1/dev.py"/>
+      <file begintoken="23849"
+            column="1"
+            endcolumn="23"
+            endline="172"
+            endtoken="24562"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Joeyo364_50/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[import random
+
+def random_chromosome(size):
+    """
+    Generate a random chromosome representing a placement of queens on the chessboard.
+
+    Parameters:
+    - size (int): The number of queens and the size of the chessboard.
+    """
+    return [random.randint(1, size) for _ in range(size)]
+
+def fitness(chromosome):
+    """
+    Calculate the fitness score of a given chromosome.
+
+    Parameters:
+    - chromosome (list): A list representing the placement of queens on the chessboard.
+    """
+    horizontal_collisions = sum([chromosome.count(queen)-1 for queen in chromosome])/2
+    diagonal_collisions = 0
+
+    n = len(chromosome)
+    left_diagonal = [0] * (2 * n)
+    right_diagonal = [0] * (2 * n)
+    
+    for i in range(n):
+        left_diagonal[i + chromosome[i] - 1] += 1
+        right_diagonal[len(chromosome) - i + chromosome[i] - 2] += 1
+
+    for i in range(2 * n - 1):
+        counter = 0
+        if left_diagonal[i] > 1:
+            counter += left_diagonal[i] - 1
+        if right_diagonal[i] > 1:
+            counter += right_diagonal[i] - 1
+        diagonal_collisions += counter / (n - abs(i - n + 1))
+    
+    return int(maxFitness - (horizontal_collisions + diagonal_collisions))
+
+def probability(chromosome, fitness):
+    """
+    Calculate the probability of selecting a chromosome for reproduction based on its fitness.
+
+    Parameters:
+    - chromosome (list): A list representing the placement of queens on the chessboard.
+    - fitness (function): The fitness function used to evaluate the chromosome.
+    """
+    return fitness(chromosome) / maxFitness
+
+def random_pick(population, probabilities):
+    """
+    Select a chromosome from the population based on probabilities.
+
+    Parameters:
+    - population (list): A list of chromosomes.
+    - probabilities (list): A list of probabilities corresponding to each chromosome in the population.
+    """
+    population_with_probability = zip(population, probabilities)
+    total = sum(w for c, w in population_with_probability)
+    r = random.uniform(0, total)
+    upto = 0
+    for c, w in zip(population, probabilities):
+        if upto + w >= r:
+            return c
+        upto += w
+    assert False, "Shouldn't get here"
+
+def reproduce(x, y):
+    """
+    Perform crossover between two chromosomes to create a new chromosome.
+
+    Parameters:
+    - x (list): The first parent chromosome.
+    - y (list): The second parent chromosome.
+    """
+    n = len(x)
+    crossover_point = random.randint(0, n - 1)
+    return x[0:crossover_point] + y[crossover_point:n]
+
+def mutate(x):
+    """
+    Randomly change the value of a random index of a chromosome.
+
+    Parameters:
+    - x (list): The chromosome to mutate.
+    """
+    n = len(x)
+    index_to_mutate = random.randint(0, n - 1)
+    new_value = random.randint(1, n)
+    x[index_to_mutate] = new_value
+    return x
+
+def genetic_queen(population, fitness):
+    """
+    Perform one iteration of the genetic algorithm for the N-Queens problem.
+
+    Parameters:
+    - population (list): A list of chromosomes representing the current population.
+    - fitness (function): The fitness function used to evaluate chromosomes.
+    """
+    mutation_probability = 0.03
+    new_population = []
+    probabilities = [probability(n, fitness) for n in population]
+    
+    for _ in range(len(population)):
+        x = random_pick(population, probabilities)
+        y = random_pick(population, probabilities)
+        child = reproduce(x, y)
+        
+        if random.random() < mutation_probability:
+            child = mutate(child)
+        
+        print_chromosome(child)
+        new_population.append(child)
+        
+        if fitness(child) == maxFitness:
+            break
+    
+    return new_population
+
+def print_chromosome(chrom):
+    """
+    Print the chromosome and its fitness score.
+
+    Parameters:
+    - chrom (list): The chromosome to print.
+    """
+    print("Chromosome = {},  Fitness = {}".format(str(chrom), fitness(chrom)))
+
+if __name__ == "__main__":
+    nq = int(input("Enter Number of Queens: "))
+    maxFitness = (nq * (nq - 1)) / 2
+    population = [random_chromosome(nq) for _ in range(100)]
+    generation = 1
+
+    while not maxFitness in [fitness(chrom) for chrom in population]:
+        print("=== Generation {} ===".format(generation))
+        population = genetic_queen(population, fitness)
+        print("")
+        print("Maximum Fitness = {}".format(max([fitness(n) for n in population])))
+        generation += 1
+
+    chrom_out = []
+    print("Solved in Generation {}!".format(generation - 1))
+    
+    for chrom in population:
+        if fitness(chrom) == maxFitness:
+            print("")
+            print("One of the solutions: ")
+            chrom_out = chrom
+            print_chromosome(chrom)
+            
+    board = []
+
+    for _ in range(nq):
+        board.append(["x"] * nq)
+
+    for i in range(nq):
+        board[nq - chrom_out[i]][i] = "Q"
+
+    def print_board(board):
+        """
+        Print the chessboard with queens placed based on the solution.
+
+        Parameters:
+        - board (list): A list representing the chessboard.
+        """
+        for row in board:
+            print(" ".join(row))
+
+    print()
+    print_board(board)]]></codefragment>
+   </duplication>
+   <duplication lines="85" tokens="593">
+      <file begintoken="67089"
+            column="5"
+            endcolumn="40"
+            endline="99"
+            endtoken="67681"
+            line="15"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/79fd325/dev.py"/>
+      <file begintoken="68515"
+            column="5"
+            endcolumn="40"
+            endline="139"
+            endtoken="69107"
+            line="49"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/748d410/dev.py"/>
+      <codefragment><![CDATA[    if helpfulToonsList == None:
+        BattleExperienceAINotify.warning('=============\nERROR ERROR helpfulToons=None in assignRewards , tell Red')
+    p = []
+    for k in range(numToons):
+        toon = None
+        if k < len(activeToons):
+            toonId = activeToons[k]
+            toon = simbase.air.doId2do.get(toonId)
+        if toon == None:
+            p.append(-1)
+            p.append([0, 0, 0, 0, 0, 0, 0])
+            p.append([0, 0, 0, 0, 0, 0, 0])
+            p.append([])
+            p.append([])
+            p.append([])
+            p.append([0, 0, 0, 0])
+            p.append([0, 0, 0, 0])
+            p.append([0, 0, 0, 0])
+        else:
+            p.append(toonId)
+            origExp = toonExp[toonId]
+            earnedExp = []
+            for i in range(len(ToontownBattleGlobals.Tracks)):
+                earnedExp.append(getSkillGained(toonSkillPtsGained, toonId, i))
+
+            p.append(origExp)
+            p.append(earnedExp)
+            origQuests = toonOrigQuests.get(toonId, [])
+            p.append(origQuests)
+            items = toonItems.get(toonId, ([], []))
+            p.append(items[0])
+            p.append(items[1])
+            origMerits = toonOrigMerits.get(toonId, [])
+            p.append(origMerits)
+            merits = toonMerits.get(toonId, [0, 0, 0, 0])
+            p.append(merits)
+            parts = toonParts.get(toonId, [0, 0, 0, 0])
+            p.append(parts)
+
+    deathList = []
+    toonIndices = {}
+    for i in range(len(activeToons)):
+        toonIndices[activeToons[i]] = i
+
+    for deathRecord in suitsKilled:
+        level = deathRecord['level']
+        type = deathRecord['type']
+        if deathRecord['isVP'] or deathRecord['isCFO']:
+            level = 0
+            typeNum = SuitDNA.suitDepts.index(deathRecord['track'])
+        else:
+            typeNum = SuitDNA.suitHeadTypes.index(type)
+        involvedToonIds = deathRecord['activeToons']
+        toonBits = 0
+        for toonId in involvedToonIds:
+            if toonId in toonIndices:
+                toonBits |= 1 << toonIndices[toonId]
+
+        flags = 0
+        if deathRecord['isSkelecog']:
+            flags |= ToontownBattleGlobals.DLF_SKELECOG
+        if deathRecord['isForeman']:
+            flags |= ToontownBattleGlobals.DLF_FOREMAN
+        if deathRecord['isVP']:
+            flags |= ToontownBattleGlobals.DLF_VP
+        if deathRecord['isCFO']:
+            flags |= ToontownBattleGlobals.DLF_CFO
+        if deathRecord['isSupervisor']:
+            flags |= ToontownBattleGlobals.DLF_SUPERVISOR
+        if deathRecord['isVirtual']:
+            flags |= ToontownBattleGlobals.DLF_VIRTUAL
+        if 'hasRevies' in deathRecord and deathRecord['hasRevives']:
+            flags |= ToontownBattleGlobals.DLF_REVIVES
+        deathList.extend([typeNum, level, toonBits, flags])
+
+    p.append(deathList)
+    uberStats = getToonUberStatus(activeToons, numToons)
+    p.append(uberStats)
+    if helpfulToonsList == None:
+        helpfulToonsList = []
+    p.append(helpfulToonsList)
+    return p
+
+
+def getToonUberStatus(toons, numToons):
+]]></codefragment>
+   </duplication>
+   <duplication lines="54" tokens="392">
+      <file begintoken="38906"
+            column="20"
+            endcolumn="97"
+            endline="163"
+            endtoken="39297"
+            line="110"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/f2458bf/dev.py"/>
+      <file begintoken="39683"
+            column="27"
+            endcolumn="97"
+            endline="172"
+            endtoken="40074"
+            line="117"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[    weight = float(randint(1, 100))
+    unit = random.choice(units)
+else:
+    try:
+        weight = float(sys.argv[1])
+        unit = sys.argv[2]
+    except ValueError:
+        print("Invalid use of RANDOM!\nUsage: python3 TylerGuthrie_weightConverter.py RANDOM")
+        sys.exit()
+
+if unit == "POUND":
+    print(weight, unit)
+    print("Ounce: ", pound_to_ounce(weight))
+    print("Kilogram: ", pound_to_kilogram(weight))
+    print("Gram: ", pound_to_gram(weight))
+    print("Metric Ton: ", pound_to_ton(weight))
+    print("Stone: ", pound_to_stone(weight))
+elif unit == "OUNCE":
+    print(weight, unit)
+    print("Pound: ", ounce_to_pound(weight))
+    print("Kilogram: ", ounce_to_kilogram(weight))
+    print("Gram: ", ounce_to_gram(weight))
+    print("Metric Ton: ", ounce_to_ton(weight))
+    print("Stone: ", ounce_to_stone(weight))
+elif unit == "KILOGRAM":
+    print(weight, unit)
+    print("Pound: ", kilogram_to_pound(weight))
+    print("Ounce: ", kilogram_to_ounce(weight))
+    print("Gram: ", kilogram_to_gram(weight))
+    print("Metric Ton: ", kilogram_to_ton(weight))
+    print("Stone: ", kilogram_to_stone(weight))
+elif unit == "GRAM":
+    print(weight, unit)
+    print("Pound: ", gram_to_pound(weight))
+    print("Ounce: ", gram_to_ounce(weight))
+    print("Kilogram: ", gram_to_kilogram(weight))
+    print("Metric Ton: ", gram_to_ton(weight))
+    print("Stone: ", gram_to_stone(weight))
+elif unit == "TON":
+    print(weight, unit)
+    print("Pound: ", ton_to_pound(weight))
+    print("Ounce: ", ton_to_ounce(weight))
+    print("Kilogram: ", ton_to_kilogram(weight))
+    print("Gram: ", ton_to_gram(weight))
+    print("Stone: ", ton_to_stone(weight))
+elif unit == "STONE":
+    print(weight, unit)
+    print("Pound: ", stone_to_pound(weight))
+    print("Ounce: ", stone_to_ounce(weight))
+    print("Kilogram: ", stone_to_kilogram(weight))
+    print("Gram: ", stone_to_gram(weight))
+    print("Metric Ton: ", stone_to_ton(weight))
+else:
+    print("Invalid unit entered!\nValid units include POUND, OUNCE, KILOGRAM, GRAM, TON, STONE")
+]]></codefragment>
+   </duplication>
+   <duplication lines="44" tokens="382">
+      <file begintoken="67812"
+            column="5"
+            endcolumn="11"
+            endline="165"
+            endtoken="68193"
+            line="122"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/79fd325/dev.py"/>
+      <file begintoken="69240"
+            column="5"
+            endcolumn="11"
+            endline="238"
+            endtoken="69621"
+            line="185"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/748d410/dev.py"/>
+      <codefragment><![CDATA[    if helpfulToons == None:
+        BattleExperienceAINotify.warning('=============\nERROR ERROR helpfulToons=None in assignRewards , tell Red')
+    activeToonList = []
+    for t in activeToons:
+        toon = simbase.air.doId2do.get(t)
+        if toon != None:
+            activeToonList.append(toon)
+
+    for toon in activeToonList:
+        for i in range(len(ToontownBattleGlobals.Tracks)):
+            uberIndex = ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1
+            exp = getSkillGained(toonSkillPtsGained, toon.doId, i)
+            needed = ToontownBattleGlobals.Levels[i][ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1] + ToontownBattleGlobals.UberSkill
+            hasUber = 0
+            totalExp = exp + toon.experience.getExp(i)
+            if toon.inventory.numItem(i, uberIndex) > 0:
+                hasUber = 1
+            if totalExp >= needed or totalExp >= ToontownBattleGlobals.MaxSkill:
+                if toon.inventory.totalProps < toon.getMaxCarry() and not hasUber:
+                    uberLevel = ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1
+                    toon.inventory.addItem(i, uberLevel)
+                    toon.experience.setExp(i, ToontownBattleGlobals.Levels[i][ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1])
+                else:
+                    toon.experience.setExp(i, ToontownBattleGlobals.MaxSkill)
+            else:
+                if exp > 0:
+                    newGagList = toon.experience.getNewGagIndexList(i, exp)
+                    toon.experience.addExp(i, amount=exp)
+                    toon.inventory.addItemWithList(i, newGagList)
+        toon.b_setExperience(toon.experience.makeNetString())
+        toon.d_setInventory(toon.inventory.makeNetString())
+        toon.b_setAnimState('victory', 1)
+
+        if simbase.air.config.GetBool('battle-passing-no-credit', True):
+            if helpfulToons and toon.doId in helpfulToons:
+                simbase.air.questManager.toonKilledCogs(toon, suitsKilled, zoneId, activeToonList)
+                simbase.air.cogPageManager.toonKilledCogs(toon, suitsKilled, zoneId)
+            else:
+                BattleExperienceAINotify.debug('toon=%d unhelpful not getting killed cog quest credit' % toon.doId)
+        else:
+            simbase.air.questManager.toonKilledCogs(toon, suitsKilled, zoneId, activeToonList)
+            simbase.air.cogPageManager.toonKilledCogs(toon, suitsKilled, zoneId)
+
+    return]]></codefragment>
+   </duplication>
+   <duplication lines="59" tokens="367">
+      <file begintoken="43683"
+            column="1"
+            endcolumn="11"
+            endline="61"
+            endtoken="44049"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/5abe2f5/dev.py"/>
+      <file begintoken="44051"
+            column="1"
+            endcolumn="11"
+            endline="59"
+            endtoken="44417"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[import csv
+import random
+import datetime
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from collections import defaultdict
+
+files, authors, dates = [], [], []
+
+single_file_mapping, color_dict = {}, {}
+
+unique_author_set = set()
+
+with open('data/commits_rootbeer.csv') as file:
+    csvFile = csv.DictReader(file)
+    for row in csvFile:
+        files.append(row['Filename'])
+        authors.append(row['Author'])
+        dates.append(row['Date'])
+
+# Issue 1: Efficient color generation without potential infinite loop
+color_list = list(mcolors.TABLEAU_COLORS.values())
+
+# Issue 2: Mapping files to unique numbers based on their uniqueness
+single_file_appearances = list(set(files))
+single_file_mapping = {file: i+1 for i, file in enumerate(single_file_appearances)}
+
+dates = [datetime.date(*map(int, d[:10].split('-'))) for d in dates if d]
+project_creation_date = min(dates, default=datetime.date(3000, 12, 31))
+number_of_weeks = [(current_element_date - project_creation_date).days / 7 for current_element_date in dates]
+
+# Issue 3: Using single_file_mapping for file numbers
+files_by_author = defaultdict(list)
+weeks_by_author = defaultdict(list)
+
+for current_index in range(len(authors)):
+    current_author = authors[current_index]
+    current_file = single_file_mapping[files[current_index]]
+    current_weeks = number_of_weeks[current_index]
+
+    files_by_author[current_author].append(current_file)
+    weeks_by_author[current_author].append(current_weeks)
+
+fig, ax = plt.subplots(figsize=(10, 10))
+
+ax.set_title('Visual Representation of The Authors and Their Contributions')
+ax.set_xlabel('File Number')
+ax.set_ylabel('Number of Weeks From Project Creation Date')
+
+# Plotting with unique colors for each author
+for current_author in set(authors):
+    color = color_list[len(color_dict) % len(color_list)]
+    color_dict[current_author] = color
+    ax.scatter(files_by_author[current_author], weeks_by_author[current_author], color=color, label=current_author)
+
+# Issue 3: Creating a single legend entry per author
+ax.legend(loc='upper right', title='List of Authors')
+
+plt.show()]]></codefragment>
+   </duplication>
+   <duplication lines="88" tokens="367">
+      <file begintoken="44419"
+            column="1"
+            endcolumn="11"
+            endline="88"
+            endtoken="44785"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/dd08431/dev.py"/>
+      <file begintoken="44787"
+            column="1"
+            endcolumn="11"
+            endline="83"
+            endtoken="45153"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA["""
+This script analyzes commit data from a CSV file and visualizes the contributions of different authors
+over time in terms of the number of weeks since the project's creation date.
+
+General Logic Flow:
+1. Read commit data from a CSV file ('data/commits_rootbeer.csv').
+2. Extract file names, authors, and commit dates from the CSV data.
+3. Generate unique colors for each author to differentiate them in the plot.
+4. Map file names to unique numbers for efficient plotting.
+5. Convert commit dates to datetime objects and calculate the number of weeks since the project's creation.
+6. Organize commit data by author, associating files and weeks with each author.
+7. Plot the contributions of each author over time using a scatter plot.
+8. Display a legend showing the mapping of authors to colors.
+"""
+
+import csv
+import random
+import datetime
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from collections import defaultdict
+
+# List to store file names, authors, and dates respectively
+files, authors, dates = [], [], []
+
+# Dictionary to map each unique file to a unique number
+single_file_mapping = {}
+
+# Dictionary to store unique colors assigned to each author
+color_dict = {}
+
+# Set to store unique author names
+unique_author_set = set()
+
+# Read CSV file and extract data
+with open('data/commits_rootbeer.csv') as file:
+    csvFile = csv.DictReader(file)
+    for row in csvFile:
+        files.append(row['Filename'])
+        authors.append(row['Author'])
+        dates.append(row['Date'])
+
+# Generate a list of unique colors for authors
+color_list = list(mcolors.TABLEAU_COLORS.values())
+
+# Generate unique file numbers based on their appearances
+single_file_appearances = list(set(files))
+single_file_mapping = {file: i+1 for i, file in enumerate(single_file_appearances)}
+
+# Convert commit dates to datetime objects and calculate weeks since project creation
+dates = [datetime.date(*map(int, d[:10].split('-'))) for d in dates if d]
+project_creation_date = min(dates, default=datetime.date(3000, 12, 31))
+number_of_weeks = [(current_element_date - project_creation_date).days / 7 for current_element_date in dates]
+
+# Organize commit data by author
+files_by_author = defaultdict(list)
+weeks_by_author = defaultdict(list)
+
+# Organize commit data by author
+# Initialize defaultdicts to store files and weeks by author
+for current_index in range(len(authors)):
+    # Retrieve current author, file, and weeks from their respective lists
+    current_author = authors[current_index]
+    current_file = single_file_mapping[files[current_index]]
+    current_weeks = number_of_weeks[current_index]
+
+    # Append current file to the list of files associated with the current author
+    files_by_author[current_author].append(current_file)
+    # Append current weeks to the list of weeks associated with the current author
+    weeks_by_author[current_author].append(current_weeks)
+
+# Create a scatter plot
+fig, ax = plt.subplots(figsize=(10, 10))
+ax.set_title('Visual Representation of The Authors and Their Contributions')
+ax.set_xlabel('File Number')
+ax.set_ylabel('Number of Weeks From Project Creation Date')
+
+# Plot contributions of each author with unique colors
+for current_author in set(authors):
+    color = color_list[len(color_dict) % len(color_list)]
+    color_dict[current_author] = color
+    ax.scatter(files_by_author[current_author], weeks_by_author[current_author], color=color, label=current_author)
+
+# Create legend with single entry per author
+ax.legend(loc='upper right', title='List of Authors')
+
+# Display the plot
+plt.show()]]></codefragment>
+   </duplication>
+   <duplication lines="50" tokens="324">
+      <file begintoken="43726"
+            column="39"
+            endcolumn="11"
+            endline="61"
+            endtoken="44049"
+            line="12"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/5abe2f5/dev.py"/>
+      <file begintoken="44462"
+            column="14"
+            endcolumn="11"
+            endline="88"
+            endtoken="44785"
+            line="30"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/dd08431/dev.py"/>
+      <file begintoken="44830"
+            column="14"
+            endcolumn="11"
+            endline="83"
+            endtoken="45153"
+            line="30"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[single_file_mapping, color_dict = {}, {}
+
+unique_author_set = set()
+
+with open('data/commits_rootbeer.csv') as file:
+    csvFile = csv.DictReader(file)
+    for row in csvFile:
+        files.append(row['Filename'])
+        authors.append(row['Author'])
+        dates.append(row['Date'])
+
+# Issue 1: Efficient color generation without potential infinite loop
+color_list = list(mcolors.TABLEAU_COLORS.values())
+
+# Issue 2: Mapping files to unique numbers based on their uniqueness
+single_file_appearances = list(set(files))
+single_file_mapping = {file: i+1 for i, file in enumerate(single_file_appearances)}
+
+dates = [datetime.date(*map(int, d[:10].split('-'))) for d in dates if d]
+project_creation_date = min(dates, default=datetime.date(3000, 12, 31))
+number_of_weeks = [(current_element_date - project_creation_date).days / 7 for current_element_date in dates]
+
+# Issue 3: Using single_file_mapping for file numbers
+files_by_author = defaultdict(list)
+weeks_by_author = defaultdict(list)
+
+for current_index in range(len(authors)):
+    current_author = authors[current_index]
+    current_file = single_file_mapping[files[current_index]]
+    current_weeks = number_of_weeks[current_index]
+
+    files_by_author[current_author].append(current_file)
+    weeks_by_author[current_author].append(current_weeks)
+
+fig, ax = plt.subplots(figsize=(10, 10))
+
+ax.set_title('Visual Representation of The Authors and Their Contributions')
+ax.set_xlabel('File Number')
+ax.set_ylabel('Number of Weeks From Project Creation Date')
+
+# Plotting with unique colors for each author
+for current_author in set(authors):
+    color = color_list[len(color_dict) % len(color_list)]
+    color_dict[current_author] = color
+    ax.scatter(files_by_author[current_author], weeks_by_author[current_author], color=color, label=current_author)
+
+# Issue 3: Creating a single legend entry per author
+ax.legend(loc='upper right', title='List of Authors')
+
+plt.show()]]></codefragment>
+   </duplication>
+   <duplication lines="50" tokens="324">
+      <file begintoken="44094"
+            column="39"
+            endcolumn="11"
+            endline="59"
+            endtoken="44417"
+            line="10"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_56/gpt_generated_code/code1.py"/>
+      <file begintoken="44462"
+            column="14"
+            endcolumn="11"
+            endline="88"
+            endtoken="44785"
+            line="30"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/dd08431/dev.py"/>
+      <file begintoken="44830"
+            column="14"
+            endcolumn="11"
+            endline="83"
+            endtoken="45153"
+            line="30"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_StefanoRubini_82/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[single_file_mapping, color_dict = {}, {}
+
+unique_author_set = set()
+
+with open('data/commits_rootbeer.csv') as file:
+    csvFile = csv.DictReader(file)
+    for row in csvFile:
+        files.append(row['Filename'])
+        authors.append(row['Author'])
+        dates.append(row['Date'])
+
+# Issue 1: Efficient color generation without potential infinite loop
+color_list = list(mcolors.TABLEAU_COLORS.values())
+
+# Issue 2: Mapping files to unique numbers based on their uniqueness
+single_file_appearances = list(set(files))
+single_file_mapping = {file: i+1 for i, file in enumerate(single_file_appearances)}
+
+dates = [datetime.date(*map(int, d[:10].split('-'))) for d in dates if d]
+project_creation_date = min(dates, default=datetime.date(3000, 12, 31))
+number_of_weeks = [(current_element_date - project_creation_date).days / 7 for current_element_date in dates]
+
+# Issue 3: Using single_file_mapping for file numbers
+files_by_author = defaultdict(list)
+weeks_by_author = defaultdict(list)
+
+for current_index in range(len(authors)):
+    current_author = authors[current_index]
+    current_file = single_file_mapping[files[current_index]]
+    current_weeks = number_of_weeks[current_index]
+
+    files_by_author[current_author].append(current_file)
+    weeks_by_author[current_author].append(current_weeks)
+
+fig, ax = plt.subplots(figsize=(10, 10))
+
+ax.set_title('Visual Representation of The Authors and Their Contributions')
+ax.set_xlabel('File Number')
+ax.set_ylabel('Number of Weeks From Project Creation Date')
+
+# Plotting with unique colors for each author
+for current_author in set(authors):
+    color = color_list[len(color_dict) % len(color_list)]
+    color_dict[current_author] = color
+    ax.scatter(files_by_author[current_author], weeks_by_author[current_author], color=color, label=current_author)
+
+# Issue 3: Creating a single legend entry per author
+ax.legend(loc='upper right', title='List of Authors')
+
+plt.show()]]></codefragment>
+   </duplication>
+   <duplication lines="64" tokens="319">
+      <file begintoken="8949"
+            column="1"
+            endcolumn="46"
+            endline="66"
+            endtoken="9267"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP7-LifeQuest_dusek2_121/1e34f7b/dev.py"/>
+      <file begintoken="9300"
+            column="1"
+            endcolumn="46"
+            endline="70"
+            endtoken="9618"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP7-LifeQuest_dusek2_121/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[from http.server import HTTPServer, SimpleHTTPRequestHandler, test  # type: ignore
+from pathlib import Path
+import os
+import sys
+import argparse
+import contextlib
+import socket
+import subprocess
+
+
+# See cpython GH-17851 and GH-17864.
+class DualStackServer(HTTPServer):
+    def server_bind(self):
+        # Suppress exception when protocol is IPv4.
+        with contextlib.suppress(Exception):
+            self.socket.setsockopt(socket.IPPROTO_IPV6, socket.IPV6_V6ONLY, 0)
+        return super().server_bind()
+
+
+class CORSRequestHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header("Cross-Origin-Opener-Policy", "same-origin")
+        self.send_header("Cross-Origin-Embedder-Policy", "require-corp")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        super().end_headers()
+
+
+def shell_open(url):
+    if sys.platform == "win32":
+        os.startfile(url)
+    else:
+        opener = "open" if sys.platform == "darwin" else "xdg-open"
+        subprocess.call([opener, url])
+
+
+def serve(root, port, run_browser):
+    os.chdir(root)
+
+    if run_browser:
+        # Open the served page in the user's default browser.
+        print("Opening the served URL in the default browser (use `--no-browser` or `-n` to disable this).")
+        shell_open(f"http://127.0.0.1:{port}")
+
+    test(CORSRequestHandler, DualStackServer, port=port)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p", "--port", help="port to listen on", default=8060, type=int)
+    parser.add_argument(
+        "-r", "--root", help="path to serve as root (relative to `platform/web/`)", default="LifeQuest/Export", type=Path
+    )
+    browser_parser = parser.add_mutually_exclusive_group(required=False)
+    browser_parser.add_argument(
+        "-n", "--no-browser", help="don't open default web browser automatically", dest="browser", action="store_false"
+    )
+    parser.set_defaults(browser=True)
+    args = parser.parse_args()
+
+    # Change to the directory where the script is located,
+    # so that the script can be run from any location.
+    os.chdir(Path(__file__).resolve().parent)
+
+    serve(args.root, args.port, args.browser)]]></codefragment>
+   </duplication>
+   <duplication lines="51" tokens="315">
+      <file begintoken="48226"
+            column="1"
+            endcolumn="11"
+            endline="51"
+            endtoken="48540"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/de6f143/dev.py"/>
+      <file begintoken="48543"
+            column="1"
+            endcolumn="11"
+            endline="60"
+            endtoken="48857"
+            line="10"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cs472-group4_AlvaroH2001_102/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[import math
+import random
+import tkinter as tk
+
+def is_odd(number):
+    """Check if a number is odd."""
+    return number & 1
+
+def get_button_color(cell_position):
+    """Return button color based on its position."""
+    return 'green' if is_odd(cell_position) else 'blue'
+
+class OceanMap:
+    def __init__(self, master, rows=15, columns=60):
+        self.master = master
+        self.treasure_row = random.randrange(rows)
+        self.treasure_col = random.randrange(columns)
+        self.sonar_used = 0
+        self.treasure_found = False
+        self.setup_grid(rows, columns)
+
+    def setup_grid(self, rows, columns):
+        """Create a grid of buttons on the tkinter window."""
+        for row in range(rows):
+            for col in range(columns):
+                button = tk.Button(self.master, text='??', font='Courier 14',
+                                   fg=get_button_color(row+col),
+                                   command=lambda r=row, c=col: self.drop_sonar(r, c))
+                button.grid(row=row, column=col)
+
+    def drop_sonar(self, row, col):
+        """Handle sonar drop: calculate distance and update button."""
+        if self.treasure_found:
+            return
+
+        distance = int(round(math.hypot(row - self.treasure_row, col - self.treasure_col)))
+        button_text = '0' if distance == 0 else str(distance)
+        self.master.grid_slaves(row, col)[0].configure(text=button_text, bg='yellow', fg='red')
+        self.sonar_used += 1
+
+        if distance == 0:
+            print(f'You win! At the cost of {self.sonar_used} sonar devices.')
+            self.treasure_found = True
+
+def main():
+    root = tk.Tk()
+    game = OceanMap(root)
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()]]></codefragment>
+   </duplication>
+   <duplication lines="25" tokens="236">
+      <file begintoken="24802"
+            column="1"
+            endcolumn="16"
+            endline="142"
+            endtoken="25037"
+            line="118"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/1d95e65/dev.py"/>
+      <file begintoken="26303"
+            column="1"
+            endcolumn="16"
+            endline="66"
+            endtoken="26538"
+            line="42"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[def cross_val_results(model, X_train, Y_train):
+    return cross_validate(model, X_train, Y_train, cv=10, scoring=scoring, return_train_score=False)
+
+# Compute results for each kernel
+results_linear = cross_val_results(svm_linear, X_train_scaled, Y_train)
+results_poly = cross_val_results(svm_poly, X_train_scaled, Y_train)
+results_rbf = cross_val_results(svm_rbf, X_train_scaled, Y_train)
+
+# Create dictionaries for results
+def create_results_dict(results):
+    return {'Test Accuracy': list(results['test_accuracy']) + [results['test_accuracy'].mean()],
+            'Test ROC AUC': list(results['test_roc_auc']) + [results['test_roc_auc'].mean()],
+            'Test F1 Score': list(results['test_f1']) + [results['test_f1'].mean()]}
+
+results_acc_dict = {'Linear': create_results_dict(results_linear),
+                    'Polynomial': create_results_dict(results_poly),
+                    'RBF': create_results_dict(results_rbf)}
+
+# Print tables
+for kernel, results_dict in results_acc_dict.items():
+    df = pd.DataFrame.from_dict(results_dict, orient='columns')
+    df.index = [f'Fold {i+1}' for i in range(10)] + ['Mean']
+    print(f"{kernel.capitalize()} Results Table:")
+    print(tabulate(df, headers='keys', tablefmt='fancy_grid', numalign='center', stralign='center', floatfmt=".5f"))
+    print("\n")]]></codefragment>
+   </duplication>
+   <duplication lines="30" tokens="211">
+      <file begintoken="13813"
+            column="1"
+            endcolumn="33"
+            endline="30"
+            endtoken="14023"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/109ef0b/dev.py"/>
+      <file begintoken="14025"
+            column="1"
+            endcolumn="33"
+            endline="48"
+            endtoken="14235"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/8dacf76/dev.py"/>
+      <file begintoken="14237"
+            column="1"
+            endcolumn="33"
+            endline="46"
+            endtoken="14447"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_voxelit_85/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[import pandas as pd
+import numpy as np
+
+train_data = pd.read_csv('MNIST_training.csv', header=None, skiprows=1)
+test_data = pd.read_csv('MNIST_test.csv', header=None, skiprows=1)
+
+y_train = train_data.iloc[:, 0].values
+X_train = train_data.iloc[:, 1:].values
+
+y_test_groundtruth = test_data.iloc[:, 0].values
+X_test = test_data.iloc[:, 1:].values
+
+k = 5
+
+predictions = []
+
+for i in range(len(X_test)):
+    distances = np.sum(np.square(X_train - X_test[i]), axis=1)
+    nearest_neighbors_indices = np.argsort(distances)[:k]
+    nearest_neighbors_labels = y_train[nearest_neighbors_indices]
+    prediction = np.bincount(nearest_neighbors_labels).argmax()
+    predictions.append(prediction)
+
+correctly_classified = (predictions == y_test_groundtruth).sum()
+incorrectly_classified = len(y_test_groundtruth) - correctly_classified
+accuracy = correctly_classified / len(y_test_groundtruth)
+
+print("Correctly classified: %d" % correctly_classified)
+print("Incorrectly classified: %d" % incorrectly_classified)
+print("Accuracy: %f" % accuracy)]]></codefragment>
+   </duplication>
+   <duplication lines="39" tokens="198">
+      <file begintoken="36932"
+            column="1"
+            endcolumn="114"
+            endline="39"
+            endtoken="37129"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_axelauda_76/gpt_generated_code/code1.py"/>
+      <file begintoken="38318"
+            column="1"
+            endcolumn="114"
+            endline="39"
+            endtoken="38515"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/c98785e/dev.py"/>
+      <codefragment><![CDATA[def knapsack(capacity, weights, values, table):
+    """
+    Calculates the maximum value achievable in the knapsack.
+
+    Args:
+        capacity (int): The capacity of the knapsack.
+        weights (list): List of weights of items.
+        values (list): List of values of items.
+        table (list): 2D list representing the dynamic programming table.
+
+    Returns:
+        int: Maximum value achievable.
+    """
+    # Loop through items
+    for i in range(1, len(weights) + 1):
+        # Loop through capacities
+        for j in range(capacity + 1):
+            # If the weight of the current item is greater than the capacity,
+            # take the value of the previous item for this capacity
+            if weights[i - 1] > j:
+                table[i][j] = table[i - 1][j]
+            # Otherwise, take the maximum of the previous item's value for this capacity
+            # or the value of the current item plus the value of the item that can fit
+            else:
+                table[i][j] = max(table[i - 1][j], table[i - 1][j - weights[i - 1]] + values[i - 1])
+    # Return the maximum value achievable
+    return table[len(weights)][capacity]
+
+
+if __name__ == '__main__':
+    capacity = 10
+    weights = [2, 4, 5, 6]
+    values = [1, 2, 3, 5]
+    # Table holding maximum value for a number of items with a limited bag capacity
+    table = [[0] * (capacity + 1) for _ in range(len(weights) + 1)]
+
+    for i in range(len(values)):
+        print(f"\tItem {i + 1}: Value = {values[i]}, Weight = {weights[i]}")
+    print(f"Highest value for a bag with a capacity of {capacity}: {knapsack(capacity, weights, values, table)}")]]></codefragment>
+   </duplication>
+   <duplication lines="55" tokens="189">
+      <file begintoken="17951"
+            column="1"
+            endcolumn="35"
+            endline="55"
+            endtoken="18139"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_76/08b88a1/dev.py"/>
+      <file begintoken="18358"
+            column="1"
+            endcolumn="35"
+            endline="36"
+            endtoken="18546"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_80/1b9022c/dev.py"/>
+      <codefragment><![CDATA[import csv
+import numpy as np
+
+class KNNClassifier:
+    def __init__(self, k):
+        self.k = k
+        # Initalizes the data and labels in the training csv file 
+        self.train_data = np.empty((0,0))
+        self.train_labels = np.empty((0,))
+        
+    # Calculates the Euclidean distance between two data points
+    def euclidean_Dis(self, point1, point2):
+        distance = np.sqrt(np.sum((point1 - point2) ** 2))
+        return distance
+    
+    # Finds the k nearest neightbors
+    def k_nearest_neighbors(self, test_instance):
+        # For each test data compute euclidean distance with the training data 
+        distances = np.array([self.euclidean_Dis(train_instance, test_instance) for train_instance in self.train_data])
+        # grabs the k smallest distance indices 
+        nearest_indices = np.argsort(distances)[:self.k]
+        return nearest_indices
+    
+    # Function to decide majority class
+    def majority_class(self, neighbors):
+        label_counts = {}
+        # Counts occurrences of each label among the neighbors
+        for neighbor_index in neighbors:
+            label = self.train_labels[neighbor_index]
+            label_counts[label] = label_counts.get(label, 0) + 1
+        # finds the label with the max count 
+        prediction = max(label_counts, key=label_counts.get)
+        return prediction
+    
+    # # Function to store the train file 
+    # def train(self, train_file):
+    #     # Initialize lists to store data and labels in the training file
+    #     data = []
+    #     labels = []
+
+    #     # reads the file, skips header
+    #     with open(train_file, 'r') as file:
+    #         train_reader = csv.reader(file)
+    #         next(train_reader)
+
+    #         # for each row stores data and label
+    #         for row in train_reader:
+    #             labels.append(int(row[0]))  # holds the first col of each row for the labels 
+    #             data.append(list(map(float, row[1:])))
+                
+    #      # Convert lists to arrays
+    #     self.train_labels = np.array(labels)
+    #     self.train_data = np.array(data)
+
+    def read_csv(self, file_name):
+]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="187">
+      <file begintoken="26966"
+            column="5"
+            endcolumn="11"
+            endline="33"
+            endtoken="27152"
+            line="2"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_68/e49f3fc/dev.py"/>
+      <file begintoken="27281"
+            column="5"
+            endcolumn="11"
+            endline="82"
+            endtoken="27467"
+            line="39"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Snapshot0010_68/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[    trainingData = []
+    testData = []
+    correctPredict = 0
+    predictedLabels = []
+
+    with open('MNIST_training.csv','r') as trainingFile:
+        reader = csv.reader(trainingFile)
+        next(reader)
+        for line in reader:
+            if line:
+                    trainingData.append(line)
+
+    with open('MNIST_test.csv','r') as testFile:
+        reader = csv.reader(testFile)
+        next(reader)
+        for line in reader:
+            if line:
+                testData.append(line)
+
+    for i in testData:
+        closestLabels = []
+        pointDistance = np.array(euclDistance(i,trainingData))
+        trData = np.array(trainingData)
+        sortedData = pointDistance.argsort()
+        closestPoints = trData[sortedData]
+        for k in itertools.islice(closestPoints,kVal):
+            closestLabels.append(k[0])
+        predictedLabel = max(set(closestLabels),key=closestLabels.count)
+        predictedLabels.append(predictedLabel)
+
+    for (i,j) in zip(testData,predictedLabels):
+        if(i[0] == j):
+]]></codefragment>
+   </duplication>
+   <duplication lines="32" tokens="183">
+      <file begintoken="67460"
+            column="35"
+            endcolumn="24"
+            endline="90"
+            endtoken="67642"
+            line="59"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/79fd325/dev.py"/>
+      <file begintoken="68232"
+            column="34"
+            endcolumn="24"
+            endline="49"
+            endtoken="68414"
+            line="9"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_111/gpt_generated_code/code1.py"/>
+      <file begintoken="68886"
+            column="35"
+            endcolumn="24"
+            endline="130"
+            endtoken="69068"
+            line="94"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/748d410/dev.py"/>
+      <codefragment><![CDATA[    for deathRecord in suitsKilled:
+        level = deathRecord['level']
+        type = deathRecord['type']
+        if deathRecord['isVP'] or deathRecord['isCFO']:
+            level = 0
+            typeNum = SuitDNA.suitDepts.index(deathRecord['track'])
+        else:
+            typeNum = SuitDNA.suitHeadTypes.index(type)
+        involvedToonIds = deathRecord['activeToons']
+        toonBits = 0
+        for toonId in involvedToonIds:
+            if toonId in toonIndices:
+                toonBits |= 1 << toonIndices[toonId]
+
+        flags = 0
+        if deathRecord['isSkelecog']:
+            flags |= ToontownBattleGlobals.DLF_SKELECOG
+        if deathRecord['isForeman']:
+            flags |= ToontownBattleGlobals.DLF_FOREMAN
+        if deathRecord['isVP']:
+            flags |= ToontownBattleGlobals.DLF_VP
+        if deathRecord['isCFO']:
+            flags |= ToontownBattleGlobals.DLF_CFO
+        if deathRecord['isSupervisor']:
+            flags |= ToontownBattleGlobals.DLF_SUPERVISOR
+        if deathRecord['isVirtual']:
+            flags |= ToontownBattleGlobals.DLF_VIRTUAL
+        if 'hasRevies' in deathRecord and deathRecord['hasRevives']:
+            flags |= ToontownBattleGlobals.DLF_REVIVES
+        deathList.extend([typeNum, level, toonBits, flags])
+
+    p.append(deathList)
+]]></codefragment>
+   </duplication>
+   <duplication lines="53" tokens="178">
+      <file begintoken="38525"
+            column="1"
+            endcolumn="18"
+            endline="57"
+            endtoken="38702"
+            line="5"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/f2458bf/dev.py"/>
+      <file begintoken="39303"
+            column="1"
+            endcolumn="18"
+            endline="62"
+            endtoken="39480"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[def pound_to_ounce(weight):
+    return weight*16
+
+def pound_to_kilogram(weight):
+    return weight/2.205
+
+def pound_to_gram(weight):
+    return weight*453.6
+
+def pound_to_ton(weight):
+    return weight/2205
+
+def pound_to_stone(weight):
+    return weight/14
+
+def ounce_to_pound(weight):
+    return weight/16
+
+def ounce_to_kilogram(weight):
+    return weight/35.274
+
+def ounce_to_gram(weight):
+    return weight*28.35
+
+def ounce_to_ton(weight):
+    return weight/35270
+
+def ounce_to_stone(weight):
+    return weight/224
+
+def kilogram_to_pound(weight):
+    return weight*2.205
+
+def kilogram_to_ounce(weight):
+    return weight*35.274
+
+def kilogram_to_gram(weight):
+    return weight*1000
+
+def kilogram_to_ton(weight):
+    return weight/1000
+
+def kilogram_to_stone(weight):
+    return weight/6.35
+
+def gram_to_pound(weight):
+    return weight/453.6
+
+def gram_to_ounce(weight):
+    return weight/28.35
+
+def gram_to_kilogram(weight):
+    return weight*1000
+]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="161">
+      <file begintoken="61155"
+            column="1"
+            endcolumn="18"
+            endline="32"
+            endtoken="61315"
+            line="17"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_99/7d3406f/dev.py"/>
+      <file begintoken="61472"
+            column="1"
+            endcolumn="18"
+            endline="62"
+            endtoken="61632"
+            line="46"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_99/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[def test_merge_sort():
+    # Test cases
+    test_cases = [
+        ([], []),
+        ([5], [5]),
+        ([3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]),
+        ([-2, 7, 0, -1, -3, 5], [-3, -2, -1, 0, 5, 7]),
+        (['apple', 'banana', 'orange', 'cherry'], ['apple', 'banana', 'cherry', 'orange'])
+    ]
+
+    for arr, expected in test_cases:
+        result = merge_sort(arr)
+        assert result == expected, f"Failed for input: {arr}, expected: {expected}, got: {result}"
+
+    print("All test cases passed.")
+test_merge_sort()]]></codefragment>
+   </duplication>
+   <duplication lines="24" tokens="157">
+      <file begintoken="27543"
+            column="37"
+            endcolumn="35"
+            endline="29"
+            endtoken="27699"
+            line="6"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_76/63927df/dev.py"/>
+      <file begintoken="27709"
+            column="26"
+            endcolumn="39"
+            endline="38"
+            endtoken="27865"
+            line="15"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_zmorgancs_76/6c001b9/dev.py"/>
+      <codefragment><![CDATA[    trainingCounter = X_data.shape[0]
+    
+    for i in range(testCounter):                                            
+        minimum_distances = []
+        
+        for j in range(trainingCounter):                                                 # traverse training data points and build a list of distances
+            dist = np.sum(((X_query[i] - X_data[j])**2))                                 
+            minimum_distances.append((dist, y_data[j]))                                  # Add the distance calculation to the list of distances
+
+        sorted_dist = sorted(minimum_distances, key = lambda distance: distance[0])          
+        neighbors = np.array(sorted_dist[0:k])                                           
+        
+        distVal, counts = np.unique(neighbors, return_counts = True)                  
+        modeIndex = np.argmax(counts)                                           
+        prediction_values.append(distVal[modeIndex])                                     # Add the nearest label results to our list of digit guesses
+        
+    yLen = y_query.shape[0]                                                    
+    classMatches = 0                                                        
+
+    for p in range(yLen):                                                          
+        if prediction_values[p] == y_query[p]:                                 
+            classMatches +=1
+    
+    return (classMatches/yLen)*100                                     ]]></codefragment>
+   </duplication>
+   <duplication lines="37" tokens="148">
+      <file begintoken="13218"
+            column="1"
+            endcolumn="11"
+            endline="37"
+            endtoken="13365"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/a255fc5/dev.py"/>
+      <file begintoken="13367"
+            column="1"
+            endcolumn="11"
+            endline="33"
+            endtoken="13514"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/e4aade2/dev.py"/>
+      <file begintoken="13516"
+            column="1"
+            endcolumn="11"
+            endline="37"
+            endtoken="13663"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2DRogueLikeUnityGame_kzmaybe_71/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[class ListNode:
+    # ListNode class for representing a node in a singly linked list
+    def __init__(self, value=0, next=None):
+        self.value = value  # Value of the node
+        self.next = next    # Reference to the next node in the list
+
+def reverse_linked_list(head):
+    # Function to reverse a singly linked list
+    prev = None          # Initialize previous node to None
+    current = head       # Start with the head of the list
+    while current:
+        next = current.next  # Store reference to the next node
+        current.next = prev  # Reverse the link
+        prev = current       # Move prev to the current node
+        current = next       # Move to the next node in the original list
+    return prev              # Return the new head of the reversed list
+
+def print_list(node):
+    # Function to print all values in the linked list
+    while node:
+        print(node.value, end=" ")  # Print the value of the current node
+        node = node.next            # Move to the next node
+    print()                         # Print a newline at the end
+
+def main():
+    # Main function to demonstrate the functionality
+    # Creating a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
+    head = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
+    print("Original List:")
+    print_list(head)  # Print the original list
+
+    head = reverse_linked_list(head)  # Reverse the linked list
+    print("Reversed List:")
+    print_list(head)  # Print the reversed list
+
+if __name__ == "__main__":
+    main()  # Execute the main function]]></codefragment>
+   </duplication>
+   <duplication lines="21" tokens="138">
+      <file begintoken="45293"
+            column="5"
+            endcolumn="43"
+            endline="22"
+            endtoken="45430"
+            line="2"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_42/89cc45c/dev.py"/>
+      <file begintoken="45439"
+            column="5"
+            endcolumn="43"
+            endline="33"
+            endtoken="45576"
+            line="4"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/barbell-labs_elliotwesoff_42/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[    def __init__(self, edges, num_vertices):
+        self.adj_list = [[] for _ in range(num_vertices)]
+        for src, dest in edges:
+            self.adj_list[src].append(dest)
+            self.adj_list[dest].append(src)
+
+    def bfs(self, start_vertex):
+        visited = [False] * len(self.adj_list)
+        queue = deque()
+
+        visited[start_vertex] = True
+        queue.append(start_vertex)
+
+        while queue:
+            vertex = queue.popleft()
+            print(vertex, end=' ')
+
+            for neighbor in self.adj_list[vertex]:
+                if not visited[neighbor]:
+                    visited[neighbor] = True
+                    queue.append(neighbor)]]></codefragment>
+   </duplication>
+   <duplication lines="26" tokens="130">
+      <file begintoken="18227"
+            column="9"
+            endcolumn="65"
+            endline="92"
+            endtoken="18356"
+            line="67"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_76/08b88a1/dev.py"/>
+      <file begintoken="18636"
+            column="9"
+            endcolumn="65"
+            endline="93"
+            endtoken="18765"
+            line="68"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/CS472_Group1_dafneMena_80/1b9022c/dev.py"/>
+      <codefragment><![CDATA[        self.train_data, self.train_labels = self.read_csv(train_file)
+
+
+    # Function to retrieve prediction label and calculate accuracy
+    def predict(self, test_file):
+        correct_count = 0
+        test_data, test_labels = self.read_csv(test_file)
+        for i, test_instance in enumerate(test_data):
+            neighbors = self.k_nearest_neighbors(test_instance)
+            predicted_label = self.majority_class(neighbors)
+            if predicted_label == test_labels[i]:
+                correct_count += 1
+        accuracy = (correct_count / len(test_data)) * 100
+        return accuracy
+
+
+# Sets kvalue for odd nums from 1 - 10 
+for kvalue in range(1, 10, 2):
+    knn = KNNClassifier(kvalue)
+    knn.train('MNIST_training.csv')
+    
+    # Get accuracy for test data
+    accuracyPercent = knn.predict('MNIST_test.csv')
+    
+    # Display accuracy for current k value
+    print("K Value:", kvalue, "Accuracy:", accuracyPercent, "%")]]></codefragment>
+   </duplication>
+   <duplication lines="22" tokens="130">
+      <file begintoken="67682"
+            column="5"
+            endcolumn="94"
+            endline="121"
+            endtoken="67811"
+            line="100"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_109/79fd325/dev.py"/>
+      <file begintoken="69109"
+            column="5"
+            endcolumn="94"
+            endline="171"
+            endtoken="69238"
+            line="150"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_razonm_113/748d410/dev.py"/>
+      <codefragment><![CDATA[    fieldList = []
+    uberIndex = ToontownBattleGlobals.LAST_REGULAR_GAG_LEVEL + 1
+    for toonId in toons:
+        toonList = []
+        toon = simbase.air.doId2do.get(toonId)
+        if toon == None:
+            fieldList.append(-1)
+        else:
+            for trackIndex in range(ToontownBattleGlobals.MAX_TRACK_INDEX + 1):
+                toonList.append(toon.inventory.numItem(trackIndex, uberIndex))
+
+            fieldList.append(ToontownBattleGlobals.encodeUber(toonList))
+
+    lenDif = numToons - len(toons)
+    if lenDif > 0:
+        for index in range(lenDif):
+            fieldList.append(-1)
+
+    return fieldList
+
+
+def assignRewards(activeToons, toonSkillPtsGained, suitsKilled, zoneId, helpfulToons = None):
+]]></codefragment>
+   </duplication>
+   <duplication lines="37" tokens="121">
+      <file begintoken="38704"
+            column="19"
+            endcolumn="24"
+            endline="93"
+            endtoken="38824"
+            line="57"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/f2458bf/dev.py"/>
+      <file begintoken="39482"
+            column="21"
+            endcolumn="26"
+            endline="100"
+            endtoken="39602"
+            line="62"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_tylereg03_80/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[    return weight*1000
+
+def gram_to_ton(weight):
+    return weight/1000000
+
+def gram_to_stone(weight):
+    return weight/6350
+
+def ton_to_pound(weight):
+    return weight*2205
+
+def ton_to_ounce(weight):
+    return weight*35270
+
+def ton_to_kilogram(weight):
+    return weight*1000
+
+def ton_to_gram(weight):
+    return weight*1000000
+
+def ton_to_stone(weight):
+    return weight*157.5
+
+def stone_to_pound(weight):
+    return weight*14
+
+def stone_to_ounce(weight):
+    return weight*224
+
+def stone_to_kilogram(weight):
+    return weight*6.35
+
+def stone_to_gram(weight):
+    return weight*6350
+
+def stone_to_ton(weight):
+    return weight/157.5
+]]></codefragment>
+   </duplication>
+   <duplication lines="30" tokens="120">
+      <file begintoken="61352"
+            column="35"
+            endcolumn="15"
+            endline="44"
+            endtoken="61471"
+            line="15"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_KeenParchment_99/gpt_generated_code/code1.py"/>
+      <file begintoken="70586"
+            column="29"
+            endcolumn="15"
+            endline="33"
+            endtoken="70705"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_rparker2003_96/ae85a5b/dev.py"/>
+      <codefragment><![CDATA[        right_half = arr[mid_index:]
+
+        # Recursively sort the left and right halves
+        merge_sort(left_half)
+        merge_sort(right_half)
+
+        # Merge the sorted halves
+        i = j = k = 0
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+
+        # Copy the remaining elements of left_half, if any
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+
+        # Copy the remaining elements of right_half, if any
+        while j < len(right_half):
+            arr[k] = right_half[j]
+            j += 1
+            k += 1
+
+    return arr
+]]></codefragment>
+   </duplication>
+   <duplication lines="23" tokens="110">
+      <file begintoken="64851"
+            column="1"
+            endcolumn="11"
+            endline="33"
+            endtoken="64960"
+            line="11"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/689b0b6/dev.py"/>
+      <file begintoken="66224"
+            column="1"
+            endcolumn="11"
+            endline="29"
+            endtoken="66333"
+            line="7"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/ae47c80/dev.py"/>
+      <codefragment><![CDATA[if not os.path.exists("data"):
+    os.makedirs("data")
+
+# GitHub Authentication function
+def github_auth(url, lsttoken, ct):
+    jsonData = None
+    try:
+        ct = ct % len(lstTokens)
+        headers = {'Authorization': 'Bearer {}'.format(lsttoken[ct])}
+        request = requests.get(url, headers=headers)
+        jsonData = json.loads(request.content)
+        ct += 1
+    except Exception as e:
+        pass
+        print(e)
+    return jsonData, ct
+
+# @dictFiles, empty dictionary of files
+# @lstTokens, GitHub authentication tokens
+# @repo, GitHub repo
+def countfiles(dictfiles, lsttokens, repo):
+    ipage = 1  # url page counter
+    ct = 0  # token counter
+]]></codefragment>
+   </duplication>
+   <duplication lines="19" tokens="108">
+      <file begintoken="62205"
+            column="1"
+            endcolumn="24"
+            endline="21"
+            endtoken="62312"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/d270d77/dev.py"/>
+      <file begintoken="62351"
+            column="1"
+            endcolumn="24"
+            endline="21"
+            endtoken="62458"
+            line="1"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        zeroPtr = 0
+        twoPtr = len(nums) - 1
+        
+        i = 0
+        while i <= twoPtr:
+            if nums[i] == 0:
+                nums[i], nums[zeroPtr] = nums[zeroPtr], nums[i]
+                zeroPtr += 1
+            if nums[i] == 2:
+                nums[i], nums[twoPtr] = nums[twoPtr], nums[i]
+                twoPtr -= 1
+            else:
+                i += 1
+            print(nums)
+]]></codefragment>
+   </duplication>
+   <duplication lines="8" tokens="105">
+      <file begintoken="24620"
+            column="1"
+            endcolumn="6"
+            endline="113"
+            endtoken="24724"
+            line="106"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/1d95e65/dev.py"/>
+      <file begintoken="25999"
+            column="1"
+            endcolumn="6"
+            endline="18"
+            endtoken="26103"
+            line="6"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_53/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[from tabulate import tabulate
+data1 = pd.read_csv('healthcare-dataset-stroke-data.csv').iloc[:, 1:]
+smoking_mapping = {'never smoked': 0, 'formerly smoked': 0.5, 'smokes': 1, 'Unknown': 0.25}
+data1['smoking_status'] = data1['smoking_status'].replace(smoking_mapping)
+data1['ever_married'] = data1['ever_married'].replace({'Yes': 1, 'No': 0})
+gender_mapping = {'Other': 10, 'Male': 0, 'Female': 1}
+data1['gender'] = data1['gender'].replace(gender_mapping)
+data1['Residence_type'] = data1['Residence_type'].replace({'Rural': 1, 'Urban': 0})
+]]></codefragment>
+   </duplication>
+   <duplication lines="24" tokens="102">
+      <file begintoken="61744"
+            column="9"
+            endcolumn="11"
+            endline="54"
+            endtoken="61845"
+            line="31"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_105/15f4edb/dev.py"/>
+      <file begintoken="62069"
+            column="9"
+            endcolumn="11"
+            endline="53"
+            endtoken="62170"
+            line="29"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_StacL_106/43799e5/dev.py"/>
+      <codefragment><![CDATA[        return dummy.next
+
+def main():
+    # Create a sample linked list: 1 -> 2 -> 3 -> 4 -> 5
+    head = ListNode(1)
+    head.next = ListNode(2)
+    head.next.next = ListNode(3)
+    head.next.next.next = ListNode(4)
+    head.next.next.next.next = ListNode(5)
+
+    # Create an instance of the Solution class
+    solution = Solution()
+
+    # Call the swapPairs method
+    new_head = solution.swapPairs(head)
+
+    # Print the resulting linked list
+    while new_head:
+        print(new_head.val, end=" -> ")
+        new_head = new_head.next
+    print("None")
+
+if __name__ == "__main__":
+    main()]]></codefragment>
+   </duplication>
+   <duplication lines="15" tokens="101">
+      <file begintoken="35091"
+            column="44"
+            endcolumn="19"
+            endline="31"
+            endtoken="35191"
+            line="17"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/c82bbfc/dev.py"/>
+      <file begintoken="35380"
+            column="77"
+            endcolumn="19"
+            endline="61"
+            endtoken="35480"
+            line="38"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[        elif artist['name'].upper() == arg and int(artist['popularity']) > 40: 
+            artist_name = artist['name']
+            artist_id = artist['id']
+            break
+    if artist_id is None:
+         await ctx.send(f"No artist found with the name '{arg}'.")
+    else:
+        top_tracks = sp.artist_top_tracks(artist_id, country='US')
+        if not top_tracks['tracks']:
+            await ctx.send("No top tracks found for the artist.")
+        else:
+            await ctx.send(f"Top 5 songs for the artist {artist_name}:")
+            for i, track in enumerate(top_tracks['tracks'][:5]):
+                await ctx.send(f"{i + 1}. {track['name']} - {', '.join(artist['name'] for artist in track['artists'])}")
+            return
+]]></codefragment>
+   </duplication>
+   <duplication lines="16" tokens="101">
+      <file begintoken="35494"
+            column="5"
+            endcolumn="88"
+            endline="18"
+            endtoken="35594"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Niblick1020_95/e865d5b/dev.py"/>
+      <file begintoken="66535"
+            column="1"
+            endcolumn="84"
+            endline="96"
+            endtoken="66635"
+            line="81"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/munch_noodaj_80/ae47c80/dev.py"/>
+      <codefragment><![CDATA[    fileOutput = 'data/file_' + file + '.csv'
+    rows = ["Filename", "Touches"]
+    fileCSV = open(fileOutput, 'w')
+    writer = csv.writer(fileCSV)
+    writer.writerow(rows)
+
+    bigcount = None
+    bigfilename = None
+    for filename, count in dictfiles.items():
+        rows = [filename, count]
+        writer.writerow(rows)
+        if bigcount is None or count > bigcount:
+            bigcount = count
+            bigfilename = filename
+    fileCSV.close()
+    print('The file ' + bigfilename + ' has been touched ' + str(bigcount) + ' times.')
+]]></codefragment>
+   </duplication>
+   <duplication lines="11" tokens="100">
+      <file begintoken="34946"
+            column="5"
+            endcolumn="11"
+            endline="13"
+            endtoken="35045"
+            line="3"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/c82bbfc/dev.py"/>
+      <file begintoken="35257"
+            column="5"
+            endcolumn="11"
+            endline="38"
+            endtoken="35356"
+            line="17"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/gpt_generated_code/code1.py"/>
+      <codefragment><![CDATA[    arg = arg.upper()
+    result = sp.search(q=f'artists: {arg}', type='artist', limit=50, market=None)
+    if result['artists']['total'] == 0:
+        arg = arg.lower()
+        result = sp.search(q=f'artists: {arg}', type='artist', limit=50, market=None)
+    if not result['artists']['items']:
+        return
+    artist_id = None
+    artist_name = None
+    for artist in result['artists']['items']:
+        if artist['name'].lower() == arg and int(artist['popularity']) > 40:
+]]></codefragment>
+   </duplication>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/6bc3dd6/dev.py"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/6bc3dd6/dev.py' at line 15, column 7: &#34;u&#34; (117), after : &#34;!&#34; (in lexical state DEFAULT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/2024-S-GROUP5-Munch_haiimkeith_76/6bc3dd6/dev.py' at line 15, column 7: "u" (117), after : "!" (in lexical state DEFAULT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:3942)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/6be8416/dev.py"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/6be8416/dev.py' at line 11, column 75: &#34;\&#34;&#34; (34), after : &#34;!&#34; (in lexical state DEFAULT)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OpenAdapt_FFFiend_228/6be8416/dev.py' at line 11, column 75: "\"" (34), after : "!" (in lexical state DEFAULT)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:3942)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/5911de1/dev.py"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/5911de1/dev.py' at line 20, column 81: &lt;EOF&gt; after : &#34;&#34; (in lexical state IN_STRING23)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/SeniorDesign_Jordan-Scherf_53/5911de1/dev.py' at line 20, column 81: &lt;EOF&gt; after : "" (in lexical state IN_STRING23)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:3942)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+   <error filename="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/d064c85/dev.py"
+          msg="LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/d064c85/dev.py' at line 4, column 5: &lt;EOF&gt; after : &#34;&#34; (in lexical state IN_STRING23)">net.sourceforge.pmd.lang.ast.LexException: Lexical error in file '/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/langroid_Mohannadcse_301/d064c85/dev.py' at line 4, column 5: &lt;EOF&gt; after : "" (in lexical state IN_STRING23)
+	at net.sourceforge.pmd.lang.ast.InternalApiBridge.newLexException(InternalApiBridge.java:25)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:3942)
+	at net.sourceforge.pmd.lang.python.ast.PythonParserImplTokenManager.getNextToken(PythonParserImplTokenManager.java:7)
+	at net.sourceforge.pmd.cpd.impl.BaseTokenFilter.getNextToken(BaseTokenFilter.java:44)
+	at net.sourceforge.pmd.cpd.impl.CpdLexerBase.tokenize(CpdLexerBase.java:40)
+	at net.sourceforge.pmd.cpd.CpdLexer.tokenize(CpdLexer.java:29)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.doTokenize(CpdAnalysis.java:146)
+	at net.sourceforge.pmd.cpd.CpdAnalysis.performAnalysis(CpdAnalysis.java:172)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:143)
+	at net.sourceforge.pmd.cli.commands.internal.CpdCommand.doExecute(CpdCommand.java:29)
+	at net.sourceforge.pmd.cli.internal.PmdRootLogger.executeInLoggingContext(PmdRootLogger.java:55)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractAnalysisPmdSubcommand.execute(AbstractAnalysisPmdSubcommand.java:117)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:30)
+	at net.sourceforge.pmd.cli.commands.internal.AbstractPmdSubcommand.call(AbstractPmdSubcommand.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2041)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2453)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2417)
+	at picocli.CommandLine.execute(CommandLine.java:2170)
+	at net.sourceforge.pmd.cli.PmdCli.main(PmdCli.java:24)
+</error>
+</pmd-cpd>

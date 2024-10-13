@@ -1,0 +1,1 @@
+  - `type` (str): The type of search, 'keyword' or 'neural'. Default: neural

@@ -1,0 +1,1 @@
+      formats: ["es", "umd"],

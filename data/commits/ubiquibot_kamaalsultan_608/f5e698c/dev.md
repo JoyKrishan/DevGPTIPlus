@@ -1,0 +1,2 @@
+- `supabase migration repair <MIGRATION_NAME> --status reverted`: Revert a given migration file.
+- `supabase db push`: Update database schema on supabase platform

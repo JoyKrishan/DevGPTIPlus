@@ -1,0 +1,2 @@
+      max_dim = max(i.ndim for i in idx)
+      idx = [i.reshape(*[1]*sum_dim[0], *((1, *[1]*(max_dim-i.ndim), *i.shape, *[1]*(ret.ndim - sd - 1)) if n == 0 else (*[1]*(max_dim-i.ndim), *i.shape, *[1]*(ret.ndim - sum_dim[0] - n)))) for n,(sd,i) in enumerate(zip(sum_dim, idx))]

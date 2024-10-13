@@ -1,0 +1,1 @@
+std::string trimUntilCRLF(const std::string &str);

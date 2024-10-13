@@ -1,0 +1,8 @@
+[gd_scene load_steps=11 format=3 uid="uid://ccuoxmewdujb4"]
+[ext_resource type="PackedScene" uid="uid://dlefoq5yaab4c" path="res://Scripts/Bottom GUI Buttons/bottom_gui.tscn" id="5_ie0r0"]
+[ext_resource type="PackedScene" uid="uid://dc481yfgddn04" path="res://Scripts/Quest/Quest Menu.tscn" id="6_bdd2w"]
+[node name="Bottom GUI" parent="UserInterface" instance=ExtResource("5_ie0r0")]
+[node name="QuestInterface" parent="UserInterface" instance=ExtResource("6_bdd2w")]
+visible = false
+position = Vector2(186, 155)
+scale = Vector2(0.45, 0.45)

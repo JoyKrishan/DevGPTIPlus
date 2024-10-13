@@ -1,0 +1,1 @@
+		u32								FindMemoryType(u32 typeFilter, VkMemoryPropertyFlags properties);

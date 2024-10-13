@@ -1,0 +1,13 @@
+  melange.dom
+  routes)
+(rule
+ (deps
+  %{bin:js_of_ocaml}
+  (:some-cmi %{lib:routes:melange/routes.cmi}))
+ (target routes-cmijs.js)
+ (action
+  (bash
+   "find $(dirname %{some-cmi}) -name \"*.cmi\" -or -name \"*.cmj\" | xargs js_of_ocaml build-fs -o %{target}")))
+
+  reason-react-cmijs.js
+  routes-cmijs.js)

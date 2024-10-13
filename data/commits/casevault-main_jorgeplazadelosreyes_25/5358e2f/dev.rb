@@ -1,0 +1,1 @@
+      params.require(:case).permit(:user_id, :title, :description, :body, images_attributes: [:id, :title, :description, :_destroy, :file], documents_attributes: [:id, :title, :description, :_destroy, :file], audios_attributes: [:id, :title, :description, :_destroy, :file], videos_attributes: [:id, :url, :_destroy])

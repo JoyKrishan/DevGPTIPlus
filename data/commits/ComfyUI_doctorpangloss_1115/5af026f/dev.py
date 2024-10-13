@@ -1,0 +1,1 @@
+nvidia_torch_index = "https://download.pytorch.org/whl/cu118"

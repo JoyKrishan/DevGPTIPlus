@@ -1,0 +1,19 @@
+
+
+
+		&> div:first-child:last-child {
+			grid-column: 1 / 3;
+		}
+
+
+		&~ .o-two-column-components {
+			margin-top: 10px;
+		}
+	}
+
+	.components-font-size-picker__controls .components-base-control {
+		margin: 0 0 8px 0;
+	:is(.o-typo-component) :is(.components-base-control).o-no-margin {
+		margin: 0;
+
+			margin: 0 0 14px 0;

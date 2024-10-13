@@ -1,0 +1,2 @@
+        pip install 'pydantic${{ matrix.pydantic }}'
+        pip install 'openai${{ matrix.openai }}'

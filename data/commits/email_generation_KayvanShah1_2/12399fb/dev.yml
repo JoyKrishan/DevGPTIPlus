@@ -1,0 +1,12 @@
+    defaults:
+      run:
+        working-directory: frontend
+      - name: Copy package.json and package-lock.json
+        run: |
+          cp frontend/package*.json .
+        shell: bash
+
+      - name: Clean up copied files
+        run: |
+          rm package*.json
+        shell: bash

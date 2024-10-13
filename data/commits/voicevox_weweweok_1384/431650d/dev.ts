@@ -1,0 +1,1 @@
+              return new Blob([bom, replaceSkipWordInBrackets(text)], {

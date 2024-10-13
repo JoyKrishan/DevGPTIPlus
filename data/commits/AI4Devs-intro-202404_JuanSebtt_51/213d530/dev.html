@@ -1,0 +1,146 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .timer {
+            text-align: center;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+    <div class="container">
+        <!-- Cronómetro -->
+        <div class="timer">
+            <h2>Cronómetro</h2>
+            <p id="cronometro">00:00:00</p>
+            <div class="buttons">
+                <button id="startStop" style="background-color: green;">Iniciar</button>
+                <button id="reset" style="background-color: blue;">Reiniciar</button>
+            </div>
+        </div>
+
+        <!-- Contador Regresivo -->
+        <div class="timer">
+            <h2>Contador Regresivo</h2>
+            <input type="number" id="countdownTime" placeholder="Tiempo en segundos">
+            <p id="countdown">00:00:00</p>
+            <div class="buttons">
+                <button id="startStopCountdown" style="background-color: green;">Iniciar</button>
+                <button id="resetCountdown" style="background-color: blue;">Reiniciar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variables globales
+        let cronometroInterval;
+        let countdownInterval;
+        let savedCountdownTime = 0;
+
+       // Función para actualizar el cronómetro
+       function updateCronometro() {
+            let seconds = savedSeconds;
+            let minutes = savedMinutes;
+            let hours = savedHours;
+            cronometroInterval = setInterval(() => {
+                seconds++;
+                if (seconds === 60) {
+                    seconds = 0;
+                    minutes++;
+                }
+                if (minutes === 60) {
+                    minutes = 0;
+                    hours++;
+                }
+                document.getElementById('cronometro').textContent = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+                savedHours = hours;
+                savedMinutes = minutes;
+                savedSeconds = seconds;
+            }, 1000);
+        }
+       // Función para detener el cronómetro
+       function stopCronometro() {
+            clearInterval(cronometroInterval);
+        }
+
+        // Función para reiniciar el cronómetro
+        function resetCronometro() {
+            clearInterval(cronometroInterval);
+            document.getElementById('cronometro').textContent = '00:00:00';
+            document.getElementById('startStop').textContent = 'Iniciar';
+            document.getElementById('startStop').style.backgroundColor = 'green';
+            savedHours = 0;
+            savedMinutes = 0;
+            savedSeconds = 0;
+        }
+
+       // Función para iniciar o detener el cronómetro
+       function startStopCronometro() {
+            const startStopButton = document.getElementById('startStop');
+            if (startStopButton.textContent === 'Iniciar') {
+                updateCronometro();
+                startStopButton.textContent = 'Detener';
+                startStopButton.style.backgroundColor = 'red';
+            } else {
+                stopCronometro();
+                startStopButton.textContent = 'Iniciar';
+                startStopButton.style.backgroundColor = 'green';
+            }
+        }
+
+        // Función para reiniciar el contador regresivo
+        function resetCountdown() {
+            clearInterval(countdownInterval);
+            document.getElementById('countdown').textContent = '00:00:00';
+            document.getElementById('startStopCountdown').textContent = 'Iniciar';
+            document.getElementById('startStopCountdown').style.backgroundColor = 'green';
+            savedCountdownTime = 0;
+        }
+
+        // Función para actualizar el contador regresivo
+        function updateCountdown() {
+            let time = savedCountdownTime || parseInt(document.getElementById('countdownTime').value) || 0;
+            countdownInterval = setInterval(() => {
+                if (time <= 0) {
+                    clearInterval(countdownInterval);
+                    return;
+                }
+                time--;
+                let hours = Math.floor(time / 3600);
+                let minutes = Math.floor((time % 3600) / 60);
+                let seconds = time % 60;
+                document.getElementById('countdown').textContent = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+                savedCountdownTime = time;
+            }, 1000);
+        }
+
+        // Función para iniciar o detener el contador regresivo
+        function startStopCountdown() {
+            const startStopButton = document.getElementById('startStopCountdown');
+            if (startStopButton.textContent === 'Iniciar') {
+                updateCountdown();
+                startStopButton.textContent = 'Detener';
+                startStopButton.style.backgroundColor = 'red';
+            } else {
+                clearInterval(countdownInterval);
+                startStopButton.textContent = 'Iniciar';
+                startStopButton.style.backgroundColor = 'green';
+            }
+        }
+
+        // Asignar eventos a los botones
+        document.getElementById('startStop').addEventListener('click', startStopCronometro);
+        document.getElementById('reset').addEventListener('click', resetCronometro);
+        document.getElementById('startStopCountdown').addEventListener('click', startStopCountdown);
+        document.getElementById('resetCountdown').addEventListener('click', resetCountdown);
+    </script>
+</html>

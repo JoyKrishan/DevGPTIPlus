@@ -1,0 +1,1 @@
+    packages=find_packages(where="comfy") + find_packages(where="comfy_extras"),

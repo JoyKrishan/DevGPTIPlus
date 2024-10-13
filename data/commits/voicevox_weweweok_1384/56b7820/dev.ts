@@ -1,0 +1,1 @@
+  const resolvedText = targettext.replace(/\[.*?\]/g, "");

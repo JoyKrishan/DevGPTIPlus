@@ -1,0 +1,2 @@
+        public static LocalisableString EnablePlugin => new TranslatableString(getKey(@"enable_plugin"), @"Enable plugin");
+        public static LocalisableString DisablePlugin => new TranslatableString(getKey(@"disable_plugin"), @"Disable plugin");

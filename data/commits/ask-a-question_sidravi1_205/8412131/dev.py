@@ -1,0 +1,1 @@
+        sa.Column("hashed_retrieval_key", sa.String(length=64), nullable=True),

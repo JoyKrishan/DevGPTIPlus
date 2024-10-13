@@ -1,0 +1,1 @@
+	./server_binary > test.log 2>&1 &

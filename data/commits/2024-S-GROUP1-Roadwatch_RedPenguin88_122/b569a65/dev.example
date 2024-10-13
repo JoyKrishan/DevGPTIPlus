@@ -1,0 +1,6 @@
+NOTIFICATION_PRIVATE_KEY=<generate>
+
+# Email
+SEND_GRID_API_KEY=<Replace With SendGrid>
+SEND_GRID_RESET_PASSWORD_TEMPLATE=<password template id>
+SEND_GRID_FROM=<roadwatch email>

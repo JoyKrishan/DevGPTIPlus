@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banzuke Surfing Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- The rest of your HTML content -->
+
+    <!-- Link to the external JavaScript file -->
+    <script src="game.js"></script>
+    <script>
+        const game = new Game();
+
+        document.querySelector("#startPlayingButton").addEventListener('click', () => game.startPlaying());
+        document.querySelector("#switchUserButton").addEventListener('click', () => game.switchUser());
+        document.querySelector("#backfillResultsButton").addEventListener('click', () => game.backfillResults());
+    </script>
+</body>
+</html>

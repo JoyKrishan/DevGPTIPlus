@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  keycloak:
+    image: jboss/keycloak:11.0.0
+    ports:
+      - 8080:8080
+    healthcheck:
+      test: ["CMD", "nc", "-z", "-w2", "localhost", "8080"]
+      interval: 30s
+      timeout: 10s
+      retries: 5

@@ -1,0 +1,27 @@
+# techlanches-sql-pv-pvc.yaml
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: techlanches-sql-pv
+  namespace: techlanches
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/path/to/sql/data"
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: techlanches-sql-pvc
+  namespace: techlanches
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi

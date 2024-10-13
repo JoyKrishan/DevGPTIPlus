@@ -1,0 +1,1 @@
+      url: `${API_BASE_URL}/groups/${groupId}/users/${userId}`,

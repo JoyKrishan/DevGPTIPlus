@@ -1,0 +1,29 @@
+  tags:
+    - Verses
+    '200':
+                    example: '02014001'
+                      - id: '0201400101'
+                        text: וַ/יְדַבֵּ֥ר
+                        lemmaId: H1696
+                        formId: H1696-12
+                        grammar: HC/Vpw3ms
+                      - id: '0201400102'
+                        text: יְהוָֹ֖ה
+                        lemmaId: H3068
+                        formId: H3068-1
+                        grammar: HNp
+                      - id: '0201400103'
+                        text: אֶל־
+                        lemmaId: H413
+                        formId: H413-8
+                        grammar: HR
+                      - id: '0201400104'
+                        text: מֹשֶׁ֥ה
+                        lemmaId: H4872
+                        formId: H4872-5
+                        grammar: HNp
+                      - id: '0201400105'
+                        text: לֵּ/אמֹֽר׃
+                        lemmaId: H559
+                        formId: H559-17
+                        grammar: HR/Vqc

@@ -1,0 +1,1 @@
+        self.user.set_password(password)

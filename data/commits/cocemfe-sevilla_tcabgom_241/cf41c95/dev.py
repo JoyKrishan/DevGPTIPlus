@@ -1,0 +1,1 @@
+    def test_password_strength_validation_no_special_character(self):

@@ -1,0 +1,1 @@
+    params.require(:user).permit(:email, :password, :first_name, :last_name)

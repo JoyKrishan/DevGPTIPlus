@@ -1,0 +1,10 @@
+/[Oo]utput/
+/[Ii]nput/
+!/input/example.png
+/[Mm]odels/
+/[Tt]emp/
+/[Cc]ustom_nodes/
+!/custom_nodes/example_node.py.example
+/extra_model_paths.yaml
+cython_debug/
+.openapi-generator/

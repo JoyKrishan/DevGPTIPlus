@@ -1,0 +1,1 @@
+User Prompt: "{user_prompt}"

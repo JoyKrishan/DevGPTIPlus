@@ -1,0 +1,10 @@
+      - name: Setup Prisma Schema, Migrate, and Seed
+          pnpm db:prisma-ci && pnpm db:seed
+
+      - name: Upload api coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: UNLV-CS472-672/2024-S-GROUP3-Barbell
+          directory: ./packages/api/vitest-coverage/
+          fail_ci_if_error: true

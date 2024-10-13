@@ -1,0 +1,4 @@
+COPY taxonium_website ./taxonium_website
+COPY taxonium_component ./taxonium_component
+WORKDIR /app/taxonium_website
+COPY --from=builder /app/taxonium_website/dist /usr/share/nginx/html

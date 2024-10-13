@@ -1,0 +1,4 @@
+*.pkl
+
+# Default JupyterLite content
+jupyterlite_contents

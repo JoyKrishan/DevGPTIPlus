@@ -1,0 +1,2 @@
+	<add key="prometheus_https" value="false" />
+(Note: If HTTPS is enabled you must also [configure a certificate in windows](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate).)

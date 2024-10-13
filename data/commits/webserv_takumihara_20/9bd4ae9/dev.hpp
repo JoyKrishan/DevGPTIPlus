@@ -1,0 +1,1 @@
+std::string trimOws(const std::string &str);

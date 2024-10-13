@@ -1,0 +1,1 @@
+  "include": ["src", "lib/chainlist/constants/extraRpcs.js", "static", "build", "scripts/typescript", "globals.d.ts"],

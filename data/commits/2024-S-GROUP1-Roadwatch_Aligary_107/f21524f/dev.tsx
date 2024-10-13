@@ -1,0 +1,2 @@
+                                        <img className={styles['CommunityPost__markerIcon']} src={markerIcon} alt="Marker Type"/>
+                                    <img src={Logo} className={styles['CommunityPost__markerBodyPreview']} alt="Roadwatch Logo" />

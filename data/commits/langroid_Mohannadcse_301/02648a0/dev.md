@@ -1,0 +1,1 @@
+  Langroid uses LanceDB as the default vector store in its `DocChatAgent` class (for RAG).

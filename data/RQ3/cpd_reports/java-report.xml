@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.4.0"
+         timestamp="2024-08-20T20:13:10.974-06:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Bomberman_kentyucra_28/gpt_generated_code/code3.java"
+         totalNumberOfTokens="22"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/104c1f3/dev.java"
+         totalNumberOfTokens="77"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/367b161/dev.java"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/50abfa7/dev.java"
+         totalNumberOfTokens="26"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/7ae7aa8/dev.java"
+         totalNumberOfTokens="146"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/DistributedMiningNetwork_getavi_8/a0df3d2/dev.java"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/0f4328e/dev.java"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/18273b8/dev.java"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/gpt_generated_code/code1.java"
+         totalNumberOfTokens="196"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_41/55a53af/dev.java"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_41/7a2556f/dev.java"
+         totalNumberOfTokens="74"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_41/8831b01/dev.java"
+         totalNumberOfTokens="60"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_41/gpt_generated_code/code1.java"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_43/5472334/dev.java"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_43/781be30/dev.java"
+         totalNumberOfTokens="0"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_SibeW_43/gpt_generated_code/code1.java"
+         totalNumberOfTokens="87"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/NotEnoughUpdates_hannibal002_849/03874b6/dev.java"
+         totalNumberOfTokens="56"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/NotEnoughUpdates_hannibal002_849/gpt_generated_code/code1.java"
+         totalNumberOfTokens="151"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/NotEnoughUpdates_hannibal002_849/gpt_generated_code/code2.java"
+         totalNumberOfTokens="127"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/NotEnoughUpdates_hannibal002_849/gpt_generated_code/code3.java"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/008b5a2/dev.java"
+         totalNumberOfTokens="113"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/35cd7b1/dev.java"
+         totalNumberOfTokens="322"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/3b2950d/dev.java"
+         totalNumberOfTokens="398"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/55c2954/dev.java"
+         totalNumberOfTokens="5"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/5cb242b/dev.java"
+         totalNumberOfTokens="211"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/67e30ae/dev.java"
+         totalNumberOfTokens="284"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/68638ef/dev.java"
+         totalNumberOfTokens="72"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/6f1e14d/dev.java"
+         totalNumberOfTokens="14"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/8cec2de/dev.java"
+         totalNumberOfTokens="547"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/9ed6b0b/dev.java"
+         totalNumberOfTokens="46"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/9f89192/dev.java"
+         totalNumberOfTokens="69"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/b033de1/dev.java"
+         totalNumberOfTokens="56"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"
+         totalNumberOfTokens="2501"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/d9b6eed/dev.java"
+         totalNumberOfTokens="31"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/f1fbe5f/dev.java"
+         totalNumberOfTokens="292"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/fce231a/dev.java"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/gpt_generated_code/code1.java"
+         totalNumberOfTokens="158"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_MoldyPotat_57/gpt_generated_code/code1.java"
+         totalNumberOfTokens="227"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_barkangel_64/5fba4b8/dev.java"
+         totalNumberOfTokens="20"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/UNLV-S24-CS472-Group7_barkangel_64/gpt_generated_code/code1.java"
+         totalNumberOfTokens="314"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/cassandra_jbellis_752/4e3da82/dev.java"
+         totalNumberOfTokens="90"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/flyingsaucer_asolntsev_277/426f42f/dev.java"
+         totalNumberOfTokens="42"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/flyingsaucer_asolntsev_277/gpt_generated_code/code1.java"
+         totalNumberOfTokens="239"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/018545d/dev.java"
+         totalNumberOfTokens="45"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/23fc0b6/dev.java"
+         totalNumberOfTokens="121"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/504a237/dev.java"
+         totalNumberOfTokens="13"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/a832e81/dev.java"
+         totalNumberOfTokens="6"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d2fdba6/dev.java"
+         totalNumberOfTokens="69"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/d835ae2/dev.java"
+         totalNumberOfTokens="32"/>
+   <file path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/slimt_jerinphilip_49/e75203f/dev.java"
+         totalNumberOfTokens="230"/>
+   <duplication lines="52" tokens="196">
+      <file begintoken="296"
+            column="1"
+            endcolumn="2"
+            endline="66"
+            endtoken="491"
+            line="15"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/0f4328e/dev.java"/>
+      <file begintoken="493"
+            column="1"
+            endcolumn="2"
+            endline="44"
+            endtoken="688"
+            line="8"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/18273b8/dev.java"/>
+      <file begintoken="690"
+            column="1"
+            endcolumn="2"
+            endline="59"
+            endtoken="885"
+            line="8"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/Group8_Nick8120_55/gpt_generated_code/code1.java"/>
+      <codefragment><![CDATA[public class borderTest {
+
+    // Create a grid of mock Square objects to use as the game board.
+    private final Square[][] grid = {
+        { mock(Square.class), mock(Square.class) },
+        { mock(Square.class), mock(Square.class) },
+        { mock(Square.class), mock(Square.class) }
+    };
+
+    /**
+     * Test to verify that a position within the borders of the game board
+     * is correctly identified as being within the borders.
+     */
+    @Test
+    void withinBorder() {
+        // Create a new Board instance with the mock grid.
+        Board test_board = new Board(grid);
+
+        // Assert that the position (1, 1) is within the borders.
+        assertThat(test_board.withinBorders(1, 1)).isTrue();
+    }
+
+    /**
+     * Test to verify that positions at the edge of the game board are correctly
+     * identified as being within the borders.
+     */
+    @Test
+    void edgeBorder() {
+        // Create a new Board instance with the mock grid.
+        Board test_board = new Board(grid);
+
+        // Assert that positions (0, 0) and (2, 1) are within the borders.
+        assertThat(test_board.withinBorders(0, 0)).isTrue();
+        assertThat(test_board.withinBorders(2, 1)).isTrue();
+    }
+
+    /**
+     * Test to verify that positions outside the borders of the game board
+     * are correctly identified as being outside the borders.
+     */
+    @Test
+    void outsideBorder() {
+        // Create a new Board instance with the mock grid.
+        Board test_board = new Board(grid);
+
+        // Assert that positions (-1, 0), (0, -1), (3, 0), and (0, 3) are outside the borders.
+        assertFalse(test_board.withinBorders(-1, 0));
+        assertFalse(test_board.withinBorders(0, -1));
+        assertFalse(test_board.withinBorders(3, 0));
+        assertFalse(test_board.withinBorders(0, 3));
+    }
+}
+]]></codefragment>
+   </duplication>
+   <duplication lines="24" tokens="161">
+      <file begintoken="1870"
+            column="9"
+            endcolumn="62"
+            endline="25"
+            endtoken="2030"
+            line="2"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/35cd7b1/dev.java"/>
+      <file begintoken="2031"
+            column="9"
+            endcolumn="46"
+            endline="49"
+            endtoken="2191"
+            line="26"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/35cd7b1/dev.java"/>
+      <codefragment><![CDATA[        public static final int KOUREND_HOME_TELEPORT_SPRITE = 4;
+
+        public static final int ARCEUUS_HOME_TELEPORT_SPRITE = 145;
+        public static final int BASIC_REANIMATION_SPRITE = 146;
+        public static final int ARCEUUS_LIBRARY_TELEPORT_SPRITE = 147;
+        public static final int ADEPT_REANIMATION_SPRITE = 148;
+        public static final int EXPERT_REANIMATION_SPRITE = 149;
+        public static final int MASTER_REANIMATION_SPRITE = 150;
+        public static final int DRAYNOR_MANOR_TELEPORT_SPRITE = 151;
+        public static final int MIND_ALTAR_TELEPORT_SPRITE = 153;
+        public static final int RESPAWN_TELEPORT_SPRITE = 154;
+        public static final int SALVE_GRAVEYARD_TELEPORT_SPRITE = 155;
+        public static final int FENKENSTRAINS_CASTLE_TELEPORT_SPRITE = 156;
+        public static final int WEST_ARDOUGNE_TELEPORT_SPRITE = 157;
+        public static final int HARMONY_ISLAND_TELEPORT_SPRITE = 158;
+        public static final int CEMETERY_TELEPORT_SPRITE = 159;
+        public static final int RESURRECT_CROPS_SPRITE = 160;
+        public static final int BARROWS_TELEPORT_SPRITE = 161;
+        public static final int APE_ATOLL_TELEPORT_ARCEUUS_SPRITE = 162;
+        public static final int BATTLEFRONT_TELEPORT_SPRITE = 163;
+        public static final int INFERIOR_DEMONBANE_SPRITE = 164;
+        public static final int SUPERIOR_DEMONBANE_SPRITE = 165;
+        public static final int DARK_DEMONBANE_SPRITE = 166;
+        public static final int MARK_OF_DARKNESS_SPRITE = 167;
+]]></codefragment>
+   </duplication>
+   <duplication lines="52" tokens="104">
+      <file begintoken="5319"
+            column="3"
+            endcolumn="28"
+            endline="384"
+            endtoken="5422"
+            line="333"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <file begintoken="5566"
+            column="3"
+            endcolumn="43"
+            endline="480"
+            endtoken="5669"
+            line="446"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <file begintoken="5597"
+            column="3"
+            endcolumn="42"
+            endline="488"
+            endtoken="5700"
+            line="460"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <file begintoken="5628"
+            column="3"
+            endcolumn="30"
+            endline="496"
+            endtoken="5731"
+            line="468"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <file begintoken="5659"
+            column="3"
+            endcolumn="29"
+            endline="504"
+            endtoken="5762"
+            line="476"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <codefragment><![CDATA[		}
+		return -1;
+	}
+
+	/**
+	 * Gets the sprite ID of this component
+	 *
+	 * @return the sprite ID or -1 if null
+	 */
+	@Subscribe
+	public int getSpriteId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getSpriteId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the item ID of this component
+	 *
+	 * @return the item ID or -1 if null
+	 */
+	public int getItemId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getItemId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the model ID of this component
+	 *
+	 * @return the model ID or -1 if null
+	 */
+	public int getModelId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getModelId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the parent id of this component. It will first look at the internal
+	 * parentID, if that's -1 then it will search the RSInterfaceNC to find its
+	 * parent.
+	 *
+	 * @return the parentID or -1 if none
+	 */
+	public int getParentId() {
+]]></codefragment>
+   </duplication>
+   <duplication lines="50" tokens="100">
+      <file begintoken="5323"
+            column="2"
+            endcolumn="28"
+            endline="384"
+            endtoken="5422"
+            line="335"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <file begintoken="5539"
+            column="2"
+            endcolumn="44"
+            endline="472"
+            endtoken="5638"
+            line="434"
+            path="/student/tdy245/Projects/SANER_2025/ChatFix/data/commits/OsrsBot_Nubebuster_301/cd751f6/dev.java"/>
+      <codefragment><![CDATA[	}
+
+	/**
+	 * Gets the sprite ID of this component
+	 *
+	 * @return the sprite ID or -1 if null
+	 */
+	@Subscribe
+	public int getSpriteId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getSpriteId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the item ID of this component
+	 *
+	 * @return the item ID or -1 if null
+	 */
+	public int getItemId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getItemId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the model ID of this component
+	 *
+	 * @return the model ID or -1 if null
+	 */
+	public int getModelId() {
+		final Widget inter = this.widget;
+		if (inter != null) {
+			return inter.getModelId();
+		}
+		return -1;
+	}
+
+	/**
+	 * Gets the parent id of this component. It will first look at the internal
+	 * parentID, if that's -1 then it will search the RSInterfaceNC to find its
+	 * parent.
+	 *
+	 * @return the parentID or -1 if none
+	 */
+	public int getParentId() {
+]]></codefragment>
+   </duplication>
+</pmd-cpd>

@@ -1,0 +1,1 @@
+curl -H "Accept: application/vnd.github.v3.diff" -H "Authorization: token YOUR_TOKEN" https://api.github.com/repos/ubiquity/ubiquibot/pulls/759.diff
