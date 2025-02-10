@@ -1,5 +1,8 @@
-# ChatGPT Usage and Code Dependence in Issue-Tracker Systems
+# Why Do Developers Engage with ChatGPT in Issue-Tracker? :zap:
+This repository contains the research artifact for the study "[Why Do Developers Engage with ChatGPT in Issue-Tracker? Investigating Usage and Reliance on
+ChatGPT-Generated Code](https://arxiv.org/abs/2412.06757)". 
 
+It includes the **DevGPTIPlus** dataset, scripts for data retrieval (_GitHub Issues_), and findings related to developers' usage and reliance on ChatGPT-generated code.
 ## Data
 The `data` folder contains the dataset and results:
 
