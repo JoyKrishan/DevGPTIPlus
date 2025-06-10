@@ -28,10 +28,11 @@ _Inside the **Data** folder_
 ## Citation
 If you use this codebase, or otherwise found our work valuable, please cite:
 ```
-@inproceedings{das2024developersengagechatgptissuetracker,
-      title={Why Do Developers Engage with ChatGPT in Issue-Tracker? Investigating Usage and Reliance on ChatGPT-Generated Code}, 
-      author={Joy Krishan Das and Saikat Mondal and Chanchal K. Roy},
-      year={2024},
-      booktitle={2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}
-}
+@INPROCEEDINGS{das2025developersengagechatgptissuetracker,
+  author={Das, Joy Krishan and Mondal, Saikat and Roy, Chanchal K.},
+  booktitle={2025 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+  title={Why Do Developers Engage with ChatGPT in Issue-Tracker? Investigating Usage and Reliance on ChatGPT-Generated Code}, 
+  year={2025},
+  pages={68-79},
+  doi={10.1109/SANER64311.2025.00015}}
 ```
