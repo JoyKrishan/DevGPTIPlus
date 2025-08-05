@@ -5,8 +5,8 @@
 - **Previous conversation size**: 1,152
 - **Total number of issues**: 2,685
 - **Total number of duplicate issues found**: 0
-- **Total number of conversations**: 3,092
-- **Conversations with code snippets**: 2,298
+- **Total number of conversations**: 2,868
+- **Conversations with code snippets**: 2,127
 
 ## Language Distribution
 
@@ -43,67 +43,67 @@
 ### Conversation Counts by Language
 | Language   | Conversations |
 |------------|---------------|
-| Python     | 1,127         |
-| TypeScript | 788           |
-| JavaScript | 533           |
-| Java       | 266           |
-| C++        | 210           |
-| C#         | 168           |
+| Python     | 1,022         |
+| TypeScript | 747           |
+| JavaScript | 497           |
+| Java       | 252           |
+| C++        | 192           |
+| C#         | 158           |
 
 ## Model Usage Analysis
 
 ### Overall Model Mentions (Grouped)
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 1,404    |
-| gpt-4       | 663      |
-| gpt-3.5     | 529      |
-| o1          | 325      |
-| o3          | 101      |
-| o4          | 45       |
-| research    | 24       |
+| gpt-4o      | 1,283    |
+| gpt-4       | 616      |
+| gpt-3.5     | 498      |
+| o1          | 313      |
+| o3          | 94       |
+| o4          | 42       |
+| research    | 22       |
 
 ### Model Usage by Language
 
 #### Python
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 535      |
-| gpt-4       | 285      |
-| gpt-3.5     | 188      |
-| o1          | 40       |
-| o3          | 50       |
-| o4          | 19       |
-| research    | 10       |
+| gpt-4o      | 476      |
+| gpt-4       | 264      |
+| gpt-3.5     | 176      |
+| o1          | 32       |
+| o3          | 48       |
+| o4          | 17       |
+| research    | 9        |
 
 #### TypeScript
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 325      |
-| gpt-4       | 157      |
+| gpt-4o      | 308      |
 | o1          | 151      |
-| gpt-3.5     | 108      |
-| o3          | 23       |
-| o4          | 13       |
-| research    | 8        |
+| gpt-4       | 146      |
+| gpt-3.5     | 99       |
+| o3          | 22       |
+| o4          | 12       |
+| research    | 7        |
 
 #### JavaScript
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 204      |
-| o1          | 118      |
-| gpt-4       | 107      |
-| gpt-3.5     | 85       |
-| o3          | 11       |
+| gpt-4o      | 183      |
+| o1          | 114      |
+| gpt-4       | 101      |
+| gpt-3.5     | 82       |
+| o3          | 7        |
 | o4          | 3        |
 | research    | 5        |
 
 #### Java
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 135      |
-| gpt-3.5     | 80       |
-| gpt-4       | 35       |
+| gpt-4o      | 130      |
+| gpt-3.5     | 77       |
+| gpt-4       | 29       |
 | o1          | 5        |
 | o3          | 7        |
 | o4          | 3        |
@@ -112,17 +112,17 @@
 #### C++
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 108      |
-| gpt-4       | 48       |
-| gpt-3.5     | 40       |
+| gpt-4o      | 98       |
+| gpt-4       | 44       |
+| gpt-3.5     | 36       |
 | o1          | 6        |
-| o3          | 7        |
+| o3          | 5        |
 | o4          | 2        |
 
 #### C#
 | Model Group | Mentions |
 |-------------|----------|
-| gpt-4o      | 97       |
+| gpt-4o      | 88       |
 | gpt-4       | 30       |
 | gpt-3.5     | 28       |
 | o1          | 3        |
@@ -134,11 +134,10 @@
 ### Statistical Summary
 | Metric              | Q1    | Median | Q3      |
 |---------------------|-------|--------|---------|
-| Prompt Length       | 59.0  | 132.0  | 441.0   |
-| Answer Length       | 648.0 | 1186.0 | 1893.0  |
-| Answer/Prompt Ratio | 2.14  | 8.43   | 19.76   |
+| Prompt Length       | 58.0  | 131.0  | 442.0   |
+| Answer Length       | 641.0 | 1179.0 | 1884.2  |
+| Answer/Prompt Ratio | 2.12  | 8.40   | 19.89   |
 | Turn Counts         | 1.0   | 2.0    | 4.0     |
-
 
 ### Model Grouping Details
 - **gpt-4o**: gpt-4o, gpt-4o-mini, gpt-4o-canmore
@@ -147,4 +146,3 @@
 - **o1**: o1, o1-preview, o1-mini, o1-pro
 - **o3**: o3, o3-mini, o3-mini-high, o3-pro
 - **o4**: o4-mini, o4-mini-high
-- **research**:
