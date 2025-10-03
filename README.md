@@ -9,6 +9,9 @@ The `data` folder contains the dataset and results:
 - `dataset/DevGPTIPlus.json`: Contains the DevGPTIPlus dataset in JSON format.
 - `commits/`: Contains all the issues with commits and their corresponding GPT-generated code (if any).
 
+## Survey 
+The `survey_results` folder contains the Certificate of Approval, thematic analysis, quantative results, and survey questions.  
+
 ## Folder Structure
 The `src` folder contains all the code used to generate the data:
 

@@ -8,3 +8,5 @@ __pycache__/
 .venv
 model_dir/
 /*.__init__.py
+.vscode/
+devgptiplus.egg-info/
